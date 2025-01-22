@@ -55,6 +55,7 @@ const QuestionDetail = ({ route }) => {
             source={{ uri: question.image1 }}
             style={styles.image}
             resizeMode="contain"
+            onError={(e) => console.log('Error loading image1:', e.nativeEvent.error)}
           />
         )}
         {question.image2 && (
@@ -62,6 +63,7 @@ const QuestionDetail = ({ route }) => {
             source={{ uri: question.image2 }}
             style={styles.image}
             resizeMode="contain"
+            onError={(e) => console.log('Error loading image2:', e.nativeEvent.error)}
           />
         )}
         {question.image3 && (
@@ -69,6 +71,7 @@ const QuestionDetail = ({ route }) => {
             source={{ uri: question.image3 }}
             style={styles.image}
             resizeMode="contain"
+            onError={(e) => console.log('Error loading image3:', e.nativeEvent.error)}
           />
         )}
       </View>
