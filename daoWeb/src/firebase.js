@@ -7,13 +7,13 @@ import { getStorage } from 'firebase/storage';
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-    apiKey: "AIzaSyDbDcEc6stPu2jumcUi50LspIoNoJwOHG0",
-    authDomain: "ppsc-pre.firebaseapp.com",
-    projectId: "ppsc-pre",
-    storageBucket: "ppsc-pre.firebasestorage.app",
-    messagingSenderId: "1017974693436",
-    appId: "1:1017974693436:web:a34ed30a0d09045f76ad39"
-  };
+  apiKey: "AIzaSyAwSFz72Enl8GGN4sgssvsnSCGAwWOk3-g",
+  authDomain: "daoall.firebaseapp.com",
+  projectId: "daoall",
+  storageBucket: "daoall.firebasestorage.app",
+  messagingSenderId: "75608549350",
+  appId: "1:75608549350:web:ee505f8413c4b5c9d4d827"
+};
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);

@@ -55,12 +55,12 @@ const Login = () => {
         </button>
       </form>
       <div className="mt-4 text-center">
-        <span>Don't have an account?</span>
+        <span>Don't have an account? </span>
         <button
           onClick={() => navigate('/signup')}
-          className="text-blue-500"
+          className="text-blue-500 underline"
         >
-          Sign Up
+           Sign Up
         </button>
       </div>
     </div>

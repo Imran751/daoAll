@@ -10,7 +10,7 @@ const Test = () => {
     const fetchCategories = async () => {
       setLoading(true);
       try {
-        const response = await fetch("./src/data/data.json");
+        const response = await fetch("https://raw.githubusercontent.com/Imran751/daoAll/7a8049fe1b5676559279dca62ed5164ccab29c70/backend/data.json");
         const data = await response.json();
 
         // Extract unique categories from the questions

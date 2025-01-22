@@ -24,3 +24,5 @@ node uploadQuizData.js
 
 Accountify
 Your Numbers, Simplified
+
+https://raw.githubusercontent.com/Imran751/daoAll/7a8049fe1b5676559279dca62ed5164ccab29c70/backend/data.json

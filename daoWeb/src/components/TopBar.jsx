@@ -122,7 +122,7 @@ const TopBar = () => {
           className="px-2 py-1 bg-green-400 hover:bg-green-500 text-white rounded-md ml-2 text-sm md:px-4 md:py-2 md:text-base"
           onClick={handleTestClick}
         >
-          Test
+          Take Test
         </button>
       </div>
 

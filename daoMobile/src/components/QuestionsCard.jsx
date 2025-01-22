@@ -9,6 +9,7 @@ import TopBar from './TopBar';
 
 const QuestionsCard = () => {
   const [questions, setQuestions] = useState([]);
+  const [categories, setCategories] = useState(['All']);
   const [searchTerm, setSearchTerm] = useState('');
   const [showAnswerIndex, setShowAnswerIndex] = useState(null);
   const [showOptionsIndex, setShowOptionsIndex] = useState(null);
@@ -16,85 +17,83 @@ const QuestionsCard = () => {
   const [selectedCategory, setSelectedCategory] = useState('All');
   const navigation = useNavigation();
 
-  const categories = ['All', 'General Knowledge', 'Pakistan Affairs', 'Islamic Studies', 'Current Affairs', 'Geography', 'Mathematics', 'English Grammar', 'Urdu', 'Everyday Science', 'Computer Skills', 'Extra'];
-
   const CACHE_DURATION = 24 * 60 * 60 * 1000; // 24 hours in milliseconds
-  
-  // Use useEffect to fetch questions and load category from AsyncStorage
+
   useEffect(() => {
-    const fetchQuestions = async () => {
+    const fetchQuestionsAndCategories = async () => {
       try {
-        // Retrieve done status and selected category from AsyncStorage
         const savedDoneStatus = await AsyncStorage.getItem('doneStatus');
         const savedCategory = await AsyncStorage.getItem('selectedCategory');
-        
-        if (savedDoneStatus) {
-          setDoneStatus(JSON.parse(savedDoneStatus));
-        }
-        
-        if (savedCategory) {
-          setSelectedCategory(savedCategory);
-        }
 
-        // Check for cached data in AsyncStorage
+        if (savedDoneStatus) setDoneStatus(JSON.parse(savedDoneStatus));
+        if (savedCategory) setSelectedCategory(savedCategory);
+
         const cachedData = await AsyncStorage.getItem('cachedQuestions');
         if (cachedData) {
           const { data, timestamp } = JSON.parse(cachedData);
-  
-          // Check if cached data is still valid
+
           const now = new Date().getTime();
           if (now - timestamp < CACHE_DURATION) {
-            // Use cached data if not expired
-            const filteredData = selectedCategory === 'All'
-              ? data
-              : data.filter((item) => item.category === selectedCategory);
-  
-            setQuestions(filteredData);
-            return; // Exit early if using cache
+            const uniqueCategories = [
+              'All',
+              ...new Set(data.map((item) => item.category)),
+            ];
+            setCategories(uniqueCategories);
+            setQuestions(
+              selectedCategory === 'All'
+                ? data
+                : data.filter((item) => item.category === selectedCategory)
+            );
+            return;
           }
         }
-  
-        // If no valid cache, fetch from remote URL
-        const url = 'https://raw.githubusercontent.com/Imran751/courseWebsite/8b85b9b62e935ba9634851c593491f77c58ef39e/data.json';
+
+        const url =
+          // 'https://raw.githubusercontent.com/Imran751/courseWebsite/8b85b9b62e935ba9634851c593491f77c58ef39e/data.json';
+          'https://raw.githubusercontent.com/Imran751/daoAll/7a8049fe1b5676559279dca62ed5164ccab29c70/backend/data.json';
         const response = await fetch(url);
         const data = await response.json();
-  
-        // Filter and set data
-        const filteredData = selectedCategory === 'All'
-          ? data
-          : data.filter((item) => item.category === selectedCategory);
-  
-        setQuestions(filteredData);
-  
-        // Save fetched data with timestamp to AsyncStorage
+
+        const uniqueCategories = [
+          'All',
+          ...new Set(data.map((item) => item.category)),
+        ];
+        setCategories(uniqueCategories);
+
+        setQuestions(
+          selectedCategory === 'All'
+            ? data
+            : data.filter((item) => item.category === selectedCategory)
+        );
+
         const cachedObject = {
           data,
           timestamp: new Date().getTime(),
         };
         await AsyncStorage.setItem('cachedQuestions', JSON.stringify(cachedObject));
-  
-        // Optionally clear old data
-        await AsyncStorage.removeItem('doneStatus');
       } catch (error) {
-        console.error('Error fetching quiz data:', error);
+        console.error('Error fetching data:', error);
       }
     };
 
-    fetchQuestions();
+    fetchQuestionsAndCategories();
   }, [selectedCategory]);
 
-  // Update the selected category in AsyncStorage whenever it changes
   const handleCategoryChange = async (category) => {
     setSelectedCategory(category);
-    await AsyncStorage.setItem('selectedCategory', category); // Save to AsyncStorage
+    await AsyncStorage.setItem('selectedCategory', category);
   };
 
-  const filteredQuestions = questions.filter((question) => {
-    return question.question.toLowerCase().includes(searchTerm.toLowerCase());
-  });
+  const filteredQuestions = questions.filter((question) =>
+    question.question.toLowerCase().includes(searchTerm.toLowerCase())
+  );
 
   const handleOptionClick = (option, answer) => {
-    Alert.alert(option === answer ? 'Well done! You got it right!' : "Oops! Not quite right. Try again!");
+    Alert.alert(
+      option === answer
+        ? 'Well done! You got it right!'
+        : 'Oops! Not quite right. Try again!'
+    );
   };
 
   const toggleDoneStatus = async (id) => {
@@ -110,9 +109,8 @@ const QuestionsCard = () => {
       <SubjectCategories
         categories={categories}
         selectedCategory={selectedCategory}
-        setSelectedCategory={handleCategoryChange} // Pass the updated handler
+        setSelectedCategory={handleCategoryChange}
       />
-      
       <SearchBar searchTerm={searchTerm} setSearchTerm={setSearchTerm} />
 
       <View style={styles.questionsContainer}>
@@ -120,7 +118,12 @@ const QuestionsCard = () => {
           <View key={question.id} style={styles.questionCard}>
             <TouchableOpacity
               onPress={() => toggleDoneStatus(question.id)}
-              style={[styles.doneButton, doneStatus[question.id] ? styles.doneActive : styles.doneInactive]}
+              style={[
+                styles.doneButton,
+                doneStatus[question.id]
+                  ? styles.doneActive
+                  : styles.doneInactive,
+              ]}
             >
               <MaterialCommunityIcons
                 name={doneStatus[question.id] ? 'check-circle' : 'circle'}
@@ -139,7 +142,9 @@ const QuestionsCard = () => {
             <View style={styles.buttonContainer}>
               <TouchableOpacity
                 style={[styles.optionButton, styles.showAnswerButton]}
-                onPress={() => setShowAnswerIndex(showAnswerIndex === index ? null : index)}
+                onPress={() =>
+                  setShowAnswerIndex(showAnswerIndex === index ? null : index)
+                }
               >
                 <Text style={styles.optionButtonText}>
                   {showAnswerIndex === index ? 'Hide Answer' : 'Show Answer'}
@@ -148,7 +153,9 @@ const QuestionsCard = () => {
 
               <TouchableOpacity
                 style={[styles.optionButton, styles.showOptionsButton]}
-                onPress={() => setShowOptionsIndex(showOptionsIndex === index ? null : index)}
+                onPress={() =>
+                  setShowOptionsIndex(showOptionsIndex === index ? null : index)
+                }
               >
                 <Text style={styles.optionButtonText}>
                   {showOptionsIndex === index ? 'Hide Options' : 'Show Options'}
@@ -157,17 +164,21 @@ const QuestionsCard = () => {
 
               <TouchableOpacity
                 style={[styles.optionButton, styles.detailsButton]}
-                onPress={() => navigation.navigate('QuestionDetail', { question })}
+                onPress={() =>
+                  navigation.navigate('QuestionDetail', { question })
+                }
               >
                 <Text style={styles.optionButtonText}>Details</Text>
               </TouchableOpacity>
             </View>
 
-            {showAnswerIndex === index && <Text style={styles.answerText}>Answer: {question.answer}</Text>}
+            {showAnswerIndex === index && (
+              <Text style={styles.answerText}>Answer: {question.answer}</Text>
+            )}
             {showOptionsIndex === index && (
               <View style={styles.optionsContainer}>
                 {question.options.map((option, i) => {
-                  const optionLabel = String.fromCharCode(97 + i); // Generates a, b, c, d...
+                  const optionLabel = String.fromCharCode(97 + i);
                   return (
                     <TouchableOpacity
                       key={i}
@@ -188,6 +199,7 @@ const QuestionsCard = () => {
     </ScrollView>
   );
 };
+
 
 
 
