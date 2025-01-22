@@ -43,8 +43,8 @@ const QuestionDetail = ({ route }) => {
   // Extract image keys dynamically
   const imageKeys = Object.keys(question).filter((key) => key.startsWith('image'));
 
-  // Base URL for the images
-  const imageBaseUrl = 'https://raw.githubusercontent.com/Imran751/daoAll/7a8049fe1b5676559279dca62ed5164ccab29c70';
+  // Correct raw base URL for GitHub images
+  const imageBaseUrl = 'https://raw.githubusercontent.com/Imran751/daoAll/7a8049fe1b5676559279dca62ed5164ccab29c70/backend';
 
   return (
     <ScrollView contentContainerStyle={styles.scrollContainer}>

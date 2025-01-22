@@ -4,7 +4,7 @@ yarn dev
 git init
 git add <file>
 git add .
-git commit -m "Your commit message"
+git commit -m "message"
 git push origin main
 git pull origin main
 git pull --rebase origin main

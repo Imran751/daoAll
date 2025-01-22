@@ -15,7 +15,7 @@
     "topic": "Introduction to Math",
     "image1": "https://plus.unsplash.com/premium_photo-1730828573938-003e14f210f4?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
      "image2": "https://images.unsplash.com/photo-1737408250865-438803045120?q=80&w=1655&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "image3": "/images/Slide3.PNG",
+    "image3": "https://raw.githubusercontent.com/Imran751/daoAll/358ef070bf9fdf5ed70c6718e7e54613f81a6fd7/backend/images/Slide3.PNG",
     "details": "MathStatEco is an interdisciplinary field involving mathematical and statistical tools for understanding real-world problems."
   },
   {
@@ -32,9 +32,9 @@
     "category": "MathStatEco",
     "subCategory": "Math",
     "topic": "Basic Arithmetic Concepts",
-    "image1": "/images/Slide1.PNG",
-    "image2": "/images/Slide2.PNG",
-    "image3": "/images/Slide3.PNG",
+    "image1": "https://raw.githubusercontent.com/Imran751/daoAll/358ef070bf9fdf5ed70c6718e7e54613f81a6fd7/backend/images/Slide1.PNG",
+    "image2": "https://raw.githubusercontent.com/Imran751/daoAll/358ef070bf9fdf5ed70c6718e7e54613f81a6fd7/backend/images/Slide2.PNG",
+    "image3": "https://raw.githubusercontent.com/Imran751/daoAll/358ef070bf9fdf5ed70c6718e7e54613f81a6fd7/backend/images/Slide3.PNG",
     "details": "Integers, fractions, and decimals form the foundation of many mathematical operations and calculations."
   },
   {
@@ -51,9 +51,9 @@
     "category": "MathStatEco",
     "subCategory": "Math",
     "topic": "Mathematical Operations",
-    "image1": "/images/Slide1.PNG",
-    "image2": "/images/Slide2.PNG",
-    "image3": "/images/Slide3.PNG",
+    "image1": "https://raw.githubusercontent.com/Imran751/daoAll/358ef070bf9fdf5ed70c6718e7e54613f81a6fd7/backend/images/Slide1.PNG",
+    "image2": "https://raw.githubusercontent.com/Imran751/daoAll/358ef070bf9fdf5ed70c6718e7e54613f81a6fd7/backend/images/Slide2.PNG",
+    "image3": "https://raw.githubusercontent.com/Imran751/daoAll/358ef070bf9fdf5ed70c6718e7e54613f81a6fd7/backend/images/Slide3.PNG",
     "details": "PEMDAS is an acronym to remember the order of operations: Parentheses, Exponents, Multiplication, Division, Addition, and Subtraction."
   },
   {
@@ -70,9 +70,9 @@
     "category": "MathStatEco",
     "subCategory": "Math",
     "topic": "Percentages",
-    "image1": "/images/Slide1.PNG",
-    "image2": "/images/Slide2.PNG",
-    "image3": "/images/Slide3.PNG",
+    "image1": "https://raw.githubusercontent.com/Imran751/daoAll/358ef070bf9fdf5ed70c6718e7e54613f81a6fd7/backend/images/Slide1.PNG",
+    "image2": "https://raw.githubusercontent.com/Imran751/daoAll/358ef070bf9fdf5ed70c6718e7e54613f81a6fd7/backend/images/Slide2.PNG",
+    "image3": "https://raw.githubusercontent.com/Imran751/daoAll/358ef070bf9fdf5ed70c6718e7e54613f81a6fd7/backend/images/Slide3.PNG",
     "details": "Percentage is a way of expressing a number as a fraction of 100 and is commonly used in calculations involving rates, discounts, and comparisons."
   },
   {
@@ -89,9 +89,9 @@
     "category": "MathStatEco",
     "subCategory": "Math",
     "topic": "Ratios",
-    "image1": "/images/Slide1.PNG",
-    "image2": "/images/Slide2.PNG",
-    "image3": "/images/Slide3.PNG",
+    "image1": "https://raw.githubusercontent.com/Imran751/daoAll/358ef070bf9fdf5ed70c6718e7e54613f81a6fd7/backend/images/Slide1.PNG",
+    "image2": "https://raw.githubusercontent.com/Imran751/daoAll/358ef070bf9fdf5ed70c6718e7e54613f81a6fd7/backend/images/Slide2.PNG",
+    "image3": "https://raw.githubusercontent.com/Imran751/daoAll/358ef070bf9fdf5ed70c6718e7e54613f81a6fd7/backend/images/Slide3.PNG",
     "details": "A ratio represents the relationship between two numbers, showing how many times the first number contains the second."
   },
   {
@@ -108,9 +108,9 @@
     "category": "MathStatEco",
     "subCategory": "Math",
     "topic": "Roots in Mathematics",
-    "image1": "/images/Slide1.PNG",
-    "image2": "/images/Slide2.PNG",
-    "image3": "/images/Slide3.PNG",
+    "image1": "https://raw.githubusercontent.com/Imran751/daoAll/358ef070bf9fdf5ed70c6718e7e54613f81a6fd7/backend/images/Slide1.PNG",
+    "image2": "https://raw.githubusercontent.com/Imran751/daoAll/358ef070bf9fdf5ed70c6718e7e54613f81a6fd7/backend/images/Slide2.PNG",
+    "image3": "https://raw.githubusercontent.com/Imran751/daoAll/358ef070bf9fdf5ed70c6718e7e54613f81a6fd7/backend/images/Slide3.PNG",
     "details": "In mathematics, a root is a number that, when raised to a certain power, gives the original number. Common examples include square and cube roots."
   },
   {
@@ -127,9 +127,9 @@
     "category": "MathStatEco",
     "subCategory": "Math",
     "topic": "Powers and Exponents",
-    "image1": "/images/Slide1.PNG",
-    "image2": "/images/Slide2.PNG",
-    "image3": "/images/Slide3.PNG",
+    "image1": "https://raw.githubusercontent.com/Imran751/daoAll/358ef070bf9fdf5ed70c6718e7e54613f81a6fd7/backend/images/Slide1.PNG",
+    "image2": "https://raw.githubusercontent.com/Imran751/daoAll/358ef070bf9fdf5ed70c6718e7e54613f81a6fd7/backend/images/Slide2.PNG",
+    "image3": "https://raw.githubusercontent.com/Imran751/daoAll/358ef070bf9fdf5ed70c6718e7e54613f81a6fd7/backend/images/Slide3.PNG",
     "details": "Powers refer to repeated multiplication of a number by itself. An exponent indicates how many times to multiply the base number."
   },
   {
@@ -146,9 +146,9 @@
     "category": "MathStatEco",
     "subCategory": "Math",
     "topic": "Fractions and Partial Fractions",
-    "image1": "/images/Slide1.PNG",
-    "image2": "/images/Slide2.PNG",
-    "image3": "/images/Slide3.PNG",
+    "image1": "https://raw.githubusercontent.com/Imran751/daoAll/358ef070bf9fdf5ed70c6718e7e54613f81a6fd7/backend/images/Slide1.PNG",
+    "image2": "https://raw.githubusercontent.com/Imran751/daoAll/358ef070bf9fdf5ed70c6718e7e54613f81a6fd7/backend/images/Slide2.PNG",
+    "image3": "https://raw.githubusercontent.com/Imran751/daoAll/358ef070bf9fdf5ed70c6718e7e54613f81a6fd7/backend/images/Slide3.PNG",
     "details": "Fractions represent parts of a whole, and partial fractions decompose complex fractions into simpler forms for easier calculation."
   },
   {
@@ -165,9 +165,9 @@
     "category": "MathStatEco",
     "subCategory": "Math",
     "topic": "Factorization",
-    "image1": "/images/Slide1.PNG",
-    "image2": "/images/Slide2.PNG",
-    "image3": "/images/Slide3.PNG",
+    "image1": "https://raw.githubusercontent.com/Imran751/daoAll/358ef070bf9fdf5ed70c6718e7e54613f81a6fd7/backend/images/Slide1.PNG",
+    "image2": "https://raw.githubusercontent.com/Imran751/daoAll/358ef070bf9fdf5ed70c6718e7e54613f81a6fd7/backend/images/Slide2.PNG",
+    "image3": "https://raw.githubusercontent.com/Imran751/daoAll/358ef070bf9fdf5ed70c6718e7e54613f81a6fd7/backend/images/Slide3.PNG",
     "details": "Factorization is the process of breaking down an expression into its factors, often used to simplify or solve equations."
   },
   {
@@ -184,9 +184,9 @@
     "category": "MathStatEco",
     "subCategory": "Math",
     "topic": "Logarithms",
-    "image1": "/images/Slide1.PNG",
-    "image2": "/images/Slide2.PNG",
-    "image3": "/images/Slide3.PNG",
+    "image1": "https://raw.githubusercontent.com/Imran751/daoAll/358ef070bf9fdf5ed70c6718e7e54613f81a6fd7/backend/images/Slide1.PNG",
+    "image2": "https://raw.githubusercontent.com/Imran751/daoAll/358ef070bf9fdf5ed70c6718e7e54613f81a6fd7/backend/images/Slide2.PNG",
+    "image3": "https://raw.githubusercontent.com/Imran751/daoAll/358ef070bf9fdf5ed70c6718e7e54613f81a6fd7/backend/images/Slide3.PNG",
     "details": "Logarithms are the inverse of exponentiation and are used to solve equations involving exponents."
   },
   {
