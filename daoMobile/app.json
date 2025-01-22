@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "ppscMobile",
+    "slug": "ppscMobile",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon1.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon1.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#60A5FA"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon1.png",
+        "backgroundColor": "#60A5FA"
+      },
+      "package": "com.muhammadimran.ppscMobile"
+    },
+    "web": {
+      "favicon": "./assets/favicon1.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "78a4c968-017b-47df-8a58-97ef61adedd2"
+      }
+    }
+  }
+}

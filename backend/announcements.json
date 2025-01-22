@@ -1,0 +1,20 @@
+[
+  {
+    "id": "1",
+    "title": "New Feature Update!",
+    "date": "2025-01-18",
+    "content": "We're excited to announce the release of a new feature that makes the app faster and more intuitive. Check it out now!"
+  },
+  {
+    "id": "2",
+    "title": "Maintenance Downtime",
+    "date": "2025-01-20",
+    "content": "The app will undergo scheduled maintenance on January 20th, 2025, from 2 AM to 5 AM. Please plan accordingly. We apologize for any inconvenience."
+  },
+  {
+    "id": "3",
+    "title": "Thank You for Your Support!",
+    "date": "2025-01-10",
+    "content": "Thank you for using our app and supporting our journey. Stay tuned for more exciting updates in the future!"
+  }
+]
