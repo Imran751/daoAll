@@ -583,9 +583,9 @@
     "category": "Accountancy",
     "subCategory": "General Accounting",
     "topic": "Basic Accounting Principles",
-    "image1": "image31a.jpg",
-    "image2": "image31b.jpg",
-    "image3": "image31c.jpg",
+    "image1": "/images/Slide1.PNG",
+    "image2": "/images/Slide2.PNG",
+    "image3": "/images/Slide3.PNG",
     "details": "Double-entry bookkeeping ensures the accuracy of financial records and is the foundation of modern accounting practices."
   },
   {
@@ -602,9 +602,9 @@
     "category": "Accountancy",
     "subCategory": "Financial Accounting",
     "topic": "Financial Statements",
-    "image1": "image32a.jpg",
-    "image2": "image32b.jpg",
-    "image3": "image32c.jpg",
+    "image1": "/images/Slide1.PNG",
+    "image2": "/images/Slide2.PNG",
+    "image3": "/images/Slide3.PNG",
     "details": "The balance sheet is essential for assessing the financial health and stability of a company."
   },
   {
@@ -621,9 +621,9 @@
     "category": "Accountancy",
     "subCategory": "Financial Accounting",
     "topic": "Fixed Assets",
-    "image1": "image33a.jpg",
-    "image2": "image33b.jpg",
-    "image3": "image33c.jpg",
+    "image1": "/images/Slide1.PNG",
+    "image2": "/images/Slide2.PNG",
+    "image3": "/images/Slide3.PNG",
     "details": "Depreciation reflects the wear and tear of physical assets and helps in determining their true book value."
   },
   {
@@ -640,9 +640,9 @@
     "category": "Accountancy",
     "subCategory": "Management Accounting",
     "topic": "Financial Ratios",
-    "image1": "image34a.jpg",
-    "image2": "image34b.jpg",
-    "image3": "image34c.jpg",
+    "image1": "/images/Slide1.PNG",
+    "image2": "/images/Slide2.PNG",
+    "image3": "/images/Slide3.PNG",
     "details": "Working capital is a key indicator of a company's ability to meet its short-term obligations and finance day-to-day operations."
   },
   {
@@ -659,9 +659,9 @@
     "category": "Accountancy",
     "subCategory": "Financial Accounting",
     "topic": "Income Statement",
-    "image1": "image35a.jpg",
-    "image2": "image35b.jpg",
-    "image3": "image35c.jpg",
+    "image1": "/images/Slide1.PNG",
+    "image2": "/images/Slide2.PNG",
+    "image3": "/images/Slide3.PNG",
     "details": "The profit and loss statement helps in assessing the profitability and operational efficiency of a business over time."
   },
   {
@@ -678,9 +678,9 @@
     "category": "Accountancy",
     "subCategory": "Financial Accounting",
     "topic": "Financial Statements",
-    "image1": "image36a.jpg",
-    "image2": "image36b.jpg",
-    "image3": "image36c.jpg",
+    "image1": "/images/Slide1.PNG",
+    "image2": "/images/Slide2.PNG",
+    "image3": "/images/Slide3.PNG",
     "details": "The income statement is essential for understanding a company's revenue generation and cost management."
   },
   {
@@ -697,9 +697,9 @@
     "category": "Accountancy",
     "subCategory": "General Accounting",
     "topic": "Accounting Methods",
-    "image1": "image37a.jpg",
-    "image2": "image37b.jpg",
-    "image3": "image37c.jpg",
+    "image1": "/images/Slide1.PNG",
+    "image2": "/images/Slide2.PNG",
+    "image3": "/images/Slide3.PNG",
     "details": "Accrual accounting provides a more accurate picture of a company's financial health than cash-based accounting."
   },
   {
@@ -716,9 +716,9 @@
     "category": "Accountancy",
     "subCategory": "General Accounting",
     "topic": "Accounting Procedures",
-    "image1": "image38a.jpg",
-    "image2": "image38b.jpg",
-    "image3": "image38c.jpg",
+    "image1": "/images/Slide1.PNG",
+    "image2": "/images/Slide2.PNG",
+    "image3": "/images/Slide3.PNG",
     "details": "The trial balance is an important tool to check the correctness of accounting entries before finalizing the financial statements."
   },
   {
@@ -735,9 +735,9 @@
     "category": "Accountancy",
     "subCategory": "Auditing",
     "topic": "Audit Process",
-    "image1": "image39a.jpg",
-    "image2": "image39b.jpg",
-    "image3": "image39c.jpg",
+    "image1": "/images/Slide1.PNG",
+    "image2": "/images/Slide2.PNG",
+    "image3": "/images/Slide3.PNG",
     "details": "Audits help ensure that a company's financial reports are accurate and trustworthy for stakeholders."
   },
   {
@@ -754,9 +754,9 @@
     "category": "Accountancy",
     "subCategory": "Cost Accounting",
     "topic": "Inventory Management",
-    "image1": "image40a.jpg",
-    "image2": "image40b.jpg",
-    "image3": "image40c.jpg",
+    "image1": "/images/Slide1.PNG",
+    "image2": "/images/Slide2.PNG",
+    "image3": "/images/Slide3.PNG",
     "details": "Correct inventory valuation is crucial for accurate financial reporting and tax purposes."
   },
   {
@@ -773,9 +773,9 @@
     "category": "Business Communication",
     "subCategory": "Communication Skills",
     "topic": "Effective Communication",
-    "image1": "image41a.jpg",
-    "image2": "image41b.jpg",
-    "image3": "image41c.jpg",
+    "image1": "/images/Slide1.PNG",
+    "image2": "/images/Slide2.PNG",
+    "image3": "/images/Slide3.PNG",
     "details": "Active listening involves focusing on the speaker, understanding their message, and responding appropriately."
   },
   {
@@ -792,9 +792,9 @@
     "category": "Business Communication",
     "subCategory": "Non-verbal Communication",
     "topic": "Body Language",
-    "image1": "image42a.jpg",
-    "image2": "image42b.jpg",
-    "image3": "image42c.jpg",
+    "image1": "/images/Slide1.PNG",
+    "image2": "/images/Slide2.PNG",
+    "image3": "/images/Slide3.PNG",
     "details": "Non-verbal communication plays a significant role in conveying emotions and reinforcing verbal messages."
   },
   {
@@ -811,9 +811,9 @@
     "category": "Business Communication",
     "subCategory": "Written Communication",
     "topic": "Email Etiquette",
-    "image1": "image43a.jpg",
-    "image2": "image43b.jpg",
-    "image3": "image43c.jpg",
+    "image1": "/images/Slide1.PNG",
+    "image2": "/images/Slide2.PNG",
+    "image3": "/images/Slide3.PNG",
     "details": "A well-structured business email ensures clear communication and maintains professionalism."
   },
   {
@@ -830,9 +830,9 @@
     "category": "Business Communication",
     "subCategory": "Communication Skills",
     "topic": "Tone and Professionalism",
-    "image1": "image44a.jpg",
-    "image2": "image44b.jpg",
-    "image3": "image44c.jpg",
+    "image1": "/images/Slide1.PNG",
+    "image2": "/images/Slide2.PNG",
+    "image3": "/images/Slide3.PNG",
     "details": "The right tone can enhance the clarity of your message and build better relationships in the workplace."
   },
   {
@@ -849,9 +849,9 @@
     "category": "Business Communication",
     "subCategory": "Communication Challenges",
     "topic": "Overcoming Barriers",
-    "image1": "image45a.jpg",
-    "image2": "image45b.jpg",
-    "image3": "image45c.jpg",
+    "image1": "/images/Slide1.PNG",
+    "image2": "/images/Slide2.PNG",
+    "image3": "/images/Slide3.PNG",
     "details": "Identifying and addressing communication barriers is essential for maintaining clarity and productivity in business interactions."
   },
   {
@@ -868,9 +868,9 @@
     "category": "Business Communication",
     "subCategory": "Presentation Skills",
     "topic": "Effective Pitching",
-    "image1": "image46a.jpg",
-    "image2": "image46b.jpg",
-    "image3": "image46c.jpg",
+    "image1": "/images/Slide1.PNG",
+    "image2": "/images/Slide2.PNG",
+    "image3": "/images/Slide3.PNG",
     "details": "An elevator pitch is designed to quickly grab attention and spark interest in a product, service, or idea."
   },
   {
@@ -887,9 +887,9 @@
     "category": "Business Communication",
     "subCategory": "Communication Skills",
     "topic": "Feedback and Improvement",
-    "image1": "image47a.jpg",
-    "image2": "image47b.jpg",
-    "image3": "image47c.jpg",
+    "image1": "/images/Slide1.PNG",
+    "image2": "/images/Slide2.PNG",
+    "image3": "/images/Slide3.PNG",
     "details": "Constructive feedback is key to personal and professional growth, improving productivity and collaboration."
   },
   {
@@ -906,9 +906,9 @@
     "category": "Business Communication",
     "subCategory": "Communication Skills",
     "topic": "Clear Communication",
-    "image1": "image48a.jpg",
-    "image2": "image48b.jpg",
-    "image3": "image48c.jpg",
+    "image1": "/images/Slide1.PNG",
+    "image2": "/images/Slide2.PNG",
+    "image3": "/images/Slide3.PNG",
     "details": "Clear communication helps ensure that all stakeholders understand the message and take appropriate action."
   },
   {
@@ -925,9 +925,9 @@
     "category": "Business Communication",
     "subCategory": "Communication Channels",
     "topic": "Choosing the Right Medium",
-    "image1": "image49a.jpg",
-    "image2": "image49b.jpg",
-    "image3": "image49c.jpg",
+    "image1": "/images/Slide1.PNG",
+    "image2": "/images/Slide2.PNG",
+    "image3": "/images/Slide3.PNG",
     "details": "Selecting the appropriate communication channel is crucial to ensuring effective and efficient message delivery."
   },
   {
@@ -944,9 +944,9 @@
     "category": "Business Communication",
     "subCategory": "Presentation Skills",
     "topic": "Effective Presentations",
-    "image1": "image50a.jpg",
-    "image2": "image50b.jpg",
-    "image3": "image50c.jpg",
+    "image1": "/images/Slide1.PNG",
+    "image2": "/images/Slide2.PNG",
+    "image3": "/images/Slide3.PNG",
     "details": "Positive body language can help create a connection with the audience and enhance the message's impact."
   },
   {
@@ -963,9 +963,9 @@
     "category": "New Accounting Model (NAM)",
     "subCategory": "Introduction",
     "topic": "Overview of NAM",
-    "image1": "image51a.jpg",
-    "image2": "image51b.jpg",
-    "image3": "image51c.jpg",
+    "image1": "/images/Slide1.PNG",
+    "image2": "/images/Slide2.PNG",
+    "image3": "/images/Slide3.PNG",
     "details": "The NAM introduces a unified approach to accounting standards, enhancing the quality and comparability of financial statements."
   },
   {
@@ -982,9 +982,9 @@
     "category": "New Accounting Model (NAM)",
     "subCategory": "Revenue Recognition",
     "topic": "Revenue Recognition Principles",
-    "image1": "image52a.jpg",
-    "image2": "image52b.jpg",
-    "image3": "image52c.jpg",
+    "image1": "/images/Slide1.PNG",
+    "image2": "/images/Slide2.PNG",
+    "image3": "/images/Slide3.PNG",
     "details": "Revenue recognition under NAM focuses on the completion of the agreed-upon deliverables, improving the accuracy of financial reports."
   },
   {
@@ -1001,9 +1001,9 @@
     "category": "New Accounting Model (NAM)",
     "subCategory": "Financial Statements",
     "topic": "Presentation and Disclosure",
-    "image1": "image53a.jpg",
-    "image2": "image53b.jpg",
-    "image3": "image53c.jpg",
+   "image1": "/images/Slide1.PNG",
+    "image2": "/images/Slide2.PNG",
+    "image3": "/images/Slide3.PNG",
     "details": "By increasing the level of detail, NAM aims to make financial statements more informative for users, enhancing decision-making."
   },
   {
@@ -1020,9 +1020,9 @@
     "category": "New Accounting Model (NAM)",
     "subCategory": "Leases",
     "topic": "Lease Treatment",
-    "image1": "image54a.jpg",
-    "image2": "image54b.jpg",
-    "image3": "image54c.jpg",
+    "image1": "/images/Slide1.PNG",
+    "image2": "/images/Slide2.PNG",
+    "image3": "/images/Slide3.PNG",
     "details": "This approach enhances comparability between companies and gives a clearer view of lease obligations."
   },
   {
@@ -1039,9 +1039,9 @@
     "category": "New Accounting Model (NAM)",
     "subCategory": "Intangible Assets",
     "topic": "Recognition and Amortization",
-    "image1": "image55a.jpg",
-    "image2": "image55b.jpg",
-    "image3": "image55c.jpg",
+    "image1": "/images/Slide1.PNG",
+    "image2": "/images/Slide2.PNG",
+    "image3": "/images/Slide3.PNG",
     "details": "This treatment ensures that intangible assets are appropriately reflected in the financial statements."
   },
   {
@@ -1058,9 +1058,9 @@
     "category": "New Accounting Model (NAM)",
     "subCategory": "Revenue Recognition",
     "topic": "Contract Revenue",
-    "image1": "image56a.jpg",
-    "image2": "image56b.jpg",
-    "image3": "image56c.jpg",
+    "image1": "/images/Slide1.PNG",
+    "image2": "/images/Slide2.PNG",
+    "image3": "/images/Slide3.PNG",
     "details": "This framework ensures that revenue is recorded in a manner that reflects the transfer of control and performance obligations."
   },
   {
@@ -1077,9 +1077,9 @@
     "category": "New Accounting Model (NAM)",
     "subCategory": "Financial Instruments",
     "topic": "Measurement and Recognition",
-    "image1": "image57a.jpg",
-    "image2": "image57b.jpg",
-    "image3": "image57c.jpg",
+    "image1": "/images/Slide1.PNG",
+    "image2": "/images/Slide2.PNG",
+    "image3": "/images/Slide3.PNG",
     "details": "The recognition of financial instruments at fair value enhances transparency and comparability in financial reporting."
   },
   {
@@ -1096,9 +1096,9 @@
     "category": "New Accounting Model (NAM)",
     "subCategory": "Goodwill",
     "topic": "Impairment Testing",
-    "image1": "image58a.jpg",
-    "image2": "image58b.jpg",
-    "image3": "image58c.jpg",
+    "image1": "/images/Slide1.PNG",
+    "image2": "/images/Slide2.PNG",
+    "image3": "/images/Slide3.PNG",
     "details": "This method ensures that the financial statements reflect the current value of goodwill and its recoverable amount."
   },
   {
@@ -1115,9 +1115,9 @@
     "category": "New Accounting Model (NAM)",
     "subCategory": "Foreign Currency",
     "topic": "Foreign Currency Transactions",
-    "image1": "image59a.jpg",
-    "image2": "image59b.jpg",
-    "image3": "image59c.jpg",
+    "image1": "/images/Slide1.PNG",
+    "image2": "/images/Slide2.PNG",
+    "image3": "/images/Slide3.PNG",
     "details": "This approach ensures that foreign currency gains and losses are accurately reflected in the financial statements."
   },
   {
@@ -1134,9 +1134,9 @@
     "category": "New Accounting Model (NAM)",
     "subCategory": "Taxes",
     "topic": "Deferred Tax",
-    "image1": "image60a.jpg",
-    "image2": "image60b.jpg",
-    "image3": "image60c.jpg",
+    "image1": "/images/Slide1.PNG",
+    "image2": "/images/Slide2.PNG",
+    "image3": "/images/Slide3.PNG",
     "details": "Deferred taxes under NAM reflect the future tax effects of temporary differences in asset and liability recognition."
   },
   {
@@ -1153,9 +1153,9 @@
     "category": "Specifications, Schedule of Rates & its Application",
     "subCategory": "Schedule of Rates",
     "topic": "Purpose and Use",
-    "image1": "image61a.jpg",
-    "image2": "image61b.jpg",
-    "image3": "image61c.jpg",
+    "image1": "/images/Slide1.PNG",
+    "image2": "/images/Slide2.PNG",
+    "image3": "/images/Slide3.PNG",
     "details": "The SoR provides standardized pricing for tasks and resources, ensuring transparency and uniformity in cost estimation and procurement."
   },
   {
@@ -1172,9 +1172,9 @@
     "category": "Specifications, Schedule of Rates & its Application",
     "subCategory": "Cost Estimation",
     "topic": "Cost Calculation",
-    "image1": "image62a.jpg",
-    "image2": "image62b.jpg",
-    "image3": "image62c.jpg",
+    "image1": "/images/Slide1.PNG",
+    "image2": "/images/Slide2.PNG",
+    "image3": "/images/Slide3.PNG",
     "details": "By applying standardized rates, the SoR enables accurate budgeting and helps contractors prepare realistic cost estimates for projects."
   },
   {
@@ -1191,9 +1191,9 @@
     "category": "Specifications, Schedule of Rates & its Application",
     "subCategory": "Tendering",
     "topic": "Tendering Process",
-    "image1": "image63a.jpg",
-    "image2": "image63b.jpg",
-    "image3": "image63c.jpg",
+    "image1": "/images/Slide1.PNG",
+    "image2": "/images/Slide2.PNG",
+    "image3": "/images/Slide3.PNG",
     "details": "The SoR ensures fairness and transparency in the tendering process by providing uniform rates for all bidders, promoting competition."
   },
   {
@@ -1210,9 +1210,9 @@
     "category": "Specifications, Schedule of Rates & its Application",
     "subCategory": "Components of SoR",
     "topic": "SoR Components",
-    "image1": "image64a.jpg",
-    "image2": "image64b.jpg",
-    "image3": "image64c.jpg",
+    "image1": "/images/Slide1.PNG",
+    "image2": "/images/Slide2.PNG",
+    "image3": "/images/Slide3.PNG",
     "details": "The components of SoR ensure that all aspects of a construction project are covered in terms of cost and resource allocation."
   },
   {
@@ -1229,9 +1229,9 @@
     "category": "Specifications, Schedule of Rates & its Application",
     "subCategory": "Rate Updates",
     "topic": "SoR Updates",
-    "image1": "image65a.jpg",
-    "image2": "image65b.jpg",
-    "image3": "image65c.jpg",
+    "image1": "/images/Slide1.PNG",
+    "image2": "/images/Slide2.PNG",
+    "image3": "/images/Slide3.PNG",
     "details": "Regular updates help the SoR stay aligned with the current market conditions and ensure that project budgets remain accurate and competitive."
   },
   {
@@ -1248,9 +1248,9 @@
     "category": "Specifications, Schedule of Rates & its Application",
     "subCategory": "Relation Between Specifications and SoR",
     "topic": "Specifications and Pricing",
-    "image1": "image66a.jpg",
-    "image2": "image66b.jpg",
-    "image3": "image66c.jpg",
+    "image1": "/images/Slide1.PNG",
+    "image2": "/images/Slide2.PNG",
+    "image3": "/images/Slide3.PNG",
     "details": "The combination of specifications and SoR ensures that the construction work is done according to the required standards and at an accurate cost."
   },
   {
@@ -1267,9 +1267,9 @@
     "category": "Specifications, Schedule of Rates & its Application",
     "subCategory": "Labor Rates",
     "topic": "Labor Rate Calculation",
-    "image1": "image67a.jpg",
-    "image2": "image67b.jpg",
-    "image3": "image67c.jpg",
+    "image1": "/images/Slide1.PNG",
+    "image2": "/images/Slide2.PNG",
+    "image3": "/images/Slide3.PNG",
     "details": "Labor rates are a significant component of the SoR, ensuring that labor costs are accurately factored into the total project budget."
   },
   {
@@ -1286,9 +1286,9 @@
     "category": "Specifications, Schedule of Rates & its Application",
     "subCategory": "Plant and Machinery",
     "topic": "Equipment Costs",
-    "image1": "image68a.jpg",
-    "image2": "image68b.jpg",
-    "image3": "image68c.jpg",
+    "image1": "/images/Slide1.PNG",
+    "image2": "/images/Slide2.PNG",
+    "image3": "/images/Slide3.PNG",
     "details": "The inclusion of plant and machinery rates ensures that all necessary equipment costs are accounted for during cost estimation and project execution."
   },
   {
@@ -1305,9 +1305,9 @@
     "category": "Specifications, Schedule of Rates & its Application",
     "subCategory": "Post-Contract",
     "topic": "Variation and Change Management",
-    "image1": "image69a.jpg",
-    "image2": "image69b.jpg",
-    "image3": "image69c.jpg",
+    "image1": "/images/Slide1.PNG",
+    "image2": "/images/Slide2.PNG",
+    "image3": "/images/Slide3.PNG",
     "details": "The SoR provides a standardized framework for evaluating costs related to changes or variations, ensuring fairness and accuracy in billing and payments."
   },
   {
@@ -1324,9 +1324,9 @@
     "category": "Specifications, Schedule of Rates & its Application",
     "subCategory": "Procurement",
     "topic": "Procurement Management",
-    "image1": "image70a.jpg",
-    "image2": "image70b.jpg",
-    "image3": "image70c.jpg",
+    "image1": "/images/Slide1.PNG",
+    "image2": "/images/Slide2.PNG",
+    "image3": "/images/Slide3.PNG",
     "details": "The SoR aids in ensuring that procurement decisions align with the budget, and the materials, services, and labor needed are sourced at appropriate rates."
   }
 ]
