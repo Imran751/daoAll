@@ -40,6 +40,9 @@ const QuestionDetail = ({ route }) => {
     );
   }
 
+  // Fixed image URLs
+  const imageBaseUrl = "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/";
+
   return (
     <ScrollView contentContainerStyle={styles.container}>
       <Text style={styles.title}>Details</Text>
@@ -47,43 +50,33 @@ const QuestionDetail = ({ route }) => {
       <View style={styles.detailsContainer}>
         <Text style={styles.detailsText}>{question.details}</Text>
       </View>
-      
+
       {/* Display images */}
       <View style={styles.imagesContainer}>
-      {question.image1 && (
-  <>
-    <Text>Image1 URL: {question.image1}</Text>
-    <Image
-      source={{ uri: question.image1 }}
-      style={styles.image}
-      resizeMode="contain"
-      onError={(e) => console.log('Error loading image1:', e.nativeEvent.error)}
-    />
-  </>
-)}
-{question.image2 && (
-  <>
-    <Text>Image2 URL: {question.image2}</Text>
-    <Image
-      source={{ uri: question.image2 }}
-      style={styles.image}
-      resizeMode="contain"
-      onError={(e) => console.log('Error loading image2:', e.nativeEvent.error)}
-    />
-  </>
-)}
-{question.image3 && (
-  <>
-    <Text>Image3 URL: {question.image3}</Text>
-    <Image
-      source={{ uri: question.image3 }}
-      style={styles.image}
-      resizeMode="contain"
-      onError={(e) => console.log('Error loading image3:', e.nativeEvent.error)}
-    />
-  </>
-)}
-
+        {question.image1 && (
+          <Image
+            source={{ uri: `${imageBaseUrl}Image1.png` }}
+            style={styles.image}
+            resizeMode="contain"
+            onError={(e) => console.log('Error loading image1:', e.nativeEvent.error)}
+          />
+        )}
+        {question.image2 && (
+          <Image
+            source={{ uri: `${imageBaseUrl}Image2.png` }}
+            style={styles.image}
+            resizeMode="contain"
+            onError={(e) => console.log('Error loading image2:', e.nativeEvent.error)}
+          />
+        )}
+        {question.image3 && (
+          <Image
+            source={{ uri: `${imageBaseUrl}Image3.png` }}
+            style={styles.image}
+            resizeMode="contain"
+            onError={(e) => console.log('Error loading image3:', e.nativeEvent.error)}
+          />
+        )}
       </View>
 
       <TouchableOpacity onPress={handleBackPress} style={styles.backButton}>
@@ -126,7 +119,7 @@ const styles = StyleSheet.create({
   },
   image: {
     width: '100%',
-    height: 500, // Adjust height for A4 paper ratio
+    height: 550, // Adjust height for A4 paper ratio
     marginBottom: 16,
     borderRadius: 8,
     borderWidth: 1,
