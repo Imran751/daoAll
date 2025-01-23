@@ -9,7 +9,7 @@ import Signup from './src/screens/Signup';
 import QuestionsCard from './src/components/QuestionsCard';
 import QuestionDetail from './src/components/QuestionDetail';
 import QuizScreen from './src/screens/Quiz';
-import NotesScreen from './src/screens/Notes';
+import TestScreen from './src/screens/Test';
 import AnnouncementsScreen from './src/screens/Announcements';
 import AsyncStorage from '@react-native-async-storage/async-storage'; // Import AsyncStorage
 
@@ -78,7 +78,7 @@ export default function App() {
                 iconName = 'home';
               } else if (route.name === 'Quiz') {
                 iconName = 'format-list-bulleted';
-              } else if (route.name === 'Notes') {
+              } else if (route.name === 'Test') {
                 iconName = 'notebook';
               } else if (route.name === 'Announcements') {
                 iconName = 'bell';
@@ -93,7 +93,7 @@ export default function App() {
         >
           <Tab.Screen name="Home" component={HomeStack} options={{ headerShown: false }} />
           <Tab.Screen name="Quiz" component={QuizScreen} options={{ headerShown: false }} />
-          <Tab.Screen name="Notes" component={NotesScreen} options={{ headerShown: false }} />
+          <Tab.Screen name="Test" component={TestScreen} options={{ headerShown: false }} />
           <Tab.Screen name="Announcements" component={AnnouncementsScreen} options={{ headerShown: false }} />
         </Tab.Navigator>
       ) : (

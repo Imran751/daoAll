@@ -7,9 +7,6 @@ import { MaterialCommunityIcons } from '@expo/vector-icons';
 import SubjectCategories from './SubjectCategories';
 import TopBar from './TopBar';
 
-// Import the local data.json file
-import data from '../data/data.json';
-
 const QuestionsCard = () => {
   const [questions, setQuestions] = useState([]);
   const [categories, setCategories] = useState(['All']);
@@ -51,7 +48,11 @@ const QuestionsCard = () => {
           }
         }
 
-        // Use the locally imported data instead of fetching remotely
+        const url =
+          'https://raw.githubusercontent.com/Imran751/daoAll/7a8049fe1b5676559279dca62ed5164ccab29c70/backend/data.json';
+        const response = await fetch(url);
+        const data = await response.json();
+
         const uniqueCategories = [
           'All',
           ...new Set(data.map((item) => item.category)),
@@ -116,9 +117,11 @@ const QuestionsCard = () => {
           <View key={question.id} style={styles.questionCard}>
             <TouchableOpacity
               onPress={() => toggleDoneStatus(question.id)}
-              style={[ 
+              style={[
                 styles.doneButton,
-                doneStatus[question.id] ? styles.doneActive : styles.doneInactive,
+                doneStatus[question.id]
+                  ? styles.doneActive
+                  : styles.doneInactive,
               ]}
             >
               <MaterialCommunityIcons
@@ -196,8 +199,14 @@ const QuestionsCard = () => {
   );
 };
 
+
+
+
+
 const styles = StyleSheet.create({
   container: {
+    // padding: 16,
+    // top: 20,
     backgroundColor: '#f4f4f4',
   },
   questionsContainer: {
@@ -210,10 +219,10 @@ const styles = StyleSheet.create({
     paddingTop: 30,
     marginBottom: 16,
     shadowColor: '#000',
-    shadowOpacity: 0.1,
+    shadowOpacity: 0.1, // Lighter shadow
     shadowRadius: 4,
     shadowOffset: { width: 0, height: 4 },
-    elevation: 3,
+    elevation: 3, // Slightly reduced elevation for less emphasis
     marginHorizontal: 8,
   },
   doneButton: {
@@ -225,14 +234,14 @@ const styles = StyleSheet.create({
     zIndex: 1,
   },
   doneActive: {
-    backgroundColor: '#E0E0E0',
+    backgroundColor: '#E0E0E0', // Lighter color for active status
     borderRadius: 20,
     padding: 4,
     justifyContent: 'center',
     alignItems: 'center',
   },
   doneInactive: {
-    backgroundColor: '#F4F4F4',
+    backgroundColor: '#F4F4F4', // Very subtle inactive color
     borderRadius: 20,
     padding: 4,
     justifyContent: 'center',
@@ -240,15 +249,15 @@ const styles = StyleSheet.create({
   },
   doneButtonText: {
     marginLeft: 6,
-    color: '#888',
+    color: '#888', // Softer text color
     fontWeight: '600',
     fontSize: 12,
   },
   questionText: {
-    fontSize: 20,
+    fontSize: 20, // Increased font size to emphasize question
     fontWeight: '700',
     marginBottom: 12,
-    color: '#333',
+    color: '#333', // Darker color to emphasize the question
   },
   buttonContainer: {
     flexDirection: 'row',
@@ -258,48 +267,55 @@ const styles = StyleSheet.create({
   },
   optionButton: {
     borderRadius: 8,
-    paddingVertical: 10,
+    paddingVertical: 10, // Smaller padding for less emphasis
     paddingHorizontal: 12,
     marginBottom: 8,
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
     marginHorizontal: 4,
-    backgroundColor: '#F0F0F0',
+    backgroundColor: '#F0F0F0', // Subtle button background
   },
   optionButtonText: {
-    color: '#555',
-    fontWeight: '500',
-    fontSize: 12,
+    color: '#555', // Softer text color for the buttons
+    fontWeight: '500', // Lighter weight
+    fontSize: 12, // Slightly smaller size
   },
+  
+  // Unique styles for each button (softened)
   showAnswerButton: {
-    backgroundColor: '#A7C6FF',
+    backgroundColor: '#A7C6FF', // Lighter blue for Show Answer
   },
   showOptionsButton: {
-    backgroundColor: '#A8DAB5',
+    backgroundColor: '#A8DAB5', // Lighter green for Show Options
   },
   detailsButton: {
-    backgroundColor: '#FFE082',
+    backgroundColor: '#FFE082', // Lighter yellow for Details
   },
   answerText: {
     fontSize: 16,
     color: '#4CAF50',
     marginTop: 12,
-    fontWeight: '600',
+    fontWeight: '600', // Keep it slightly more noticeable
   },
   optionsContainer: {
     marginTop: 12,
   },
   optionItem: {
-    backgroundColor: '#D1D8E1',
+    backgroundColor: '#D1D8E1', // Softer grey for options
     borderRadius: 8,
     paddingVertical: 10,
     paddingHorizontal: 12,
     marginBottom: 8,
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'flex-start',
   },
   optionItemText: {
-    fontSize: 14,
-    color: '#444',
+    color: '#555', // Softer text color for options
+    fontWeight: '500',
+    fontSize: 12,
+    marginLeft: 8,
   },
 });
 

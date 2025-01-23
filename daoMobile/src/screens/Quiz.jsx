@@ -2,26 +2,46 @@ import React, { useState, useEffect } from 'react';
 import { View, Text, TouchableOpacity, ActivityIndicator, StyleSheet, ScrollView } from 'react-native';
 
 const QuizScreen = () => {
+  const [categories, setCategories] = useState([]);
+  const [selectedCategory, setSelectedCategory] = useState(null);
   const [questions, setQuestions] = useState([]);
   const [currentQuestion, setCurrentQuestion] = useState(0);
   const [score, setScore] = useState(0);
   const [quizFinished, setQuizFinished] = useState(false);
   const [loading, setLoading] = useState(true);
 
-  const dataUrl = 'https://raw.githubusercontent.com/Imran751/courseWebsite/8b85b9b62e935ba9634851c593491f77c58ef39e/data.json';
+  const dataUrl = 'https://raw.githubusercontent.com/Imran751/daoAll/7a8049fe1b5676559279dca62ed5164ccab29c70/backend/data.json';
 
   useEffect(() => {
-    fetchQuestions();
+    fetchCategories();
   }, []);
 
-  const fetchQuestions = async () => {
+  const fetchCategories = async () => {
+    try {
+      const response = await fetch(dataUrl);
+      const jsonData = await response.json();
+      
+      // Get unique categories
+      const uniqueCategories = [...new Set(jsonData.map(item => item.category))];
+      setCategories(uniqueCategories);
+    } catch (error) {
+      console.error("Error fetching categories:", error);
+    } finally {
+      setLoading(false);
+    }
+  };
+
+  const fetchQuestions = async (category) => {
     setLoading(true);
     try {
       const response = await fetch(dataUrl);
       const jsonData = await response.json();
-
-      // Shuffle and take the first 20 questions
-      const shuffledQuestions = shuffleArray(jsonData).slice(0, 50);
+      
+      // Filter questions by the selected category
+      const categoryQuestions = jsonData.filter(question => question.category === category);
+      
+      // Shuffle and select the first 5 questions for the quiz
+      const shuffledQuestions = shuffleArray(categoryQuestions).slice(0, 7);
       setQuestions(shuffledQuestions);
     } catch (error) {
       console.error("Error fetching questions:", error);
@@ -55,64 +75,163 @@ const QuizScreen = () => {
     setCurrentQuestion(0);
     setScore(0);
     setQuizFinished(false);
-    fetchQuestions();
+    fetchQuestions(selectedCategory);
+  };
+
+  const handleCategorySelect = (category) => {
+    setSelectedCategory(category);
+    fetchQuestions(category);
+  };
+
+  const goBackToCategorySelection = () => {
+    setSelectedCategory(null);  // Reset selected category
+    setQuestions([]);           // Clear previous questions
+    setCurrentQuestion(0);      // Reset current question
+    setScore(0);                // Reset score
+    setQuizFinished(false);     // Reset quiz finished state
+  };
+
+  const formatDateTime = () => {
+    const now = new Date();
+    const date = now.toLocaleDateString();
+    const time = now.toLocaleTimeString();
+    return { date, time };
   };
 
   if (loading) {
     return (
       <View style={styles.loadingContainer}>
         <ActivityIndicator size="large" color="#4CAF50" />
-        <Text>Loading questions...</Text>
+        <Text>Loading...</Text>
       </View>
     );
   }
 
   return (
-    <ScrollView contentContainerStyle={styles.container}>
-      {quizFinished ? (
-        <View style={styles.centered}>
-          <Text style={styles.title}>Quiz Finished!</Text>
-          <Text style={styles.scoreText}>Your Score: {score} / {questions.length}</Text>
-          <TouchableOpacity style={styles.restartButton} onPress={restartQuiz}>
-            <Text style={styles.restartText}>Restart Quiz</Text>
-          </TouchableOpacity>
-        </View>
-      ) : (
-        questions.length > 0 && (
-          <View key={questions[currentQuestion].id}>
-            <Text style={styles.questionText}>
-              {currentQuestion + 1}. {questions[currentQuestion].question}
-            </Text>
-
-            {questions[currentQuestion].options.map((option, i) => (
+    <View style={styles.container}>
+      <ScrollView contentContainerStyle={styles.scrollContainer}>
+        {selectedCategory === null ? (
+          // Display category selection and motivational message
+          <View style={styles.categoryContainer}>
+            <Text style={styles.motivationalText}>Test Yourself and See How Much You Know!</Text>
+            {categories.map((category, index) => (
               <TouchableOpacity
-                key={i}
-                onPress={() => handleAnswer(option)}
-                style={styles.optionButton}
+                key={index}
+                style={styles.categoryButton}
+                onPress={() => handleCategorySelect(category)}
               >
-                <Text style={styles.optionText}>{option}</Text>
+                <Text style={styles.categoryText}>{category}</Text>
               </TouchableOpacity>
             ))}
-
-            <Text style={styles.scoreText}>Score: {score} / {questions.length}</Text>
           </View>
-        )
+        ) : quizFinished ? (
+          // Show quiz result screen
+          <View style={styles.centered}>
+            <Text style={styles.title}>Quiz Finished!</Text>
+            <Text style={styles.scoreText}>Your Score: {score} / {questions.length}</Text>
+            <TouchableOpacity style={styles.restartButton} onPress={restartQuiz}>
+              <Text style={styles.restartText}>Restart Quiz</Text>
+            </TouchableOpacity>
+          </View>
+        ) : (
+          <>
+            {/* Header with date, time, and instructions */}
+            <View style={styles.header}>
+              <Text style={styles.headerText}>Date: {formatDateTime().date}</Text>
+              <Text style={styles.headerText}>Time: {formatDateTime().time}</Text>
+              <Text style={styles.instructionsText}>Each question is worth 1 mark. Attempt all questions!</Text>
+            </View>
+
+            {/* Quiz Questions */}
+            <View key={questions[currentQuestion]?.id}>
+              <Text style={styles.questionText}>
+                {currentQuestion + 1}. {questions[currentQuestion]?.question}
+              </Text>
+
+              {questions[currentQuestion]?.options.map((option, i) => (
+                <TouchableOpacity
+                  key={i}
+                  onPress={() => handleAnswer(option)}
+                  style={styles.optionButton}
+                >
+                  <Text style={styles.optionText}>{option}</Text>
+                </TouchableOpacity>
+              ))}
+
+              <Text style={styles.scoreText}>Score: {score} / {questions.length}</Text>
+            </View>
+          </>
+        )}
+      </ScrollView>
+
+      {/* Show "Back to Category Selection" button only after selecting a category */}
+      {selectedCategory !== null && (
+        <TouchableOpacity style={styles.backButton} onPress={goBackToCategorySelection}>
+          <Text style={styles.backButtonText}>Back to Category</Text>
+        </TouchableOpacity>
       )}
-    </ScrollView>
+    </View>
   );
 };
 
+
 const styles = StyleSheet.create({
   container: {
-    flexGrow: 1,
+    flex: 1,
+    backgroundColor: '#F3F4F6',
+  },
+  scrollContainer: {
     padding: 20,
     marginTop: 20,
-    backgroundColor: '#F3F4F6',
+    paddingBottom: 60,  // Add padding at bottom to make space for the button
   },
   loadingContainer: {
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
+  },
+  categoryContainer: {
+    alignItems: 'center',
+    marginTop: 50,
+  },
+  categoryButton: {
+    backgroundColor: '#4CAF50',
+    paddingVertical: 15,
+    paddingHorizontal: 20,
+    marginVertical: 10,
+    borderRadius: 8,
+    width: '80%',
+    alignItems: 'center',
+  },
+  categoryText: {
+    fontSize: 18,
+    color: '#FFF',
+    fontWeight: 'bold',
+  },
+  motivationalText: {
+    fontSize: 22,
+    fontWeight: 'bold',
+    marginBottom: 20,
+    color: '#4CAF50',
+    textAlign: 'center',
+    marginTop: 30,
+  },
+  header: {
+    backgroundColor: '#4CAF50',
+    padding: 15,
+    marginBottom: 20,
+    borderRadius: 8,
+    alignItems: 'center',
+  },
+  headerText: {
+    fontSize: 18,
+    color: '#FFF',
+  },
+  instructionsText: {
+    fontSize: 16,
+    color: '#FFF',
+    marginTop: 10,
+    fontStyle: 'italic',
   },
   centered: {
     alignItems: 'center',
@@ -150,6 +269,22 @@ const styles = StyleSheet.create({
     marginTop: 20,
   },
   restartText: {
+    color: '#FFF',
+    fontSize: 16,
+    fontWeight: 'bold',
+    textAlign: 'center',
+  },
+  backButton: {
+    backgroundColor: '#FF5722',
+    padding: 15,
+    borderRadius: 8,
+    position: 'absolute',
+    left: 0,
+    right: 0,
+    bottom: 20,
+    marginHorizontal: 20,
+  },
+  backButtonText: {
     color: '#FFF',
     fontSize: 16,
     fontWeight: 'bold',

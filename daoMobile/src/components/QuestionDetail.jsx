@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { View, Text, StyleSheet, TouchableOpacity, ActivityIndicator, Image, ScrollView } from 'react-native';
+import { View, Text, StyleSheet, TouchableOpacity, ActivityIndicator, Image, ScrollView, RefreshControl } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
 
 const QuestionDetail = ({ route }) => {
@@ -7,6 +7,8 @@ const QuestionDetail = ({ route }) => {
   const navigation = useNavigation();
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState(null);
+  const [isRefreshing, setIsRefreshing] = useState(false);  // Track refresh status
+  const [questionData, setQuestionData] = useState(question);  // Store question data
 
   useEffect(() => {
     if (!question) {
@@ -16,6 +18,19 @@ const QuestionDetail = ({ route }) => {
       setIsLoading(false);
     }
   }, [question]);
+
+  const onRefresh = async () => {
+    setIsRefreshing(true);
+    // Simulate fetching fresh data
+    try {
+      // You can refresh your data here, for example, re-fetching from an API or database
+      setQuestionData(question);  // In a real scenario, replace with actual data refresh
+      setIsRefreshing(false);
+    } catch (error) {
+      setError("Failed to refresh");
+      setIsRefreshing(false);
+    }
+  };
 
   const handleBackPress = () => {
     navigation.goBack();
@@ -41,37 +56,34 @@ const QuestionDetail = ({ route }) => {
   }
 
   return (
-    <ScrollView contentContainerStyle={styles.container}>
+    <ScrollView
+      contentContainerStyle={styles.container}
+      refreshControl={<RefreshControl refreshing={isRefreshing} onRefresh={onRefresh} />}
+    >
       <Text style={styles.title}>Details</Text>
-      <Text style={styles.questionText}>{question.question}</Text>
+      <Text style={styles.questionText}>{questionData.question}</Text>
       <View style={styles.detailsContainer}>
-        <Text style={styles.detailsText}>{question.details}</Text>
+        <Text style={styles.detailsText}>{questionData.details}</Text>
       </View>
-      
+
       {/* Display images */}
       <View style={styles.imagesContainer}>
-        {question.image1 && (
+        {questionData.image1 && (
           <Image
-            source={{ uri: question.image1 }}
+            source={{ uri: questionData.image1 }}
             style={styles.image}
-            resizeMode="contain"
-            onError={(e) => console.log('Error loading image1:', e.nativeEvent.error)}
           />
         )}
-        {question.image2 && (
+        {questionData.image2 && (
           <Image
-            source={{ uri: question.image2 }}
+            source={{ uri: questionData.image2 }}
             style={styles.image}
-            resizeMode="contain"
-            onError={(e) => console.log('Error loading image2:', e.nativeEvent.error)}
           />
         )}
-        {question.image3 && (
+        {questionData.image3 && (
           <Image
-            source={{ uri: question.image3 }}
+            source={{ uri: questionData.image3 }}
             style={styles.image}
-            resizeMode="contain"
-            onError={(e) => console.log('Error loading image3:', e.nativeEvent.error)}
           />
         )}
       </View>
@@ -116,7 +128,7 @@ const styles = StyleSheet.create({
   },
   image: {
     width: '100%',
-    height: 500, // Adjust height for A4 paper ratio
+    height: 600, // Adjust height as per your design needs
     marginBottom: 16,
     borderRadius: 8,
     borderWidth: 1,
