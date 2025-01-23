@@ -52,32 +52,33 @@ const QuestionDetail = ({ route }) => {
       </View>
 
       {/* Display images */}
-      <View style={styles.imagesContainer}>
-        {question.image1 && (
-          <Image
-            source={{ uri: `${imageBaseUrl}Image1.png` }}
-            style={styles.image}
-            resizeMode="contain"
-            onError={(e) => console.log('Error loading image1:', e.nativeEvent.error)}
-          />
-        )}
-        {question.image2 && (
-          <Image
-            source={{ uri: `${imageBaseUrl}Image2.png` }}
-            style={styles.image}
-            resizeMode="contain"
-            onError={(e) => console.log('Error loading image2:', e.nativeEvent.error)}
-          />
-        )}
-        {question.image3 && (
-          <Image
-            source={{ uri: `${imageBaseUrl}Image3.png` }}
-            style={styles.image}
-            resizeMode="contain"
-            onError={(e) => console.log('Error loading image3:', e.nativeEvent.error)}
-          />
-        )}
-      </View>
+<View style={styles.imagesContainer}>
+  {question.image1 && (
+    <Image
+      source={{ uri: `https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/${question.image1}` }}
+      style={styles.image}
+      resizeMode="contain"
+      onError={(e) => console.log('Error loading image1:', e.nativeEvent.error)}
+    />
+  )}
+  {question.image2 && (
+    <Image
+      source={{ uri: `https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/${question.image2}` }}
+      style={styles.image}
+      resizeMode="contain"
+      onError={(e) => console.log('Error loading image2:', e.nativeEvent.error)}
+    />
+  )}
+  {question.image3 && (
+    <Image
+      source={{ uri: `https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/${question.image3}` }}
+      style={styles.image}
+      resizeMode="contain"
+      onError={(e) => console.log('Error loading image3:', e.nativeEvent.error)}
+    />
+  )}
+</View>
+
 
       <TouchableOpacity onPress={handleBackPress} style={styles.backButton}>
         <Text style={styles.backButtonText}>Back</Text>
@@ -119,7 +120,7 @@ const styles = StyleSheet.create({
   },
   image: {
     width: '100%',
-    height: 550, // Adjust height for A4 paper ratio
+    height: 500, // Adjust height for A4 paper ratio
     marginBottom: 16,
     borderRadius: 8,
     borderWidth: 1,
