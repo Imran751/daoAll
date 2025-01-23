@@ -50,40 +50,30 @@ const QuestionDetail = ({ route }) => {
       
       {/* Display images */}
       <View style={styles.imagesContainer}>
-      {question.image1 && (
-  <>
-    <Text>Image1 URL: {question.image1}</Text>
-    <Image
-      source={{ uri: question.image1 }}
-      style={styles.image}
-      resizeMode="contain"
-      onError={(e) => console.log('Error loading image1:', e.nativeEvent.error)}
-    />
-  </>
-)}
-{question.image2 && (
-  <>
-    <Text>Image2 URL: {question.image2}</Text>
-    <Image
-      source={{ uri: question.image2 }}
-      style={styles.image}
-      resizeMode="contain"
-      onError={(e) => console.log('Error loading image2:', e.nativeEvent.error)}
-    />
-  </>
-)}
-{question.image3 && (
-  <>
-    <Text>Image3 URL: {question.image3}</Text>
-    <Image
-      source={{ uri: question.image3 }}
-      style={styles.image}
-      resizeMode="contain"
-      onError={(e) => console.log('Error loading image3:', e.nativeEvent.error)}
-    />
-  </>
-)}
-
+        {question.image1 && (
+          <Image
+            source={{ uri: question.image1 }}
+            style={styles.image}
+            resizeMode="contain"
+            onError={(e) => console.log('Error loading image1:', e.nativeEvent.error)}
+          />
+        )}
+        {question.image2 && (
+          <Image
+            source={{ uri: question.image2 }}
+            style={styles.image}
+            resizeMode="contain"
+            onError={(e) => console.log('Error loading image2:', e.nativeEvent.error)}
+          />
+        )}
+        {question.image3 && (
+          <Image
+            source={{ uri: question.image3 }}
+            style={styles.image}
+            resizeMode="contain"
+            onError={(e) => console.log('Error loading image3:', e.nativeEvent.error)}
+          />
+        )}
       </View>
 
       <TouchableOpacity onPress={handleBackPress} style={styles.backButton}>

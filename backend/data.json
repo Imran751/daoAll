@@ -15,7 +15,7 @@
     "topic": "Introduction to Math",
     "image1": "https://plus.unsplash.com/premium_photo-1730828573938-003e14f210f4?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
      "image2": "https://images.unsplash.com/photo-1737408250865-438803045120?q=80&w=1655&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "image3": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image3.png",
+    "image3": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png",
     "details": "MathStatEco is an interdisciplinary field involving mathematical and statistical tools for understanding real-world problems."
   },
   {
@@ -32,9 +32,9 @@
     "category": "MathStatEco",
     "subCategory": "Math",
     "topic": "Basic Arithmetic Concepts",
-    "image1": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image1.png",
-    "image2": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image2.png",
-    "image3": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image3.png",
+    "image1": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
+    "image2": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
+    "image3": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png",
     "details": "Integers, fractions, and decimals form the foundation of many mathematical operations and calculations."
   },
   {
@@ -51,9 +51,9 @@
     "category": "MathStatEco",
     "subCategory": "Math",
     "topic": "Mathematical Operations",
-    "image1": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image1.png",
-    "image2": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image2.png",
-    "image3": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image3.png",
+    "image1": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
+    "image2": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
+    "image3": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png",
     "details": "PEMDAS is an acronym to remember the order of operations: Parentheses, Exponents, Multiplication, Division, Addition, and Subtraction."
   },
   {
@@ -70,9 +70,9 @@
     "category": "MathStatEco",
     "subCategory": "Math",
     "topic": "Percentages",
-    "image1": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image1.png",
-    "image2": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image2.png",
-    "image3": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image3.png",
+    "image1": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
+    "image2": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
+    "image3": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png",
     "details": "Percentage is a way of expressing a number as a fraction of 100 and is commonly used in calculations involving rates, discounts, and comparisons."
   },
   {
@@ -89,9 +89,9 @@
     "category": "MathStatEco",
     "subCategory": "Math",
     "topic": "Ratios",
-    "image1": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image1.png",
-    "image2": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image2.png",
-    "image3": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image3.png",
+    "image1": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
+    "image2": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
+    "image3": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png",
     "details": "A ratio represents the relationship between two numbers, showing how many times the first number contains the second."
   },
   {
@@ -108,9 +108,9 @@
     "category": "MathStatEco",
     "subCategory": "Math",
     "topic": "Roots in Mathematics",
-    "image1": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image1.png",
-    "image2": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image2.png",
-    "image3": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image3.png",
+    "image1": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
+    "image2": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
+    "image3": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png",
     "details": "In mathematics, a root is a number that, when raised to a certain power, gives the original number. Common examples include square and cube roots."
   },
   {
@@ -127,9 +127,9 @@
     "category": "MathStatEco",
     "subCategory": "Math",
     "topic": "Powers and Exponents",
-    "image1": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image1.png",
-    "image2": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image2.png",
-    "image3": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image3.png",
+    "image1": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
+    "image2": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
+    "image3": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png",
     "details": "Powers refer to repeated multiplication of a number by itself. An exponent indicates how many times to multiply the base number."
   },
   {
@@ -146,9 +146,9 @@
     "category": "MathStatEco",
     "subCategory": "Math",
     "topic": "Fractions and Partial Fractions",
-    "image1": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image1.png",
-    "image2": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image2.png",
-    "image3": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image3.png",
+    "image1": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
+    "image2": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
+    "image3": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png",
     "details": "Fractions represent parts of a whole, and partial fractions decompose complex fractions into simpler forms for easier calculation."
   },
   {
@@ -165,9 +165,9 @@
     "category": "MathStatEco",
     "subCategory": "Math",
     "topic": "Factorization",
-    "image1": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image1.png",
-    "image2": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image2.png",
-    "image3": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image3.png",
+    "image1": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
+    "image2": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
+    "image3": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png",
     "details": "Factorization is the process of breaking down an expression into its factors, often used to simplify or solve equations."
   },
   {
@@ -184,9 +184,9 @@
     "category": "MathStatEco",
     "subCategory": "Math",
     "topic": "Logarithms",
-    "image1": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image1.png",
-    "image2": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image2.png",
-    "image3": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image3.png",
+    "image1": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
+    "image2": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
+    "image3": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png",
     "details": "Logarithms are the inverse of exponentiation and are used to solve equations involving exponents."
   },
   {
@@ -203,9 +203,9 @@
     "category": "MathStatEco",
     "subCategory": "Stat",
     "topic": "Decimals and Rounding",
-    "image1": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image1.png",
-    "image2": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image2.png",
-    "image3": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image3.png",
+    "image1": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
+    "image2": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
+    "image3": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png",
     "details": "This question helps test your ability to convert fractions into decimals and perform rounding operations to varying significant figures and decimal places."
   },
   {
@@ -222,9 +222,9 @@
     "category": "MathStatEco",
     "subCategory": "Stat",
     "topic": "Algebraic Operations",
-    "image1": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image1.png",
-    "image2": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image2.png",
-    "image3": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image3.png",
+    "image1": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
+    "image2": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
+    "image3": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png",
     "details": "Practice your algebraic simplification and evaluation of expressions by solving simple equations involving addition, subtraction, and division."
   },
   {
@@ -241,9 +241,9 @@
     "category": "MathStatEco",
     "subCategory": "Stat",
     "topic": "Basic Statistics",
-    "image1": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image1.png",
-    "image2": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image2.png",
-    "image3": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image3.png",
+    "image1": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
+    "image2": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
+    "image3": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png",
     "details": "Statistics refers to the study of numbers, data analysis, and the representation of information for decision-making."
   },
   {
@@ -260,9 +260,9 @@
     "category": "MathStatEco",
     "subCategory": "Stat",
     "topic": "Calculus",
-    "image1": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image1.png",
-    "image2": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image2.png",
-    "image3": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image3.png",
+    "image1": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
+    "image2": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
+    "image3": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png",
     "details": "This question tests your knowledge of calculus and the concept of differentiation, specifically the derivative of a polynomial."
   },
   {
@@ -279,9 +279,9 @@
     "category": "MathStatEco",
     "subCategory": "Stat",
     "topic": "Calculus",
-    "image1": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image1.png",
-    "image2": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image2.png",
-    "image3": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image3.png",
+    "image1": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
+    "image2": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
+    "image3": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png",
     "details": "A repetition of the earlier question on calculus. This reinforces your understanding of derivatives."
   },
   {
@@ -298,9 +298,9 @@
     "category": "MathStatEco",
     "subCategory": "Stat",
     "topic": "Calculus",
-    "image1": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image1.png",
-    "image2": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image2.png",
-    "image3": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image3.png",
+    "image1": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
+    "image2": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
+    "image3": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png",
     "details": "An additional exercise on the differentiation of polynomials. Ensure you understand the fundamental rules of differentiation."
   },
   {
@@ -317,9 +317,9 @@
     "category": "MathStatEco",
     "subCategory": "Stat",
     "topic": "Differential Equations",
-    "image1": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image1.png",
-    "image2": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image2.png",
-    "image3": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image3.png",
+    "image1": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
+    "image2": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
+    "image3": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png",
     "details": "This advanced question covers the solution to a second-order differential equation with constant coefficients."
   },
   {
@@ -336,9 +336,9 @@
     "category": "MathStatEco",
     "subCategory": "Stat",
     "topic": "Descriptive Statistics",
-    "image1": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image1.png",
-    "image2": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image2.png",
-    "image3": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image3.png",
+    "image1": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
+    "image2": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
+    "image3": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png",
     "details": "This question tests your understanding of the mean, a key measure in descriptive statistics, also known as the average."
   },
   {
@@ -355,9 +355,9 @@
     "category": "MathStatEco",
     "subCategory": "Stat",
     "topic": "Descriptive Statistics",
-    "image1": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image1.png",
-    "image2": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image2.png",
-    "image3": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image3.png",
+    "image1": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
+    "image2": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
+    "image3": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png",
     "details": "Learn the concept of median, which is the middle value when a dataset is ordered from least to greatest."
   },
   {
@@ -374,9 +374,9 @@
     "category": "MathStatEco",
     "subCategory": "Stat",
     "topic": "Descriptive Statistics",
-    "image1": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image1.png",
-    "image2": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image2.png",
-    "image3": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image3.png",
+    "image1": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
+    "image2": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
+    "image3": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png",
     "details": "The mode is the value that appears most frequently in a dataset. This concept is useful in understanding patterns in data."
   },
   {
@@ -393,9 +393,9 @@
     "category": "MathStatEco",
     "subCategory": "Economics",
     "topic": "Microeconomics",
-    "image1": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image1.png",
-    "image2": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image2.png",
-    "image3": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image3.png",
+    "image1": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
+    "image2": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
+    "image3": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png",
     "details": "The law of demand is a fundamental concept in economics that describes how price and quantity demanded are inversely related."
   },
   {
@@ -412,9 +412,9 @@
     "category": "MathStatEco",
     "subCategory": "Economics",
     "topic": "Macroeconomics",
-    "image1": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image1.png",
-    "image2": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image2.png",
-    "image3": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image3.png",
+    "image1": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
+    "image2": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
+    "image3": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png",
     "details": "GDP is a key indicator used to measure the economic performance of a country."
   },
   {
@@ -431,9 +431,9 @@
     "category": "MathStatEco",
     "subCategory": "Economics",
     "topic": "Macroeconomics",
-    "image1": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image1.png",
-    "image2": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image2.png",
-    "image3": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image3.png",
+    "image1": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
+    "image2": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
+    "image3": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png",
     "details": "Inflation is a key economic concept that reflects the rising cost of living and the diminishing value of money over time."
   },
   {
@@ -450,9 +450,9 @@
     "category": "MathStatEco",
     "subCategory": "Economics",
     "topic": "Macroeconomics",
-    "image1": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image1.png",
-    "image2": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image2.png",
-    "image3": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image3.png",
+    "image1": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
+    "image2": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
+    "image3": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png",
     "details": "Understanding the difference between recession and depression is crucial in assessing the severity and recovery strategies for economies."
   },
   {
@@ -469,9 +469,9 @@
     "category": "MathStatEco",
     "subCategory": "Economics",
     "topic": "Microeconomics",
-    "image1": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image1.png",
-    "image2": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image2.png",
-    "image3": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image3.png",
+    "image1": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
+    "image2": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
+    "image3": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png",
     "details": "The law of supply states that the quantity of a good supplied will increase as its price rises, reflecting producers' willingness to supply more."
   },
   {
@@ -488,9 +488,9 @@
     "category": "MathStatEco",
     "subCategory": "Economics",
     "topic": "Microeconomics",
-    "image1": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image1.png",
-    "image2": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image2.png",
-    "image3": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image3.png",
+    "image1": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
+    "image2": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
+    "image3": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png",
     "details": "Elasticity is a fundamental concept in economics that helps measure how sensitive consumers are to price changes."
   },
   {
@@ -507,9 +507,9 @@
     "category": "MathStatEco",
     "subCategory": "Economics",
     "topic": "Macroeconomics",
-    "image1": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image1.png",
-    "image2": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image2.png",
-    "image3": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image3.png",
+    "image1": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
+    "image2": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
+    "image3": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png",
     "details": "Fiscal policy is a key tool used by governments to manage the economy, especially in times of recession or inflation."
   },
   {
@@ -526,9 +526,9 @@
     "category": "MathStatEco",
     "subCategory": "Economics",
     "topic": "Macroeconomics",
-    "image1": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image1.png",
-    "image2": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image2.png",
-    "image3": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image3.png",
+    "image1": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
+    "image2": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
+    "image3": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png",
     "details": "Monetary policy is central to managing inflation, unemployment, and the overall economic stability of a country."
   },
   {
@@ -545,9 +545,9 @@
     "category": "MathStatEco",
     "subCategory": "Economics",
     "topic": "Microeconomics",
-    "image1": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image1.png",
-    "image2": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image2.png",
-    "image3": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image3.png",
+    "image1": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
+    "image2": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
+    "image3": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png",
     "details": "Understanding opportunity cost is essential for making informed choices in resource allocation."
   },
   {
@@ -564,9 +564,9 @@
     "category": "MathStatEco",
     "subCategory": "Economics",
     "topic": "Microeconomics",
-    "image1": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image1.png",
-    "image2": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image2.png",
-    "image3": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image3.png",
+    "image1": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
+    "image2": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
+    "image3": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png",
     "details": "Monopolies can lead to market inefficiencies and reduced competition, but they are sometimes necessary in industries with high entry barriers."
   },
   {
@@ -583,9 +583,9 @@
     "category": "Accountancy",
     "subCategory": "General Accounting",
     "topic": "Basic Accounting Principles",
-    "image1": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image1.png",
-    "image2": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image2.png",
-    "image3": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image3.png",
+    "image1": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
+    "image2": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
+    "image3": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png",
     "details": "Double-entry bookkeeping ensures the accuracy of financial records and is the foundation of modern accounting practices."
   },
   {
@@ -602,9 +602,9 @@
     "category": "Accountancy",
     "subCategory": "Financial Accounting",
     "topic": "Financial Statements",
-    "image1": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image1.png",
-    "image2": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image2.png",
-    "image3": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image3.png",
+    "image1": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
+    "image2": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
+    "image3": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png",
     "details": "The balance sheet is essential for assessing the financial health and stability of a company."
   },
   {
@@ -621,9 +621,9 @@
     "category": "Accountancy",
     "subCategory": "Financial Accounting",
     "topic": "Fixed Assets",
-    "image1": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image1.png",
-    "image2": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image2.png",
-    "image3": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image3.png",
+    "image1": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
+    "image2": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
+    "image3": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png",
     "details": "Depreciation reflects the wear and tear of physical assets and helps in determining their true book value."
   },
   {
@@ -640,9 +640,9 @@
     "category": "Accountancy",
     "subCategory": "Management Accounting",
     "topic": "Financial Ratios",
-    "image1": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image1.png",
-    "image2": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image2.png",
-    "image3": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image3.png",
+    "image1": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
+    "image2": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
+    "image3": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png",
     "details": "Working capital is a key indicator of a company's ability to meet its short-term obligations and finance day-to-day operations."
   },
   {
@@ -659,9 +659,9 @@
     "category": "Accountancy",
     "subCategory": "Financial Accounting",
     "topic": "Income Statement",
-    "image1": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image1.png",
-    "image2": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image2.png",
-    "image3": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image3.png",
+    "image1": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
+    "image2": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
+    "image3": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png",
     "details": "The profit and loss statement helps in assessing the profitability and operational efficiency of a business over time."
   },
   {
@@ -678,9 +678,9 @@
     "category": "Accountancy",
     "subCategory": "Financial Accounting",
     "topic": "Financial Statements",
-    "image1": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image1.png",
-    "image2": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image2.png",
-    "image3": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image3.png",
+    "image1": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
+    "image2": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
+    "image3": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png",
     "details": "The income statement is essential for understanding a company's revenue generation and cost management."
   },
   {
@@ -697,9 +697,9 @@
     "category": "Accountancy",
     "subCategory": "General Accounting",
     "topic": "Accounting Methods",
-    "image1": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image1.png",
-    "image2": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image2.png",
-    "image3": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image3.png",
+    "image1": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
+    "image2": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
+    "image3": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png",
     "details": "Accrual accounting provides a more accurate picture of a company's financial health than cash-based accounting."
   },
   {
@@ -716,9 +716,9 @@
     "category": "Accountancy",
     "subCategory": "General Accounting",
     "topic": "Accounting Procedures",
-    "image1": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image1.png",
-    "image2": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image2.png",
-    "image3": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image3.png",
+    "image1": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
+    "image2": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
+    "image3": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png",
     "details": "The trial balance is an important tool to check the correctness of accounting entries before finalizing the financial statements."
   },
   {
@@ -735,9 +735,9 @@
     "category": "Accountancy",
     "subCategory": "Auditing",
     "topic": "Audit Process",
-    "image1": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image1.png",
-    "image2": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image2.png",
-    "image3": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image3.png",
+    "image1": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
+    "image2": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
+    "image3": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png",
     "details": "Audits help ensure that a company's financial reports are accurate and trustworthy for stakeholders."
   },
   {
@@ -754,9 +754,9 @@
     "category": "Accountancy",
     "subCategory": "Cost Accounting",
     "topic": "Inventory Management",
-    "image1": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image1.png",
-    "image2": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image2.png",
-    "image3": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image3.png",
+    "image1": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
+    "image2": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
+    "image3": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png",
     "details": "Correct inventory valuation is crucial for accurate financial reporting and tax purposes."
   },
   {
@@ -773,9 +773,9 @@
     "category": "Business Communication",
     "subCategory": "Communication Skills",
     "topic": "Effective Communication",
-    "image1": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image1.png",
-    "image2": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image2.png",
-    "image3": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image3.png",
+    "image1": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
+    "image2": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
+    "image3": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png",
     "details": "Active listening involves focusing on the speaker, understanding their message, and responding appropriately."
   },
   {
@@ -792,9 +792,9 @@
     "category": "Business Communication",
     "subCategory": "Non-verbal Communication",
     "topic": "Body Language",
-    "image1": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image1.png",
-    "image2": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image2.png",
-    "image3": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image3.png",
+    "image1": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
+    "image2": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
+    "image3": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png",
     "details": "Non-verbal communication plays a significant role in conveying emotions and reinforcing verbal messages."
   },
   {
@@ -811,9 +811,9 @@
     "category": "Business Communication",
     "subCategory": "Written Communication",
     "topic": "Email Etiquette",
-    "image1": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image1.png",
-    "image2": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image2.png",
-    "image3": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image3.png",
+    "image1": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
+    "image2": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
+    "image3": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png",
     "details": "A well-structured business email ensures clear communication and maintains professionalism."
   },
   {
@@ -830,9 +830,9 @@
     "category": "Business Communication",
     "subCategory": "Communication Skills",
     "topic": "Tone and Professionalism",
-    "image1": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image1.png",
-    "image2": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image2.png",
-    "image3": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image3.png",
+    "image1": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
+    "image2": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
+    "image3": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png",
     "details": "The right tone can enhance the clarity of your message and build better relationships in the workplace."
   },
   {
@@ -849,9 +849,9 @@
     "category": "Business Communication",
     "subCategory": "Communication Challenges",
     "topic": "Overcoming Barriers",
-    "image1": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image1.png",
-    "image2": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image2.png",
-    "image3": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image3.png",
+    "image1": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
+    "image2": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
+    "image3": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png",
     "details": "Identifying and addressing communication barriers is essential for maintaining clarity and productivity in business interactions."
   },
   {
@@ -868,9 +868,9 @@
     "category": "Business Communication",
     "subCategory": "Presentation Skills",
     "topic": "Effective Pitching",
-    "image1": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image1.png",
-    "image2": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image2.png",
-    "image3": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image3.png",
+    "image1": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
+    "image2": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
+    "image3": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png",
     "details": "An elevator pitch is designed to quickly grab attention and spark interest in a product, service, or idea."
   },
   {
@@ -887,9 +887,9 @@
     "category": "Business Communication",
     "subCategory": "Communication Skills",
     "topic": "Feedback and Improvement",
-    "image1": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image1.png",
-    "image2": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image2.png",
-    "image3": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image3.png",
+    "image1": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
+    "image2": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
+    "image3": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png",
     "details": "Constructive feedback is key to personal and professional growth, improving productivity and collaboration."
   },
   {
@@ -906,9 +906,9 @@
     "category": "Business Communication",
     "subCategory": "Communication Skills",
     "topic": "Clear Communication",
-    "image1": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image1.png",
-    "image2": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image2.png",
-    "image3": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image3.png",
+    "image1": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
+    "image2": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
+    "image3": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png",
     "details": "Clear communication helps ensure that all stakeholders understand the message and take appropriate action."
   },
   {
@@ -925,9 +925,9 @@
     "category": "Business Communication",
     "subCategory": "Communication Channels",
     "topic": "Choosing the Right Medium",
-    "image1": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image1.png",
-    "image2": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image2.png",
-    "image3": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image3.png",
+    "image1": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
+    "image2": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
+    "image3": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png",
     "details": "Selecting the appropriate communication channel is crucial to ensuring effective and efficient message delivery."
   },
   {
@@ -944,9 +944,9 @@
     "category": "Business Communication",
     "subCategory": "Presentation Skills",
     "topic": "Effective Presentations",
-    "image1": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image1.png",
-    "image2": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image2.png",
-    "image3": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image3.png",
+    "image1": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
+    "image2": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
+    "image3": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png",
     "details": "Positive body language can help create a connection with the audience and enhance the message's impact."
   },
   {
@@ -963,9 +963,9 @@
     "category": "New Accounting Model (NAM)",
     "subCategory": "Introduction",
     "topic": "Overview of NAM",
-    "image1": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image1.png",
-    "image2": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image2.png",
-    "image3": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image3.png",
+    "image1": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
+    "image2": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
+    "image3": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png",
     "details": "The NAM introduces a unified approach to accounting standards, enhancing the quality and comparability of financial statements."
   },
   {
@@ -982,9 +982,9 @@
     "category": "New Accounting Model (NAM)",
     "subCategory": "Revenue Recognition",
     "topic": "Revenue Recognition Principles",
-    "image1": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image1.png",
-    "image2": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image2.png",
-    "image3": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image3.png",
+    "image1": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
+    "image2": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
+    "image3": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png",
     "details": "Revenue recognition under NAM focuses on the completion of the agreed-upon deliverables, improving the accuracy of financial reports."
   },
   {
@@ -1001,9 +1001,9 @@
     "category": "New Accounting Model (NAM)",
     "subCategory": "Financial Statements",
     "topic": "Presentation and Disclosure",
-   "image1": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image1.png",
-    "image2": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image2.png",
-    "image3": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image3.png",
+   "image1": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
+    "image2": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
+    "image3": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png",
     "details": "By increasing the level of detail, NAM aims to make financial statements more informative for users, enhancing decision-making."
   },
   {
@@ -1020,9 +1020,9 @@
     "category": "New Accounting Model (NAM)",
     "subCategory": "Leases",
     "topic": "Lease Treatment",
-    "image1": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image1.png",
-    "image2": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image2.png",
-    "image3": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image3.png",
+    "image1": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
+    "image2": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
+    "image3": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png",
     "details": "This approach enhances comparability between companies and gives a clearer view of lease obligations."
   },
   {
@@ -1039,9 +1039,9 @@
     "category": "New Accounting Model (NAM)",
     "subCategory": "Intangible Assets",
     "topic": "Recognition and Amortization",
-    "image1": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image1.png",
-    "image2": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image2.png",
-    "image3": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image3.png",
+    "image1": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
+    "image2": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
+    "image3": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png",
     "details": "This treatment ensures that intangible assets are appropriately reflected in the financial statements."
   },
   {
@@ -1058,9 +1058,9 @@
     "category": "New Accounting Model (NAM)",
     "subCategory": "Revenue Recognition",
     "topic": "Contract Revenue",
-    "image1": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image1.png",
-    "image2": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image2.png",
-    "image3": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image3.png",
+    "image1": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
+    "image2": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
+    "image3": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png",
     "details": "This framework ensures that revenue is recorded in a manner that reflects the transfer of control and performance obligations."
   },
   {
@@ -1077,9 +1077,9 @@
     "category": "New Accounting Model (NAM)",
     "subCategory": "Financial Instruments",
     "topic": "Measurement and Recognition",
-    "image1": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image1.png",
-    "image2": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image2.png",
-    "image3": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image3.png",
+    "image1": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
+    "image2": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
+    "image3": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png",
     "details": "The recognition of financial instruments at fair value enhances transparency and comparability in financial reporting."
   },
   {
@@ -1096,9 +1096,9 @@
     "category": "New Accounting Model (NAM)",
     "subCategory": "Goodwill",
     "topic": "Impairment Testing",
-    "image1": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image1.png",
-    "image2": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image2.png",
-    "image3": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image3.png",
+    "image1": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
+    "image2": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
+    "image3": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png",
     "details": "This method ensures that the financial statements reflect the current value of goodwill and its recoverable amount."
   },
   {
@@ -1115,9 +1115,9 @@
     "category": "New Accounting Model (NAM)",
     "subCategory": "Foreign Currency",
     "topic": "Foreign Currency Transactions",
-    "image1": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image1.png",
-    "image2": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image2.png",
-    "image3": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image3.png",
+    "image1": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
+    "image2": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
+    "image3": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png",
     "details": "This approach ensures that foreign currency gains and losses are accurately reflected in the financial statements."
   },
   {
@@ -1134,9 +1134,9 @@
     "category": "New Accounting Model (NAM)",
     "subCategory": "Taxes",
     "topic": "Deferred Tax",
-    "image1": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image1.png",
-    "image2": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image2.png",
-    "image3": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image3.png",
+    "image1": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
+    "image2": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
+    "image3": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png",
     "details": "Deferred taxes under NAM reflect the future tax effects of temporary differences in asset and liability recognition."
   },
   {
@@ -1153,9 +1153,9 @@
     "category": "Specifications, Schedule of Rates & its Application",
     "subCategory": "Schedule of Rates",
     "topic": "Purpose and Use",
-    "image1": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image1.png",
-    "image2": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image2.png",
-    "image3": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image3.png",
+    "image1": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
+    "image2": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
+    "image3": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png",
     "details": "The SoR provides standardized pricing for tasks and resources, ensuring transparency and uniformity in cost estimation and procurement."
   },
   {
@@ -1172,9 +1172,9 @@
     "category": "Specifications, Schedule of Rates & its Application",
     "subCategory": "Cost Estimation",
     "topic": "Cost Calculation",
-    "image1": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image1.png",
-    "image2": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image2.png",
-    "image3": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image3.png",
+    "image1": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
+    "image2": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
+    "image3": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png",
     "details": "By applying standardized rates, the SoR enables accurate budgeting and helps contractors prepare realistic cost estimates for projects."
   },
   {
@@ -1191,9 +1191,9 @@
     "category": "Specifications, Schedule of Rates & its Application",
     "subCategory": "Tendering",
     "topic": "Tendering Process",
-    "image1": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image1.png",
-    "image2": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image2.png",
-    "image3": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image3.png",
+    "image1": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
+    "image2": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
+    "image3": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png",
     "details": "The SoR ensures fairness and transparency in the tendering process by providing uniform rates for all bidders, promoting competition."
   },
   {
@@ -1210,9 +1210,9 @@
     "category": "Specifications, Schedule of Rates & its Application",
     "subCategory": "Components of SoR",
     "topic": "SoR Components",
-    "image1": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image1.png",
-    "image2": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image2.png",
-    "image3": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image3.png",
+    "image1": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
+    "image2": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
+    "image3": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png",
     "details": "The components of SoR ensure that all aspects of a construction project are covered in terms of cost and resource allocation."
   },
   {
@@ -1229,9 +1229,9 @@
     "category": "Specifications, Schedule of Rates & its Application",
     "subCategory": "Rate Updates",
     "topic": "SoR Updates",
-    "image1": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image1.png",
-    "image2": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image2.png",
-    "image3": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image3.png",
+    "image1": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
+    "image2": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
+    "image3": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png",
     "details": "Regular updates help the SoR stay aligned with the current market conditions and ensure that project budgets remain accurate and competitive."
   },
   {
@@ -1248,9 +1248,9 @@
     "category": "Specifications, Schedule of Rates & its Application",
     "subCategory": "Relation Between Specifications and SoR",
     "topic": "Specifications and Pricing",
-    "image1": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image1.png",
-    "image2": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image2.png",
-    "image3": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image3.png",
+    "image1": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
+    "image2": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
+    "image3": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png",
     "details": "The combination of specifications and SoR ensures that the construction work is done according to the required standards and at an accurate cost."
   },
   {
@@ -1267,9 +1267,9 @@
     "category": "Specifications, Schedule of Rates & its Application",
     "subCategory": "Labor Rates",
     "topic": "Labor Rate Calculation",
-    "image1": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image1.png",
-    "image2": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image2.png",
-    "image3": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image3.png",
+    "image1": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
+    "image2": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
+    "image3": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png",
     "details": "Labor rates are a significant component of the SoR, ensuring that labor costs are accurately factored into the total project budget."
   },
   {
@@ -1286,9 +1286,9 @@
     "category": "Specifications, Schedule of Rates & its Application",
     "subCategory": "Plant and Machinery",
     "topic": "Equipment Costs",
-    "image1": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image1.png",
-    "image2": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image2.png",
-    "image3": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image3.png",
+    "image1": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
+    "image2": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
+    "image3": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png",
     "details": "The inclusion of plant and machinery rates ensures that all necessary equipment costs are accounted for during cost estimation and project execution."
   },
   {
@@ -1305,9 +1305,9 @@
     "category": "Specifications, Schedule of Rates & its Application",
     "subCategory": "Post-Contract",
     "topic": "Variation and Change Management",
-    "image1": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image1.png",
-    "image2": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image2.png",
-    "image3": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image3.png",
+    "image1": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
+    "image2": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
+    "image3": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png",
     "details": "The SoR provides a standardized framework for evaluating costs related to changes or variations, ensuring fairness and accuracy in billing and payments."
   },
   {
@@ -1324,9 +1324,9 @@
     "category": "Specifications, Schedule of Rates & its Application",
     "subCategory": "Procurement",
     "topic": "Procurement Management",
-    "image1": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image1.png",
-    "image2": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image2.png",
-    "image3": "https://raw.githubusercontent.com/Imran751/daoAll/refs/heads/main/backend/images/Image3.png",
+    "image1": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
+    "image2": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
+    "image3": "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png",
     "details": "The SoR aids in ensuring that procurement decisions align with the budget, and the materials, services, and labor needed are sourced at appropriate rates."
   }
 ]
