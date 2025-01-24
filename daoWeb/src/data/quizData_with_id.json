@@ -18,6 +18,9 @@
       "https://plus.unsplash.com/premium_photo-1730828573938-003e14f210f4?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "https://images.unsplash.com/photo-1737408250865-438803045120?q=80&w=1655&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png"
+    ],
+    "videos": [
+      "https://youtu.be/MO-uW1Wm7N8"
     ]
   },
   {
@@ -39,6 +42,10 @@
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png"
+    ],
+    "videos": [
+      "https://youtu.be/8nZDp6OKESs",
+      "https://youtu.be/MO-uW1Wm7N8"
     ]
   },
   {
@@ -60,6 +67,9 @@
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png"
+    ],
+    "videos": [
+      "https://youtube.com/shorts/-zeZpYpSIEo"
     ]
   },
   {
@@ -81,6 +91,9 @@
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png"
+    ],
+    "videos": [
+      "https://youtu.be/MO-uW1Wm7N8"
     ]
   },
   {
@@ -98,7 +111,10 @@
     ],
     "answer": "Relationship between two numbers",
     "details": "A ratio represents the relationship between two numbers, showing how many times the first number contains the second.",
-    "images": []
+    "images": [],
+    "videos": [
+      "https://youtu.be/MO-uW1Wm7N9"
+    ]
   },
   {
     "id": 6,
@@ -119,6 +135,9 @@
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png"
+    ],
+    "videos": [
+      "https://youtu.be/MO-uW1Wm7N10"
     ]
   },
   {
@@ -140,6 +159,9 @@
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png"
+    ],
+    "videos": [
+      "https://youtu.be/MO-uW1Wm7N11"
     ]
   },
   {
@@ -161,6 +183,9 @@
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png"
+    ],
+    "videos": [
+      "https://youtu.be/MO-uW1Wm7N12"
     ]
   },
   {
@@ -182,6 +207,9 @@
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png"
+    ],
+    "videos": [
+      "https://youtu.be/MO-uW1Wm7N13"
     ]
   },
   {
@@ -203,6 +231,9 @@
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png"
+    ],
+    "videos": [
+      "https://youtu.be/MO-uW1Wm7N14"
     ]
   },
   {
@@ -224,6 +255,9 @@
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png"
+    ],
+    "videos": [
+      "https://youtu.be/MO-uW1Wm7N15"
     ]
   },
   {
@@ -245,6 +279,9 @@
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png"
+    ],
+    "videos": [
+      "https://youtu.be/MO-uW1Wm7N16"
     ]
   },
   {
@@ -266,6 +303,9 @@
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png"
+    ],
+    "videos": [
+      "https://youtu.be/MO-uW1Wm7N17"
     ]
   },
   {
@@ -287,6 +327,9 @@
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png"
+    ],
+    "videos": [
+      "https://youtu.be/MO-uW1Wm7N18"
     ]
   },
   {
@@ -308,6 +351,9 @@
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png"
+    ],
+    "videos": [
+      "https://youtu.be/MO-uW1Wm7N19"
     ]
   },
   {
@@ -329,6 +375,9 @@
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png"
+    ],
+    "videos": [
+      "https://youtu.be/MO-uW1Wm7N20"
     ]
   },
   {
@@ -350,6 +399,9 @@
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png"
+    ],
+    "videos": [
+      "https://youtu.be/MO-uW1Wm7N21"
     ]
   },
   {
@@ -371,6 +423,9 @@
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png"
+    ],
+    "videos": [
+      "https://youtu.be/MO-uW1Wm7N22"
     ]
   },
   {
@@ -392,6 +447,9 @@
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png"
+    ],
+    "videos": [
+      "https://youtu.be/MO-uW1Wm7N23"
     ]
   },
   {
@@ -413,6 +471,9 @@
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png"
+    ],
+    "videos": [
+      "https://youtu.be/MO-uW1Wm7N24"
     ]
   },
   {
@@ -434,6 +495,9 @@
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png"
+    ],
+    "videos": [
+      "https://youtu.be/MO-uW1Wm7N25"
     ]
   },
   {
@@ -455,6 +519,9 @@
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png"
+    ],
+    "videos": [
+      "https://youtu.be/MO-uW1Wm7N26"
     ]
   },
   {
@@ -476,6 +543,9 @@
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png"
+    ],
+    "videos": [
+      "https://youtu.be/MO-uW1Wm7N27"
     ]
   },
   {
@@ -497,6 +567,9 @@
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png"
+    ],
+    "videos": [
+      "https://youtu.be/MO-uW1Wm7N28"
     ]
   },
   {
@@ -518,6 +591,9 @@
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png"
+    ],
+    "videos": [
+      "https://youtu.be/MO-uW1Wm7N29"
     ]
   },
   {
@@ -539,6 +615,9 @@
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png"
+    ],
+    "videos": [
+      "https://youtu.be/MO-uW1Wm7N30"
     ]
   },
   {
@@ -560,6 +639,9 @@
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png"
+    ],
+    "videos": [
+      "https://youtu.be/MO-uW1Wm7N31"
     ]
   },
   {
@@ -581,6 +663,9 @@
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png"
+    ],
+    "videos": [
+      "https://youtu.be/MO-uW1Wm7N32"
     ]
   },
   {
@@ -602,6 +687,9 @@
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png"
+    ],
+    "videos": [
+      "https://youtu.be/MO-uW1Wm7N33"
     ]
   },
   {
@@ -623,6 +711,9 @@
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png"
+    ],
+    "videos": [
+      "https://youtu.be/MO-uW1Wm7N34"
     ]
   },
   {
@@ -644,6 +735,9 @@
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png"
+    ],
+    "videos": [
+      "https://youtu.be/MO-uW1Wm7N35"
     ]
   },
   {
@@ -665,6 +759,9 @@
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png"
+    ],
+    "videos": [
+      "https://youtu.be/MO-uW1Wm7N36"
     ]
   },
   {
@@ -686,6 +783,9 @@
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png"
+    ],
+    "videos": [
+      "https://youtu.be/MO-uW1Wm7N37"
     ]
   },
   {
@@ -707,6 +807,9 @@
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png"
+    ],
+    "videos": [
+      "https://youtu.be/MO-uW1Wm7N38"
     ]
   },
   {
@@ -728,6 +831,9 @@
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png"
+    ],
+    "videos": [
+      "https://youtu.be/MO-uW1Wm7N39"
     ]
   },
   {
@@ -749,6 +855,9 @@
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png"
+    ],
+    "videos": [
+      "https://youtu.be/MO-uW1Wm7N40"
     ]
   },
   {
@@ -770,6 +879,9 @@
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png"
+    ],
+    "videos": [
+      "https://youtu.be/MO-uW1Wm7N41"
     ]
   },
   {
@@ -791,6 +903,9 @@
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png"
+    ],
+    "videos": [
+      "https://youtu.be/MO-uW1Wm7N42"
     ]
   },
   {
@@ -812,6 +927,9 @@
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png"
+    ],
+    "videos": [
+      "https://youtu.be/MO-uW1Wm7N43"
     ]
   },
   {
@@ -833,6 +951,9 @@
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png"
+    ],
+    "videos": [
+      "https://youtu.be/MO-uW1Wm7N44"
     ]
   },
   {
@@ -854,6 +975,9 @@
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png"
+    ],
+    "videos": [
+      "https://youtu.be/MO-uW1Wm7N45"
     ]
   },
   {
@@ -875,6 +999,9 @@
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png"
+    ],
+    "videos": [
+      "https://youtu.be/MO-uW1Wm7N46"
     ]
   },
   {
@@ -896,6 +1023,9 @@
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png"
+    ],
+    "videos": [
+      "https://youtu.be/MO-uW1Wm7N47"
     ]
   },
   {
@@ -917,6 +1047,9 @@
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png"
+    ],
+    "videos": [
+      "https://youtu.be/MO-uW1Wm7N48"
     ]
   },
   {
@@ -938,6 +1071,9 @@
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png"
+    ],
+    "videos": [
+      "https://youtu.be/MO-uW1Wm7N49"
     ]
   },
   {
@@ -959,6 +1095,9 @@
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png"
+    ],
+    "videos": [
+      "https://youtu.be/MO-uW1Wm7N50"
     ]
   },
   {
@@ -980,6 +1119,9 @@
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png"
+    ],
+    "videos": [
+      "https://youtu.be/MO-uW1Wm7N51"
     ]
   },
   {
@@ -1001,6 +1143,9 @@
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png"
+    ],
+    "videos": [
+      "https://youtu.be/MO-uW1Wm7N52"
     ]
   },
   {
@@ -1022,6 +1167,9 @@
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png"
+    ],
+    "videos": [
+      "https://youtu.be/MO-uW1Wm7N53"
     ]
   },
   {
@@ -1043,6 +1191,9 @@
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png"
+    ],
+    "videos": [
+      "https://youtu.be/MO-uW1Wm7N54"
     ]
   },
   {
@@ -1064,6 +1215,9 @@
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png"
+    ],
+    "videos": [
+      "https://youtu.be/MO-uW1Wm7N55"
     ]
   },
   {
@@ -1085,6 +1239,9 @@
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png"
+    ],
+    "videos": [
+      "https://youtu.be/MO-uW1Wm7N56"
     ]
   },
   {
@@ -1106,6 +1263,9 @@
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png"
+    ],
+    "videos": [
+      "https://youtu.be/MO-uW1Wm7N57"
     ]
   },
   {
@@ -1127,6 +1287,9 @@
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png"
+    ],
+    "videos": [
+      "https://youtu.be/MO-uW1Wm7N58"
     ]
   },
   {
@@ -1148,6 +1311,9 @@
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png"
+    ],
+    "videos": [
+      "https://youtu.be/MO-uW1Wm7N59"
     ]
   },
   {
@@ -1169,6 +1335,9 @@
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png"
+    ],
+    "videos": [
+      "https://youtu.be/MO-uW1Wm7N60"
     ]
   },
   {
@@ -1190,6 +1359,9 @@
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png"
+    ],
+    "videos": [
+      "https://youtu.be/MO-uW1Wm7N61"
     ]
   },
   {
@@ -1211,6 +1383,9 @@
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png"
+    ],
+    "videos": [
+      "https://youtu.be/MO-uW1Wm7N62"
     ]
   },
   {
@@ -1232,6 +1407,9 @@
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png"
+    ],
+    "videos": [
+      "https://youtu.be/MO-uW1Wm7N63"
     ]
   },
   {
@@ -1253,6 +1431,9 @@
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png"
+    ],
+    "videos": [
+      "https://youtu.be/MO-uW1Wm7N64"
     ]
   },
   {
@@ -1274,6 +1455,9 @@
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png"
+    ],
+    "videos": [
+      "https://youtu.be/MO-uW1Wm7N65"
     ]
   },
   {
@@ -1295,6 +1479,9 @@
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png"
+    ],
+    "videos": [
+      "https://youtu.be/MO-uW1Wm7N66"
     ]
   },
   {
@@ -1316,6 +1503,9 @@
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png"
+    ],
+    "videos": [
+      "https://youtu.be/MO-uW1Wm7N67"
     ]
   },
   {
@@ -1337,6 +1527,9 @@
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png"
+    ],
+    "videos": [
+      "https://youtu.be/MO-uW1Wm7N68"
     ]
   },
   {
@@ -1358,6 +1551,9 @@
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png"
+    ],
+    "videos": [
+      "https://youtu.be/MO-uW1Wm7N69"
     ]
   },
   {
@@ -1379,6 +1575,9 @@
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png"
+    ],
+    "videos": [
+      "https://youtu.be/MO-uW1Wm7N70"
     ]
   },
   {
@@ -1400,6 +1599,9 @@
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png"
+    ],
+    "videos": [
+      "https://youtu.be/MO-uW1Wm7N71"
     ]
   },
   {
@@ -1421,6 +1623,9 @@
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png"
+    ],
+    "videos": [
+      "https://youtu.be/MO-uW1Wm7N72"
     ]
   },
   {
@@ -1442,6 +1647,9 @@
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png"
+    ],
+    "videos": [
+      "https://youtu.be/MO-uW1Wm7N73"
     ]
   },
   {
@@ -1463,6 +1671,9 @@
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
       "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png"
+    ],
+    "videos": [
+      "https://youtu.be/MO-uW1Wm7N74"
     ]
   }
 ]

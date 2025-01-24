@@ -19,12 +19,13 @@ const excelToJsonWithId = async () => {
       options: [item["Option A"], item["Option B"], item["Option C"], item["Option D"]],
       answer: item["Answer"],
       details: item["Details"],
-      images: item["Images"] ? item["Images"].split(", ").map(url => url.trim()) : []
+      images: item["Images"] ? item["Images"].split(", ").map(url => url.trim()) : [],
+      videos: item["Videos"] ? item["Videos"].split(", ").map(url => url.trim()) : []
     }));
 
-    await writeFile("quizData_with_id.json", JSON.stringify(reconstructedData, null, 2));
+    await writeFile("Data_with_id.json", JSON.stringify(reconstructedData, null, 2));
 
-    console.log("Excel converted back to 'quizData_with_id.json' with IDs from Excel");
+    console.log("Excel converted  'Data_with_id.json' with IDs from Excel");
   } catch (error) {
     console.error("Error converting Excel to JSON:", error);
   }

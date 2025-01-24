@@ -20,7 +20,8 @@ const excelToJson = async () => {
       ],
       answer: item["Answer"] || "",
       details: item["Details"] || "",
-      images: item["Images"] ? item["Images"].split(", ").map(url => url.trim()) : [] // Split and trim images into an array
+      images: item["Images"] ? item["Images"].split(", ").map(url => url.trim()) : [], // Split and trim images into an array
+      videos: item["Videos"] ? item["Videos"].split(", ").map(url => url.trim()) : [] // Split and trim videos into an array
     }));
 
     await writeFile("quizData_reconstructed.json", JSON.stringify(reconstructedData, null, 2));
