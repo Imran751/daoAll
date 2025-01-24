@@ -149,6 +149,12 @@ const TopBar = () => {
             >
               Change Avatar
             </label>
+            <button
+            onClick={() => navigate('/profile')}
+            className="block px-4 py-2 mt-2 hover:bg-gray-100 w-full text-left"
+          >
+            Profile
+          </button>
 
             <button onClick={handleLogout} className="block px-4 py-2 hover:bg-gray-100 w-full text-left">
               Logout
@@ -167,12 +173,28 @@ const TopBar = () => {
           }}
           ref={hamburgerRef}
         >
+          {/* Dark Mode Toggle */}
           <button
             className="block px-4 py-2 mt-2 hover:bg-gray-100 w-full text-left"
             onClick={toggleDarkMode}
           >
             {darkMode ? 'Light Mode' : 'Dark Mode'}
           </button>
+
+          {/* Add More Navigation Links */}
+          <button
+            onClick={() => navigate('/settings')}
+            className="block px-4 py-2 mt-2 hover:bg-gray-100 w-full text-left"
+          >
+            Settings
+          </button>
+          <button
+            onClick={() => navigate('/help')}
+            className="block px-4 py-2 mt-2 hover:bg-gray-100 w-full text-left"
+          >
+            Help
+          </button>
+          
         </div>
       )}
 

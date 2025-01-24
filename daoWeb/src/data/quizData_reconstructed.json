@@ -1,0 +1,1188 @@
+[
+  {
+    "question": "What is jggsngansgnalgnalgnakgjajggj?",
+    "category": "MathStatEco",
+    "options": [
+      "Study of numbers, shapes, patterns, and structures",
+      "Study of animals and plants",
+      "Study of historical events",
+      "Study of physical forces"
+    ],
+    "answer": "Study of numbers, shapes, patterns, and structures",
+    "details": "MathStatEco is an interdisciplinary field involving mathematical and statistical tools for understanding real-world problems.",
+    "images": [
+      "https://plus.unsplash.com/premium_photo-1730828573938-003e14f210f4?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1737408250865-438803045120?q=80&w=1655&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png"
+    ]
+  },
+  {
+    "question": "What is Integers, Fractions and Decimals?",
+    "category": "MathStatEco",
+    "options": [
+      "Whole number, number as the ratio of two integers, part of a whole",
+      "A type of graph used for comparison",
+      "A set of colors in the rainbow",
+      "A sequence of random numbers"
+    ],
+    "answer": "Whole number, number as the ratio of two integers, part of a whole",
+    "details": "Integers, fractions, and decimals form the foundation of many mathematical operations and calculations.",
+    "images": [
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png"
+    ]
+  },
+  {
+    "question": "Order of Operations?",
+    "category": "MathStatEco",
+    "options": [
+      "PEMDAS",
+      "BODMAS",
+      "FAMOUS",
+      "POLICE"
+    ],
+    "answer": "PEMDAS",
+    "details": "PEMDAS is an acronym to remember the order of operations: Parentheses, Exponents, Multiplication, Division, Addition, and Subtraction.",
+    "images": [
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png"
+    ]
+  },
+  {
+    "question": "What is percentage?",
+    "category": "MathStatEco",
+    "options": [
+      "Number as a fraction of 100",
+      "A number larger than 100",
+      "A fraction less than 1",
+      "A type of integer"
+    ],
+    "answer": "Number as a fraction of 100",
+    "details": "Percentage is a way of expressing a number as a fraction of 100 and is commonly used in calculations involving rates, discounts, and comparisons.",
+    "images": [
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png"
+    ]
+  },
+  {
+    "question": "What is ratio infact?",
+    "category": "MathStatEco",
+    "options": [
+      "Relationship between two numbers",
+      "The number of sides in a square",
+      "The size of a triangle",
+      "A measurement of time"
+    ],
+    "answer": "Relationship between two numbers",
+    "details": "A ratio represents the relationship between two numbers, showing how many times the first number contains the second.",
+    "images": []
+  },
+  {
+    "question": "Roots",
+    "category": "MathStatEco",
+    "options": [
+      "Value that, when raised to a certain power",
+      "A type of tree",
+      "The base of a square",
+      "A small part of a plant"
+    ],
+    "answer": "Value that, when raised to a certain power",
+    "details": "In mathematics, a root is a number that, when raised to a certain power, gives the original number. Common examples include square and cube roots.",
+    "images": [
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png"
+    ]
+  },
+  {
+    "question": "Powers",
+    "category": "MathStatEco",
+    "options": [
+      "Repeated multiplication",
+      "Addition of the same number",
+      "Subtraction of numbers",
+      "Division of numbers"
+    ],
+    "answer": "Repeated multiplication",
+    "details": "Powers refer to repeated multiplication of a number by itself. An exponent indicates how many times to multiply the base number.",
+    "images": [
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png"
+    ]
+  },
+  {
+    "question": "Fraction and Partial Fractions",
+    "category": "MathStatEco",
+    "options": [
+      "Representing a part of a whole",
+      "A sequence of whole numbers",
+      "A graph showing data",
+      "A measurement of volume"
+    ],
+    "answer": "Representing a part of a whole",
+    "details": "Fractions represent parts of a whole, and partial fractions decompose complex fractions into simpler forms for easier calculation.",
+    "images": [
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png"
+    ]
+  },
+  {
+    "question": "Factorization",
+    "category": "MathStatEco",
+    "options": [
+      "Process of breaking down an expression",
+      "The multiplication of expressions",
+      "Combining two fractions",
+      "Summing up numbers"
+    ],
+    "answer": "Process of breaking down an expression",
+    "details": "Factorization is the process of breaking down an expression into its factors, often used to simplify or solve equations.",
+    "images": [
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png"
+    ]
+  },
+  {
+    "question": "Logarithms",
+    "category": "MathStatEco",
+    "options": [
+      "Inverse operation of exponentiation",
+      "A form of addition",
+      "A form of division",
+      "A form of multiplication"
+    ],
+    "answer": "Inverse operation of exponentiation",
+    "details": "Logarithms are the inverse of exponentiation and are used to solve equations involving exponents.",
+    "images": [
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png"
+    ]
+  },
+  {
+    "question": "Using your calculator, convert the fraction 29/35 into a decimal. Round your answer in the following ways:\r\n\r\n(a) Correct to five significant figures\r\n(b) Correct to four significant figures\r\n(c) Correct to three significant figures\r\n(d) Correct to two significant figures\r\n(e) Correct to one significant figure\r\n(f) Correct to five decimal places\r\n(g) Correct to four decimal places\r\n(h) Correct to three decimal places\r\n(i) Correct to two decimal places\r\n(j) Correct to one decimal place",
+    "category": "MathStatEco",
+    "options": [
+      "Correct to five significant figures: 0.82857",
+      "Correct to five significant figures: 0.828",
+      "Correct to five significant figures: 0.829",
+      "Correct to five significant figures: 0.83"
+    ],
+    "answer": "Correct to five significant figures: 0.82857\r\nCorrect to four significant figures: 0.8286\r\nCorrect to three significant figures: 0.829\r\nCorrect to two significant figures: 0.83\r\nCorrect to one significant figure: 0.8\r\nCorrect to five decimal places: 0.82857\r\nCorrect to four decimal places: 0.8286\r\nCorrect to three decimal places: 0.829\r\nCorrect to two decimal places: 0.83\r\nCorrect to one decimal place: 0.8",
+    "details": "This question helps test your ability to convert fractions into decimals and perform rounding operations to varying significant figures and decimal places.",
+    "images": [
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png"
+    ]
+  },
+  {
+    "question": "Exercise 2\r\n\r\nWork out the following:\r\n\r\n(a) (72 - 8) - (- 2 + 1)\r\n\r\n(b) (88 + 8)/12 + (29 - 11)/- 2\r\n\r\n(c) 8(2 - 5) - (4 - (- 8))\r\n\r\n(d) - 36/(9 - 3) - 84/(3 - 10) -81/3",
+    "category": "MathStatEco",
+    "options": [
+      "65, -1, -36, 33",
+      "60, 0, -30, 30",
+      "55, -5, -40, 25",
+      "70, -2, -45, 32"
+    ],
+    "answer": "65, -1, -36, 33",
+    "details": "Practice your algebraic simplification and evaluation of expressions by solving simple equations involving addition, subtraction, and division.",
+    "images": [
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png"
+    ]
+  },
+  {
+    "question": "What is Stat?",
+    "category": "MathStatEco",
+    "options": [
+      "Number as a fraction of 100",
+      "Study of data collection",
+      "A type of geometry",
+      "A field of biology"
+    ],
+    "answer": "Number as a fraction of 100",
+    "details": "Statistics refers to the study of numbers, data analysis, and the representation of information for decision-making.",
+    "images": [
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png"
+    ]
+  },
+  {
+    "question": "What is the derivative of x^2?",
+    "category": "MathStatEco",
+    "options": [
+      "2x",
+      "x^2",
+      "x",
+      "x^3"
+    ],
+    "answer": "2x",
+    "details": "This question tests your knowledge of calculus and the concept of differentiation, specifically the derivative of a polynomial.",
+    "images": [
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png"
+    ]
+  },
+  {
+    "question": "What is the derivative of x^2?",
+    "category": "MathStatEco",
+    "options": [
+      "2x",
+      "x^2",
+      "x",
+      "x^3"
+    ],
+    "answer": "2x",
+    "details": "A repetition of the earlier question on calculus. This reinforces your understanding of derivatives.",
+    "images": [
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png"
+    ]
+  },
+  {
+    "question": "What is the derivative of x^2?",
+    "category": "MathStatEco",
+    "options": [
+      "2x",
+      "x^2",
+      "x",
+      "x^3"
+    ],
+    "answer": "2x",
+    "details": "An additional exercise on the differentiation of polynomials. Ensure you understand the fundamental rules of differentiation.",
+    "images": [
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png"
+    ]
+  },
+  {
+    "question": "Solve the differential equation: d^2y/dx^2 - 4(dy/dx) + 4y = 0",
+    "category": "MathStatEco",
+    "options": [
+      "y = C1 * e^(2x) + C2 * x * e^(2x)",
+      "y = C1 * e^(x) + C2 * x * e^(x)",
+      "y = C1 * e^(3x) + C2 * x * e^(3x)",
+      "y = C1 * e^(4x) + C2 * x * e^(4x)"
+    ],
+    "answer": "y = C1 * e^(2x) + C2 * x * e^(2x)",
+    "details": "This advanced question covers the solution to a second-order differential equation with constant coefficients.",
+    "images": [
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png"
+    ]
+  },
+  {
+    "question": "What is mean?",
+    "category": "MathStatEco",
+    "options": [
+      "Sum of all numbers divided by total count",
+      "The middle value in a dataset",
+      "The most frequent value",
+      "The highest value"
+    ],
+    "answer": "Sum of all numbers divided by total count",
+    "details": "This question tests your understanding of the mean, a key measure in descriptive statistics, also known as the average.",
+    "images": [
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png"
+    ]
+  },
+  {
+    "question": "What is median?",
+    "category": "MathStatEco",
+    "options": [
+      "The middle value in a dataset",
+      "Sum of all numbers divided by total count",
+      "The most frequent value",
+      "The highest value"
+    ],
+    "answer": "The middle value in a dataset",
+    "details": "Learn the concept of median, which is the middle value when a dataset is ordered from least to greatest.",
+    "images": [
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png"
+    ]
+  },
+  {
+    "question": "What is mode?",
+    "category": "MathStatEco",
+    "options": [
+      "The most frequent value",
+      "Sum of all numbers divided by total count",
+      "The middle value in a dataset",
+      "The highest value"
+    ],
+    "answer": "The most frequent value",
+    "details": "The mode is the value that appears most frequently in a dataset. This concept is useful in understanding patterns in data.",
+    "images": [
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png"
+    ]
+  },
+  {
+    "question": "What is the law of demand in economics?",
+    "category": "MathStatEco",
+    "options": [
+      "As the price of a good increases, the quantity demanded decreases, and vice versa.",
+      "As the price of a good increases, the quantity demanded increases.",
+      "As the price of a good decreases, the quantity demanded increases.",
+      "As the price of a good remains constant, the quantity demanded fluctuates."
+    ],
+    "answer": "As the price of a good increases, the quantity demanded decreases, and vice versa.",
+    "details": "The law of demand is a fundamental concept in economics that describes how price and quantity demanded are inversely related.",
+    "images": [
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png"
+    ]
+  },
+  {
+    "question": "What is GDP (Gross Domestic Product)?",
+    "category": "MathStatEco",
+    "options": [
+      "The total value of all goods and services produced within a country's borders in a specific time period.",
+      "The value of exports minus imports.",
+      "The income received by the government from taxes.",
+      "The total value of investments in the stock market."
+    ],
+    "answer": "The total value of all goods and services produced within a country's borders in a specific time period.",
+    "details": "GDP is a key indicator used to measure the economic performance of a country.",
+    "images": [
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png"
+    ]
+  },
+  {
+    "question": "What is inflation?",
+    "category": "MathStatEco",
+    "options": [
+      "The rate at which the general level of prices for goods and services is rising, and subsequently, purchasing power is falling.",
+      "The rise in the value of a country's currency.",
+      "The decrease in the price of basic goods.",
+      "A decrease in the supply of money in an economy."
+    ],
+    "answer": "The rate at which the general level of prices for goods and services is rising, and subsequently, purchasing power is falling.",
+    "details": "Inflation is a key economic concept that reflects the rising cost of living and the diminishing value of money over time.",
+    "images": [
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png"
+    ]
+  },
+  {
+    "question": "What is the difference between a recession and a depression?",
+    "category": "MathStatEco",
+    "options": [
+      "A recession is a period of temporary economic decline, while a depression is a more severe and prolonged downturn in economic activity.",
+      "A recession involves an increase in unemployment, while a depression leads to a reduction in government spending.",
+      "A recession occurs only in developed economies, while a depression can happen in any economy.",
+      "A recession is characterized by a fall in GDP, while a depression is characterized by a rise in GDP."
+    ],
+    "answer": "A recession is a period of temporary economic decline, while a depression is a more severe and prolonged downturn in economic activity.",
+    "details": "Understanding the difference between recession and depression is crucial in assessing the severity and recovery strategies for economies.",
+    "images": [
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png"
+    ]
+  },
+  {
+    "question": "What is the law of supply in economics?",
+    "category": "MathStatEco",
+    "options": [
+      "As the price of a good increases, the quantity supplied increases, and vice versa.",
+      "As the price of a good increases, the quantity supplied decreases.",
+      "As the price of a good decreases, the quantity supplied decreases.",
+      "As the price of a good remains constant, the quantity supplied increases."
+    ],
+    "answer": "As the price of a good increases, the quantity supplied increases, and vice versa.",
+    "details": "The law of supply states that the quantity of a good supplied will increase as its price rises, reflecting producers' willingness to supply more.",
+    "images": [
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png"
+    ]
+  },
+  {
+    "question": "What is elasticity of demand?",
+    "category": "MathStatEco",
+    "options": [
+      "Elasticity of demand refers to the responsiveness of quantity demanded to changes in the price of a good or service.",
+      "Elasticity of demand refers to the responsiveness of quantity supplied to changes in the price of a good.",
+      "Elasticity of demand refers to the effect of government policies on the market.",
+      "Elasticity of demand is the ratio of total supply to total demand in an economy."
+    ],
+    "answer": "Elasticity of demand refers to the responsiveness of quantity demanded to changes in the price of a good or service.",
+    "details": "Elasticity is a fundamental concept in economics that helps measure how sensitive consumers are to price changes.",
+    "images": [
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png"
+    ]
+  },
+  {
+    "question": "What is fiscal policy?",
+    "category": "MathStatEco",
+    "options": [
+      "Fiscal policy refers to the use of government spending and tax policies to influence economic conditions, including inflation, unemployment, and economic growth.",
+      "Fiscal policy involves the management of interest rates by central banks.",
+      "Fiscal policy refers to the rules governing exchange rates.",
+      "Fiscal policy is a set of regulations governing corporate taxation."
+    ],
+    "answer": "Fiscal policy refers to the use of government spending and tax policies to influence economic conditions, including inflation, unemployment, and economic growth.",
+    "details": "Fiscal policy is a key tool used by governments to manage the economy, especially in times of recession or inflation.",
+    "images": [
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png"
+    ]
+  },
+  {
+    "question": "What is monetary policy?",
+    "category": "MathStatEco",
+    "options": [
+      "Monetary policy refers to the actions taken by a country's central bank to control the supply of money and interest rates to achieve economic objectives.",
+      "Monetary policy involves government spending decisions.",
+      "Monetary policy refers to changes in taxation rates.",
+      "Monetary policy is a measure of the balance of trade."
+    ],
+    "answer": "Monetary policy refers to the actions taken by a country's central bank to control the supply of money and interest rates to achieve economic objectives.",
+    "details": "Monetary policy is central to managing inflation, unemployment, and the overall economic stability of a country.",
+    "images": [
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png"
+    ]
+  },
+  {
+    "question": "What is the opportunity cost?",
+    "category": "MathStatEco",
+    "options": [
+      "The opportunity cost is the value of the next best alternative foregone when making a decision.",
+      "The opportunity cost is the total cost incurred by the government in an economy.",
+      "Opportunity cost is the cost of producing goods and services.",
+      "Opportunity cost refers to the externalities caused by economic activity."
+    ],
+    "answer": "The opportunity cost is the value of the next best alternative foregone when making a decision.",
+    "details": "Understanding opportunity cost is essential for making informed choices in resource allocation.",
+    "images": [
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png"
+    ]
+  },
+  {
+    "question": "What is a monopoly?",
+    "category": "MathStatEco",
+    "options": [
+      "A monopoly is a market structure where a single seller or producer controls the supply of a good or service, with no close substitutes.",
+      "A monopoly is a type of oligopoly market with a few large firms.",
+      "A monopoly occurs when multiple firms produce identical goods.",
+      "A monopoly exists when demand exceeds supply in a competitive market."
+    ],
+    "answer": "A monopoly is a market structure where a single seller or producer controls the supply of a good or service, with no close substitutes.",
+    "details": "Monopolies can lead to market inefficiencies and reduced competition, but they are sometimes necessary in industries with high entry barriers.",
+    "images": [
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png"
+    ]
+  },
+  {
+    "question": "What is double-entry bookkeeping?",
+    "category": "Accountancy",
+    "options": [
+      "Double-entry bookkeeping is an accounting system in which every transaction affects at least two accounts, ensuring that the accounting equation remains balanced.",
+      "Double-entry bookkeeping involves recording only cash transactions.",
+      "Double-entry bookkeeping only records income and expenses.",
+      "Double-entry bookkeeping records transactions without affecting the accounts."
+    ],
+    "answer": "Double-entry bookkeeping is an accounting system in which every transaction affects at least two accounts, ensuring that the accounting equation remains balanced.",
+    "details": "Double-entry bookkeeping ensures the accuracy of financial records and is the foundation of modern accounting practices.",
+    "images": [
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png"
+    ]
+  },
+  {
+    "question": "What is a balance sheet?",
+    "category": "Accountancy",
+    "options": [
+      "A balance sheet is a financial statement that shows a company's financial position at a specific point in time, listing its assets, liabilities, and equity.",
+      "A balance sheet shows a company's income and expenses over a period of time.",
+      "A balance sheet records the cash flow of a company.",
+      "A balance sheet is a detailed record of individual transactions."
+    ],
+    "answer": "A balance sheet is a financial statement that shows a company's financial position at a specific point in time, listing its assets, liabilities, and equity.",
+    "details": "The balance sheet is essential for assessing the financial health and stability of a company.",
+    "images": [
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png"
+    ]
+  },
+  {
+    "question": "What is depreciation?",
+    "category": "Accountancy",
+    "options": [
+      "Depreciation is the systematic allocation of the cost of a tangible asset over its useful life.",
+      "Depreciation is the increase in the value of an asset over time.",
+      "Depreciation is the process of selling off an asset.",
+      "Depreciation is the reduction in revenue due to business expenses."
+    ],
+    "answer": "Depreciation is the systematic allocation of the cost of a tangible asset over its useful life.",
+    "details": "Depreciation reflects the wear and tear of physical assets and helps in determining their true book value.",
+    "images": [
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png"
+    ]
+  },
+  {
+    "question": "What is working capital?",
+    "category": "Accountancy",
+    "options": [
+      "Working capital is the difference between a company's current assets and current liabilities, used to measure its short-term financial health and operational efficiency.",
+      "Working capital is the total value of a company's long-term assets.",
+      "Working capital is the difference between a company's total income and total expenses.",
+      "Working capital refers to a company's total equity."
+    ],
+    "answer": "Working capital is the difference between a company's current assets and current liabilities, used to measure its short-term financial health and operational efficiency.",
+    "details": "Working capital is a key indicator of a company's ability to meet its short-term obligations and finance day-to-day operations.",
+    "images": [
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png"
+    ]
+  },
+  {
+    "question": "What is a profit and loss statement?",
+    "category": "Accountancy",
+    "options": [
+      "A profit and loss statement is a financial report that summarizes the revenues, costs, and expenses incurred by a business during a specific period.",
+      "A profit and loss statement records a company's assets and liabilities.",
+      "A profit and loss statement includes only income-related transactions.",
+      "A profit and loss statement calculates the equity of a company."
+    ],
+    "answer": "A profit and loss statement is a financial report that summarizes the revenues, costs, and expenses incurred by a business during a specific period.",
+    "details": "The profit and loss statement helps in assessing the profitability and operational efficiency of a business over time.",
+    "images": [
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png"
+    ]
+  },
+  {
+    "question": "What is an income statement?",
+    "category": "Accountancy",
+    "options": [
+      "An income statement is a financial statement that reports a company's financial performance over a specific accounting period, detailing revenue, expenses, and profits or losses.",
+      "An income statement reports the value of a company's assets and liabilities.",
+      "An income statement is the same as a balance sheet.",
+      "An income statement only includes fixed assets and liabilities."
+    ],
+    "answer": "An income statement is a financial statement that reports a company's financial performance over a specific accounting period, detailing revenue, expenses, and profits or losses.",
+    "details": "The income statement is essential for understanding a company's revenue generation and cost management.",
+    "images": [
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png"
+    ]
+  },
+  {
+    "question": "What is accrual accounting?",
+    "category": "Accountancy",
+    "options": [
+      "Accrual accounting is an accounting method where revenue and expenses are recorded when they are earned or incurred, rather than when cash is received or paid.",
+      "Accrual accounting is a method of accounting that only records cash transactions.",
+      "Accrual accounting focuses solely on income tax calculations.",
+      "Accrual accounting records revenue only when the payment is received."
+    ],
+    "answer": "Accrual accounting is an accounting method where revenue and expenses are recorded when they are earned or incurred, rather than when cash is received or paid.",
+    "details": "Accrual accounting provides a more accurate picture of a company's financial health than cash-based accounting.",
+    "images": [
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png"
+    ]
+  },
+  {
+    "question": "What is a trial balance?",
+    "category": "Accountancy",
+    "options": [
+      "A trial balance is a list of all the general ledger accounts in a company, used to verify that total debits equal total credits.",
+      "A trial balance is a detailed report of a company's equity.",
+      "A trial balance lists all expenses and revenues for a period.",
+      "A trial balance includes only cash and bank transactions."
+    ],
+    "answer": "A trial balance is a list of all the general ledger accounts in a company, used to verify that total debits equal total credits.",
+    "details": "The trial balance is an important tool to check the correctness of accounting entries before finalizing the financial statements.",
+    "images": [
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png"
+    ]
+  },
+  {
+    "question": "What is the purpose of an audit?",
+    "category": "Accountancy",
+    "options": [
+      "The purpose of an audit is to examine and verify the financial statements of a company to ensure accuracy and compliance with applicable laws and accounting standards.",
+      "The purpose of an audit is to calculate taxes for a company.",
+      "The purpose of an audit is to determine the market value of a company.",
+      "The purpose of an audit is to conduct a survey of the company’s employees."
+    ],
+    "answer": "The purpose of an audit is to examine and verify the financial statements of a company to ensure accuracy and compliance with applicable laws and accounting standards.",
+    "details": "Audits help ensure that a company's financial reports are accurate and trustworthy for stakeholders.",
+    "images": [
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png"
+    ]
+  },
+  {
+    "question": "What is inventory valuation?",
+    "category": "Accountancy",
+    "options": [
+      "Inventory valuation refers to the process of determining the value of a company's inventory at a particular point in time, impacting both the balance sheet and cost of goods sold.",
+      "Inventory valuation is the method of pricing company shares on the stock market.",
+      "Inventory valuation refers to the value of fixed assets owned by a company.",
+      "Inventory valuation only includes raw materials and finished goods."
+    ],
+    "answer": "Inventory valuation refers to the process of determining the value of a company's inventory at a particular point in time, impacting both the balance sheet and cost of goods sold.",
+    "details": "Correct inventory valuation is crucial for accurate financial reporting and tax purposes.",
+    "images": [
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png"
+    ]
+  },
+  {
+    "question": "What is the importance of active listening in business communication?",
+    "category": "Business Communication",
+    "options": [
+      "Active listening is crucial in business communication as it helps in understanding the speaker's message, reduces misunderstandings, and builds rapport.",
+      "Active listening is important only in customer service.",
+      "Active listening allows speakers to talk more.",
+      "Active listening is only relevant for meetings and conferences."
+    ],
+    "answer": "Active listening is crucial in business communication as it helps in understanding the speaker's message, reduces misunderstandings, and builds rapport.",
+    "details": "Active listening involves focusing on the speaker, understanding their message, and responding appropriately.",
+    "images": [
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png"
+    ]
+  },
+  {
+    "question": "What are the key elements of non-verbal communication?",
+    "category": "Business Communication",
+    "options": [
+      "The key elements of non-verbal communication include body language, facial expressions, gestures, posture, and eye contact.",
+      "Non-verbal communication only involves facial expressions.",
+      "Non-verbal communication is about what you write, not say.",
+      "Non-verbal communication is only effective when speaking in front of large audiences."
+    ],
+    "answer": "The key elements of non-verbal communication include body language, facial expressions, gestures, posture, and eye contact.",
+    "details": "Non-verbal communication plays a significant role in conveying emotions and reinforcing verbal messages.",
+    "images": [
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png"
+    ]
+  },
+  {
+    "question": "What is the purpose of a business email?",
+    "category": "Business Communication",
+    "options": [
+      "The purpose of a business email is to communicate formal or professional messages, share information, and foster business relationships.",
+      "Business emails are only used to send promotional content.",
+      "Business emails should only be used for personal messages.",
+      "Business emails are informal and used for casual conversations."
+    ],
+    "answer": "The purpose of a business email is to communicate formal or professional messages, share information, and foster business relationships.",
+    "details": "A well-structured business email ensures clear communication and maintains professionalism.",
+    "images": [
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png"
+    ]
+  },
+  {
+    "question": "What is the importance of tone in business communication?",
+    "category": "Business Communication",
+    "options": [
+      "Tone is important in business communication as it conveys the speaker's attitude and intentions, affecting how the message is received and interpreted.",
+      "Tone is only important when speaking in meetings.",
+      "Tone in business communication has no impact on the message.",
+      "Tone only matters when addressing clients."
+    ],
+    "answer": "Tone is important in business communication as it conveys the speaker's attitude and intentions, affecting how the message is received and interpreted.",
+    "details": "The right tone can enhance the clarity of your message and build better relationships in the workplace.",
+    "images": [
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png"
+    ]
+  },
+  {
+    "question": "What are the common barriers to effective communication in business?",
+    "category": "Business Communication",
+    "options": [
+      "Common barriers include language differences, poor listening, emotional barriers, physical distractions, and cultural differences.",
+      "Barriers to communication only include technical issues.",
+      "Emotional barriers are not significant in business communication.",
+      "Only physical distractions affect communication."
+    ],
+    "answer": "Common barriers include language differences, poor listening, emotional barriers, physical distractions, and cultural differences.",
+    "details": "Identifying and addressing communication barriers is essential for maintaining clarity and productivity in business interactions.",
+    "images": [
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png"
+    ]
+  },
+  {
+    "question": "What is an elevator pitch?",
+    "category": "Business Communication",
+    "options": [
+      "An elevator pitch is a concise and persuasive speech that can be delivered in the time span of an elevator ride, typically 30 seconds to 1 minute.",
+      "An elevator pitch is a formal business proposal.",
+      "An elevator pitch is a detailed report about a product or service.",
+      "An elevator pitch is a casual conversation about a product."
+    ],
+    "answer": "An elevator pitch is a concise and persuasive speech that can be delivered in the time span of an elevator ride, typically 30 seconds to 1 minute.",
+    "details": "An elevator pitch is designed to quickly grab attention and spark interest in a product, service, or idea.",
+    "images": [
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png"
+    ]
+  },
+  {
+    "question": "What is the role of feedback in business communication?",
+    "category": "Business Communication",
+    "options": [
+      "Feedback is crucial in business communication as it helps individuals improve their communication skills, clarify misunderstandings, and foster continuous improvement.",
+      "Feedback is only important during performance reviews.",
+      "Feedback is irrelevant in everyday business communication.",
+      "Feedback is given only in written form."
+    ],
+    "answer": "Feedback is crucial in business communication as it helps individuals improve their communication skills, clarify misunderstandings, and foster continuous improvement.",
+    "details": "Constructive feedback is key to personal and professional growth, improving productivity and collaboration.",
+    "images": [
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png"
+    ]
+  },
+  {
+    "question": "What is the significance of clarity in business communication?",
+    "category": "Business Communication",
+    "options": [
+      "Clarity is essential in business communication to ensure that the message is understood correctly and to avoid confusion or misinterpretation.",
+      "Clarity is important only in written communication.",
+      "Clarity is not necessary if the audience is familiar with the topic.",
+      "Clarity is only needed for formal business communication."
+    ],
+    "answer": "Clarity is essential in business communication to ensure that the message is understood correctly and to avoid confusion or misinterpretation.",
+    "details": "Clear communication helps ensure that all stakeholders understand the message and take appropriate action.",
+    "images": [
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png"
+    ]
+  },
+  {
+    "question": "What is a communication channel?",
+    "category": "Business Communication",
+    "options": [
+      "A communication channel is the medium used to convey information, such as email, phone, face-to-face meetings, or video conferencing.",
+      "A communication channel is a formal report used in business.",
+      "A communication channel only refers to written communication.",
+      "A communication channel is only used for internal communication."
+    ],
+    "answer": "A communication channel is the medium used to convey information, such as email, phone, face-to-face meetings, or video conferencing.",
+    "details": "Selecting the appropriate communication channel is crucial to ensuring effective and efficient message delivery.",
+    "images": [
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png"
+    ]
+  },
+  {
+    "question": "What is the role of body language in a presentation?",
+    "category": "Business Communication",
+    "options": [
+      "Body language plays a crucial role in a presentation by reinforcing the speaker's message, conveying confidence, and maintaining audience engagement.",
+      "Body language is only important during public speaking events.",
+      "Body language has no impact on a presentation's effectiveness.",
+      "Body language is only relevant in informal discussions."
+    ],
+    "answer": "Body language plays a crucial role in a presentation by reinforcing the speaker's message, conveying confidence, and maintaining audience engagement.",
+    "details": "Positive body language can help create a connection with the audience and enhance the message's impact.",
+    "images": [
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png"
+    ]
+  },
+  {
+    "question": "What is the primary purpose of the New Accounting Model (NAM)?",
+    "category": "New Accounting Model (NAM)",
+    "options": [
+      "The primary purpose of the NAM is to provide a comprehensive framework for financial reporting, offering more transparency and consistency in accounting practices.",
+      "The NAM is designed to focus on tax reporting only.",
+      "The NAM is used to calculate individual salaries in an organization.",
+      "The NAM focuses solely on auditing practices."
+    ],
+    "answer": "The primary purpose of the NAM is to provide a comprehensive framework for financial reporting, offering more transparency and consistency in accounting practices.",
+    "details": "The NAM introduces a unified approach to accounting standards, enhancing the quality and comparability of financial statements.",
+    "images": [
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png"
+    ]
+  },
+  {
+    "question": "How does the New Accounting Model (NAM) impact revenue recognition?",
+    "category": "New Accounting Model (NAM)",
+    "options": [
+      "The NAM emphasizes recognizing revenue when it is earned and measurable, often based on performance obligations rather than when cash is received.",
+      "The NAM allows for revenue recognition only when cash is received.",
+      "The NAM has no impact on revenue recognition.",
+      "Revenue recognition in NAM is only relevant for large corporations."
+    ],
+    "answer": "The NAM emphasizes recognizing revenue when it is earned and measurable, often based on performance obligations rather than when cash is received.",
+    "details": "Revenue recognition under NAM focuses on the completion of the agreed-upon deliverables, improving the accuracy of financial reports.",
+    "images": [
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png"
+    ]
+  },
+  {
+    "question": "What is the impact of NAM on financial statement presentation?",
+    "category": "New Accounting Model (NAM)",
+    "options": [
+      "The NAM requires a more detailed presentation of financial statements, with additional disclosures that improve the transparency of financial health and performance.",
+      "The NAM reduces the number of disclosures in financial statements.",
+      "The NAM only affects income statement presentation.",
+      "The NAM has no impact on the presentation of financial statements."
+    ],
+    "answer": "The NAM requires a more detailed presentation of financial statements, with additional disclosures that improve the transparency of financial health and performance.",
+    "details": "By increasing the level of detail, NAM aims to make financial statements more informative for users, enhancing decision-making.",
+    "images": [
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png"
+    ]
+  },
+  {
+    "question": "How does NAM address the treatment of leases?",
+    "category": "New Accounting Model (NAM)",
+    "options": [
+      "Under NAM, leases are classified as either finance or operating leases, with finance leases being capitalized on the balance sheet, and operating leases requiring disclosure in the notes.",
+      "Leases under NAM are treated as all operating leases, with no need for capitalization.",
+      "The NAM does not address the treatment of leases.",
+      "Leases under NAM are automatically expensed and not capitalized."
+    ],
+    "answer": "Under NAM, leases are classified as either finance or operating leases, with finance leases being capitalized on the balance sheet, and operating leases requiring disclosure in the notes.",
+    "details": "This approach enhances comparability between companies and gives a clearer view of lease obligations.",
+    "images": [
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png"
+    ]
+  },
+  {
+    "question": "What is the treatment of intangible assets under NAM?",
+    "category": "New Accounting Model (NAM)",
+    "options": [
+      "NAM requires intangible assets to be recognized when they are identifiable, and amortized over their useful life unless they have an indefinite life, in which case they are tested for impairment annually.",
+      "Intangible assets under NAM are only recognized when they are purchased.",
+      "Intangible assets under NAM are expensed immediately.",
+      "Intangible assets are not addressed in NAM."
+    ],
+    "answer": "NAM requires intangible assets to be recognized when they are identifiable, and amortized over their useful life unless they have an indefinite life, in which case they are tested for impairment annually.",
+    "details": "This treatment ensures that intangible assets are appropriately reflected in the financial statements.",
+    "images": [
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png"
+    ]
+  },
+  {
+    "question": "How does NAM affect financial reporting for revenue from contracts?",
+    "category": "New Accounting Model (NAM)",
+    "options": [
+      "NAM provides detailed guidelines on recognizing revenue from contracts, emphasizing the identification of performance obligations and the timing of revenue recognition.",
+      "NAM does not affect revenue recognition from contracts.",
+      "Revenue from contracts is recognized only when a contract is signed.",
+      "Revenue from contracts is only recognized on completion of all deliverables."
+    ],
+    "answer": "NAM provides detailed guidelines on recognizing revenue from contracts, emphasizing the identification of performance obligations and the timing of revenue recognition.",
+    "details": "This framework ensures that revenue is recorded in a manner that reflects the transfer of control and performance obligations.",
+    "images": [
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png"
+    ]
+  },
+  {
+    "question": "What is the role of financial instruments under NAM?",
+    "category": "New Accounting Model (NAM)",
+    "options": [
+      "Financial instruments are recognized and measured at fair value under NAM, with specific rules for classification and the treatment of derivatives and embedded derivatives.",
+      "Financial instruments are not recognized under NAM.",
+      "All financial instruments are treated as liabilities under NAM.",
+      "Financial instruments are only recognized if they are tradable."
+    ],
+    "answer": "Financial instruments are recognized and measured at fair value under NAM, with specific rules for classification and the treatment of derivatives and embedded derivatives.",
+    "details": "The recognition of financial instruments at fair value enhances transparency and comparability in financial reporting.",
+    "images": [
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png"
+    ]
+  },
+  {
+    "question": "What is the treatment of goodwill under the New Accounting Model?",
+    "category": "New Accounting Model (NAM)",
+    "options": [
+      "Under NAM, goodwill is not amortized but is tested for impairment annually or whenever there is an indication that it might be impaired.",
+      "Goodwill is amortized over a set period under NAM.",
+      "Goodwill is written off immediately under NAM.",
+      "Goodwill is not recognized under NAM."
+    ],
+    "answer": "Under NAM, goodwill is not amortized but is tested for impairment annually or whenever there is an indication that it might be impaired.",
+    "details": "This method ensures that the financial statements reflect the current value of goodwill and its recoverable amount.",
+    "images": [
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png"
+    ]
+  },
+  {
+    "question": "What does NAM require regarding the treatment of foreign currency transactions?",
+    "category": "New Accounting Model (NAM)",
+    "options": [
+      "NAM requires foreign currency transactions to be recorded at the exchange rate on the transaction date, with any exchange rate differences recognized in profit or loss.",
+      "Foreign currency transactions are ignored under NAM.",
+      "Foreign currency transactions are recorded at the historical rate under NAM.",
+      "Foreign currency transactions are always recognized in the foreign currency."
+    ],
+    "answer": "NAM requires foreign currency transactions to be recorded at the exchange rate on the transaction date, with any exchange rate differences recognized in profit or loss.",
+    "details": "This approach ensures that foreign currency gains and losses are accurately reflected in the financial statements.",
+    "images": [
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png"
+    ]
+  },
+  {
+    "question": "How does NAM address the treatment of taxes?",
+    "category": "New Accounting Model (NAM)",
+    "options": [
+      "NAM requires the recognition of deferred tax assets and liabilities based on the temporary differences between the carrying amounts and tax bases of assets and liabilities.",
+      "NAM eliminates the need for deferred tax recognition.",
+      "Taxes are recognized only on actual payments made under NAM.",
+      "NAM uses a different method to treat taxes for each industry."
+    ],
+    "answer": "NAM requires the recognition of deferred tax assets and liabilities based on the temporary differences between the carrying amounts and tax bases of assets and liabilities.",
+    "details": "Deferred taxes under NAM reflect the future tax effects of temporary differences in asset and liability recognition.",
+    "images": [
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png"
+    ]
+  },
+  {
+    "question": "What is the primary purpose of the Schedule of Rates (SoR) in construction projects?",
+    "category": "Specifications, Schedule of Rates & its Application",
+    "options": [
+      "The primary purpose of the Schedule of Rates (SoR) is to provide a standard set of rates for various types of work, materials, and services, facilitating cost estimation and contract management in construction projects.",
+      "The Schedule of Rates is used to calculate the taxes on construction projects.",
+      "The Schedule of Rates is used only for budgeting purposes.",
+      "The Schedule of Rates provides an estimate of project completion time."
+    ],
+    "answer": "The primary purpose of the Schedule of Rates (SoR) is to provide a standard set of rates for various types of work, materials, and services, facilitating cost estimation and contract management in construction projects.",
+    "details": "The SoR provides standardized pricing for tasks and resources, ensuring transparency and uniformity in cost estimation and procurement.",
+    "images": [
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png"
+    ]
+  },
+  {
+    "question": "How does the Schedule of Rates (SoR) assist in determining project costs?",
+    "category": "Specifications, Schedule of Rates & its Application",
+    "options": [
+      "The SoR assists in determining project costs by offering predefined rates for labor, materials, and services that can be used for accurate cost calculations and contract negotiations.",
+      "The SoR helps in determining the legal requirements of construction projects.",
+      "The SoR provides only material rates and excludes labor costs.",
+      "The SoR is not used for calculating project costs."
+    ],
+    "answer": "The SoR assists in determining project costs by offering predefined rates for labor, materials, and services that can be used for accurate cost calculations and contract negotiations.",
+    "details": "By applying standardized rates, the SoR enables accurate budgeting and helps contractors prepare realistic cost estimates for projects.",
+    "images": [
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png"
+    ]
+  },
+  {
+    "question": "What role does the Schedule of Rates (SoR) play in tendering and contract negotiations?",
+    "category": "Specifications, Schedule of Rates & its Application",
+    "options": [
+      "The SoR plays a crucial role in tendering and contract negotiations by providing a baseline for rate comparison, helping ensure that offers are competitive and in line with industry standards.",
+      "The SoR is only used after the contract has been awarded.",
+      "The SoR provides no relevance in tendering or contract negotiations.",
+      "The SoR is used to evaluate construction team performance only."
+    ],
+    "answer": "The SoR plays a crucial role in tendering and contract negotiations by providing a baseline for rate comparison, helping ensure that offers are competitive and in line with industry standards.",
+    "details": "The SoR ensures fairness and transparency in the tendering process by providing uniform rates for all bidders, promoting competition.",
+    "images": [
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png"
+    ]
+  },
+  {
+    "question": "What are the key components typically included in a Schedule of Rates?",
+    "category": "Specifications, Schedule of Rates & its Application",
+    "options": [
+      "A Schedule of Rates typically includes rates for labor, materials, plant and machinery, overheads, and profit, along with detailed descriptions and specifications for each item or task.",
+      "The Schedule of Rates only includes material costs.",
+      "The Schedule of Rates includes only overheads and profit.",
+      "The Schedule of Rates is limited to labor costs."
+    ],
+    "answer": "A Schedule of Rates typically includes rates for labor, materials, plant and machinery, overheads, and profit, along with detailed descriptions and specifications for each item or task.",
+    "details": "The components of SoR ensure that all aspects of a construction project are covered in terms of cost and resource allocation.",
+    "images": [
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png"
+    ]
+  },
+  {
+    "question": "How is the Schedule of Rates updated to reflect changes in construction costs?",
+    "category": "Specifications, Schedule of Rates & its Application",
+    "options": [
+      "The Schedule of Rates is updated periodically through industry research and market surveys to reflect changes in labor, material, and equipment costs, ensuring its relevance and accuracy.",
+      "The Schedule of Rates is never updated once it is published.",
+      "The Schedule of Rates is updated based on the economic conditions of the country.",
+      "The Schedule of Rates is updated annually based on a fixed percentage increase."
+    ],
+    "answer": "The Schedule of Rates is updated periodically through industry research and market surveys to reflect changes in labor, material, and equipment costs, ensuring its relevance and accuracy.",
+    "details": "Regular updates help the SoR stay aligned with the current market conditions and ensure that project budgets remain accurate and competitive.",
+    "images": [
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png"
+    ]
+  },
+  {
+    "question": "What is the relationship between specifications and the Schedule of Rates in construction?",
+    "category": "Specifications, Schedule of Rates & its Application",
+    "options": [
+      "Specifications define the technical and quality requirements for materials, work, and services, while the Schedule of Rates provides the pricing for these items, ensuring that the project adheres to the desired standards and budget.",
+      "Specifications and the Schedule of Rates are unrelated.",
+      "Specifications are used only for material quality, while the Schedule of Rates focuses only on labor costs.",
+      "The Schedule of Rates replaces the need for specifications."
+    ],
+    "answer": "Specifications define the technical and quality requirements for materials, work, and services, while the Schedule of Rates provides the pricing for these items, ensuring that the project adheres to the desired standards and budget.",
+    "details": "The combination of specifications and SoR ensures that the construction work is done according to the required standards and at an accurate cost.",
+    "images": [
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png"
+    ]
+  },
+  {
+    "question": "What is the role of labor rates in the Schedule of Rates?",
+    "category": "Specifications, Schedule of Rates & its Application",
+    "options": [
+      "Labor rates in the Schedule of Rates reflect the cost of skilled and unskilled workers, including wages, benefits, and overheads, and are used for accurate project cost estimation and budgeting.",
+      "Labor rates are not considered in the Schedule of Rates.",
+      "Labor rates are only used for administrative tasks in the construction process.",
+      "Labor rates are calculated based on the country’s minimum wage laws."
+    ],
+    "answer": "Labor rates in the Schedule of Rates reflect the cost of skilled and unskilled workers, including wages, benefits, and overheads, and are used for accurate project cost estimation and budgeting.",
+    "details": "Labor rates are a significant component of the SoR, ensuring that labor costs are accurately factored into the total project budget.",
+    "images": [
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png"
+    ]
+  },
+  {
+    "question": "How is plant and machinery accounted for in the Schedule of Rates?",
+    "category": "Specifications, Schedule of Rates & its Application",
+    "options": [
+      "Plant and machinery rates in the Schedule of Rates include the cost of renting or owning equipment, including operation, maintenance, and depreciation costs, for the tasks defined in the contract.",
+      "Plant and machinery are not accounted for in the Schedule of Rates.",
+      "Plant and machinery costs are only considered in the final payment phase.",
+      "The cost of plant and machinery is included only in the overheads section of the SoR."
+    ],
+    "answer": "Plant and machinery rates in the Schedule of Rates include the cost of renting or owning equipment, including operation, maintenance, and depreciation costs, for the tasks defined in the contract.",
+    "details": "The inclusion of plant and machinery rates ensures that all necessary equipment costs are accounted for during cost estimation and project execution.",
+    "images": [
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png"
+    ]
+  },
+  {
+    "question": "What is the application of the Schedule of Rates in the post-contract phase?",
+    "category": "Specifications, Schedule of Rates & its Application",
+    "options": [
+      "In the post-contract phase, the Schedule of Rates is used to manage variations, assess additional works, and evaluate the financial impact of changes in scope or unforeseen circumstances.",
+      "The Schedule of Rates is not used in the post-contract phase.",
+      "The Schedule of Rates only applies to pre-contract negotiations.",
+      "The Schedule of Rates is only used for final project settlement."
+    ],
+    "answer": "In the post-contract phase, the Schedule of Rates is used to manage variations, assess additional works, and evaluate the financial impact of changes in scope or unforeseen circumstances.",
+    "details": "The SoR provides a standardized framework for evaluating costs related to changes or variations, ensuring fairness and accuracy in billing and payments.",
+    "images": [
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png"
+    ]
+  },
+  {
+    "question": "How does the Schedule of Rates affect procurement and supply chain management?",
+    "category": "Specifications, Schedule of Rates & its Application",
+    "options": [
+      "The Schedule of Rates affects procurement and supply chain management by providing a reference point for procurement decisions, helping ensure that the right materials and services are sourced at competitive and consistent rates.",
+      "The Schedule of Rates does not affect procurement or supply chain management.",
+      "Procurement decisions are based solely on supplier relationships, not the SoR.",
+      "The SoR only affects material procurement and not services or labor."
+    ],
+    "answer": "The Schedule of Rates affects procurement and supply chain management by providing a reference point for procurement decisions, helping ensure that the right materials and services are sourced at competitive and consistent rates.",
+    "details": "The SoR aids in ensuring that procurement decisions align with the budget, and the materials, services, and labor needed are sourced at appropriate rates.",
+    "images": [
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image1.png",
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image2.png",
+      "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/images/Image3.png"
+    ]
+  }
+]
