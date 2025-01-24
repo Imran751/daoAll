@@ -1,84 +1,46 @@
-import React, { useState, useEffect } from 'react';
-import { View, Text, StyleSheet, TouchableOpacity, ActivityIndicator, Image, ScrollView } from 'react-native';
+import React from 'react';
+import { View, Text, StyleSheet, Image, ScrollView, TouchableOpacity } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
+import { MaterialCommunityIcons } from '@expo/vector-icons';
 
 const QuestionDetail = ({ route }) => {
-  const { question } = route.params;
+  const { question } = route.params; // Get the question object passed from QuestionsCard
   const navigation = useNavigation();
-  const [isLoading, setIsLoading] = useState(true);
-  const [error, setError] = useState(null);
 
-  useEffect(() => {
-    if (!question) {
-      setError("No question data available.");
-      setIsLoading(false);
-    } else {
-      setIsLoading(false);
-    }
-  }, [question]);
-
-  const handleBackPress = () => {
-    navigation.goBack();
-  };
-
-  if (isLoading) {
-    return (
-      <View style={styles.container}>
-        <ActivityIndicator size="large" color="#0000ff" />
-      </View>
-    );
-  }
-
-  if (error) {
-    return (
-      <View style={styles.container}>
-        <Text style={styles.errorText}>{error}</Text>
-        <TouchableOpacity onPress={handleBackPress} style={styles.backButton}>
-          <Text style={styles.backButtonText}>Go Back</Text>
-        </TouchableOpacity>
-      </View>
-    );
-  }
+  // Debugging: Log the question data to ensure it includes images
+  // console.log('Question Data:', question);
 
   return (
     <ScrollView contentContainerStyle={styles.container}>
-      <Text style={styles.title}>Details</Text>
-      <Text style={styles.questionText}>{question.question}</Text>
-      <View style={styles.detailsContainer}>
-        <Text style={styles.detailsText}>{question.details}</Text>
-      </View>
-      
-      {/* Display images */}
-      <View style={styles.imagesContainer}>
-        {question.image1 && (
-          <Image
-            source={{ uri: question.image1 }}
-            style={styles.image}
-            resizeMode="contain"
-            onError={(e) => console.log('Error loading image1:', e.nativeEvent.error)}
-          />
-        )}
-        {question.image2 && (
-          <Image
-            source={{ uri: question.image2 }}
-            style={styles.image}
-            resizeMode="contain"
-            onError={(e) => console.log('Error loading image2:', e.nativeEvent.error)}
-          />
-        )}
-        {question.image3 && (
-          <Image
-            source={{ uri: question.image3 }}
-            style={styles.image}
-            resizeMode="contain"
-            onError={(e) => console.log('Error loading image3:', e.nativeEvent.error)}
-          />
-        )}
-      </View>
+      <View style={styles.questionContainer}>
+        {/* Display Question */}
+        <Text style={styles.questionText}>{question.question}</Text>
 
-      <TouchableOpacity onPress={handleBackPress} style={styles.backButton}>
-        <Text style={styles.backButtonText}>Back</Text>
-      </TouchableOpacity>
+        {/* Display Details */}
+        <Text style={styles.detailsText}>{question.details}</Text>
+
+        {/* Display Images */}
+        <View style={styles.imagesContainer}>
+          {question.images && question.images.length > 0 ? (
+            question.images.map((imageUrl, index) => (
+              <Image
+                key={index}
+                source={{ uri: imageUrl }}
+                style={styles.image}
+                resizeMode="cover"
+              />
+            ))
+          ) : (
+            <Text>No images available.</Text>
+          )}
+        </View>
+
+        {/* Back Button */}
+        <TouchableOpacity onPress={() => navigation.goBack()} style={styles.backButton}>
+          <MaterialCommunityIcons name="arrow-left" size={24} color="#fff" />
+          <Text style={styles.backButtonText}>Back</Text>
+        </TouchableOpacity>
+      </View>
     </ScrollView>
   );
 };
@@ -86,58 +48,56 @@ const QuestionDetail = ({ route }) => {
 const styles = StyleSheet.create({
   container: {
     padding: 16,
-    backgroundColor: '#f9f9f9',
+    backgroundColor: '#f4f4f4',
   },
-  title: {
+  questionContainer: {
+    backgroundColor: '#ffffff',
+    borderRadius: 12,
+    padding: 20,
+    marginBottom: 16,
+    shadowColor: '#000',
+    shadowOpacity: 0.1,
+    shadowRadius: 4,
+    shadowOffset: { width: 0, height: 4 },
+    elevation: 3,
+  },
+  questionText: {
     fontSize: 20,
-    fontWeight: '600',
+    fontWeight: '700',
     marginBottom: 12,
     color: '#333',
   },
-  questionText: {
+  detailsText: {
     fontSize: 16,
-    marginBottom: 8,
+    marginBottom: 12,
     color: '#555',
   },
-  detailsContainer: {
-    backgroundColor: '#eef1f5',
-    padding: 16,
-    borderRadius: 8,
-    borderWidth: 1,
-    borderColor: '#d1d5db',
-    marginBottom: 16,
-  },
-  detailsText: {
-    fontSize: 14,
-    color: '#4a5568',
-  },
   imagesContainer: {
-    marginTop: 16,
+    marginTop: 12,
+    marginBottom: 16,
   },
   image: {
     width: '100%',
-    height: 500, // Adjust height for A4 paper ratio
-    marginBottom: 16,
+    height: 450, // Adjust height as needed
     borderRadius: 8,
+    marginBottom: 10,
     borderWidth: 1,
     borderColor: '#ddd',
     backgroundColor: '#fff',
   },
-  errorText: {
-    fontSize: 16,
-    color: 'red',
-    textAlign: 'center',
-  },
   backButton: {
-    marginTop: 20,
-    padding: 12,
-    backgroundColor: '#007BFF',
-    borderRadius: 5,
+    flexDirection: 'row',
     alignItems: 'center',
+    marginTop: 20,
+    backgroundColor: '#007BFF',
+    borderRadius: 8,
+    paddingVertical: 10,
+    justifyContent: 'center',
   },
   backButtonText: {
     color: '#fff',
     fontSize: 16,
+    marginLeft: 8,
   },
 });
 

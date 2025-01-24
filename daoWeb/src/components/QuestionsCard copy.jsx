@@ -1,7 +1,69 @@
 import React, { useState, useEffect, useMemo } from "react";
 import { MdCheckCircle, MdRadioButtonUnchecked } from "react-icons/md";
 import Categories from "./Categories"; // Import Categories component
-import { useNavigate } from "react-router-dom";
+
+const QuestionDetailModal = ({ question, onClose }) => {
+  return (
+    <div
+      className="fixed inset-0 bg-gray-600 bg-opacity-50 flex justify-center items-center"
+      onClick={onClose}
+    >
+      <div
+        className="bg-white p-6 rounded-lg max-w-2xl w-full overflow-y-auto max-h-[80vh]"
+        onClick={(e) => e.stopPropagation()} // Prevent click on modal background
+      >
+        <h2 className="text-2xl font-semibold mb-4">Question Detail</h2>
+        <p className="mb-2"><strong>Question:</strong> {question.question}</p>
+        <p className="mb-2"><strong>Marks:</strong> {question.marks}</p>
+        <p className="mb-2"><strong>Category:</strong> {question.category}</p>
+        <p className="mb-2"><strong>Sub Category:</strong> {question.subCategory}</p>
+        <p className="mb-2"><strong>Topic:</strong> {question.topic}</p>
+        <p className="mb-2"><strong>Answer:</strong> {question.answer}</p>
+        <p className="mb-2"><strong>Details:</strong> {question.details}</p>
+
+        {/* Display images if available */}
+        {question.images && question.images.length > 0 && (
+          <div className="my-4">
+            <h3 className="text-lg font-semibold mb-2">Images</h3>
+            {question.images.map((image, index) => (
+              <img
+                key={index}
+                src={image}
+                alt={`Image ${index + 1}`}
+                className="w-full h-auto rounded-lg mb-4"
+              />
+            ))}
+          </div>
+        )}
+
+        {/* Display videos if available */}
+        {question.videos && question.videos.length > 0 && (
+          <div className="my-4">
+            <h3 className="text-lg font-semibold mb-2">Videos</h3>
+            {question.videos.map((video, index) => (
+              <div key={index} className="mb-4">
+                <iframe
+                  src={video}
+                  title={`Video ${index + 1}`}
+                  className="w-full h-64 rounded-lg"
+                  allowFullScreen
+                />
+              </div>
+            ))}
+          </div>
+        )}
+
+        <button
+          onClick={onClose}
+          className="mt-4 px-4 py-2 bg-red-500 text-white rounded-lg hover:bg-red-600"
+        >
+          Close
+        </button>
+      </div>
+    </div>
+  );
+};
+
 
 const QuestionsCard = () => {
   const [questions, setQuestions] = useState([]);
@@ -15,13 +77,13 @@ const QuestionsCard = () => {
   const [selectedCategory, setSelectedCategory] = useState(localStorage.getItem('selectedCategory') || "All");
   const [selectedSubCategory, setSelectedSubCategory] = useState(localStorage.getItem('selectedSubCategory') || "All");
   const [selectedTopic, setSelectedTopic] = useState(localStorage.getItem('selectedTopic') || "All");
+  const [showDetailModal, setShowDetailModal] = useState(false);
+  const [selectedQuestion, setSelectedQuestion] = useState(null);
   const [categories, setCategories] = useState([]);
   const [subCategories, setSubCategories] = useState({});
   const [topics, setTopics] = useState({});
   const [loading, setLoading] = useState(false);
   const [answerFeedback, setAnswerFeedback] = useState(""); // State to track answer feedback
-
-  const navigate = useNavigate();
 
   useEffect(() => {
     const fetchQuestions = async () => {
@@ -72,8 +134,6 @@ const QuestionsCard = () => {
     fetchQuestions();
   }, []);
 
-  
-
   // Memoize filtered questions based on selected category, subcategory, and topic
   const filteredQuestions = useMemo(() => {
     return questions.filter((question) => {
@@ -98,6 +158,11 @@ const QuestionsCard = () => {
     localStorage.setItem('doneStatus', JSON.stringify(updatedStatus)); // Store doneStatus in localStorage
   };
 
+  const handleDetailButtonClick = (question) => {
+    setSelectedQuestion(question);
+    setShowDetailModal(true);
+  };
+
   const handleOptionClick = (selectedOption, correctAnswer) => {
     // Check if the selected option matches the correct answer
     if (selectedOption === correctAnswer) {
@@ -116,17 +181,6 @@ const QuestionsCard = () => {
     localStorage.setItem('selectedTopic', selectedTopic);
   }, [selectedCategory, selectedSubCategory, selectedTopic]);
 
-  
- 
-
-  const handleDetailButtonClick = (question) => {
-    // Navigate to QuestionDetail page, passing the question data as state
-    navigate(`/question-detail/${question.id}`, {
-      state: { question },
-    });
-  };
-
-
   return (
     <div className="p-4 bg-gray-100 min-h-screen">
       {/* Category Selector - Using Categories component */}
@@ -135,7 +189,7 @@ const QuestionsCard = () => {
         onSelectCategory={setSelectedCategory}
         selectedCategory={selectedCategory}
       />
-  
+
       {/* Subcategory Dropdown */}
       {selectedCategory !== "All" && (
         <div className="mb-4">
@@ -154,7 +208,7 @@ const QuestionsCard = () => {
           </select>
         </div>
       )}
-  
+
       {/* Topic Dropdown */}
       {selectedSubCategory !== "All" && (
         <div className="mb-4">
@@ -173,7 +227,7 @@ const QuestionsCard = () => {
           </select>
         </div>
       )}
-  
+
       {/* Search Bar */}
       <input
         type="text"
@@ -182,10 +236,10 @@ const QuestionsCard = () => {
         value={searchTerm}
         onChange={(e) => setSearchTerm(e.target.value)}
       />
-  
+
       {/* Loading State */}
       {loading && <p>Loading...</p>}
-  
+
       {/* Questions List */}
       <div className="space-y-4">
         {filteredQuestions.map((question, index) => (
@@ -207,12 +261,12 @@ const QuestionsCard = () => {
                 {doneStatus[question.id] ? "Done" : "Not Done"}
               </button>
             </div>
-  
+
             {/* Question */}
             <h3 className="text-lg font-semibold mb-2">
               {index + 1}. {question.question}
             </h3>
-  
+
             {/* Buttons */}
             <div className="flex justify-center space-x-2 mb-2">
               <button
@@ -231,23 +285,22 @@ const QuestionsCard = () => {
               >
                 {showOptionsIndex === index ? "Hide Options" : "Show Options"}
               </button>
-  
               {/* Detail Button */}
-            <button
-              onClick={() => handleDetailButtonClick(question)}
-              className="px-4 py-2 bg-yellow-500 text-white rounded-lg hover:bg-yellow-600"
-            >
-              Detail
-            </button>
+              <button
+                onClick={() => handleDetailButtonClick(question)}
+                className="px-4 py-2 bg-yellow-500 text-white rounded-lg hover:bg-yellow-600"
+              >
+                Detail
+              </button>
             </div>
-  
+
             {/* Answer */}
             {showAnswerIndex === index && (
               <p className="text-green-600 font-medium mb-2">
                 Answer: {question.answer}
               </p>
             )}
-  
+
             {/* Options */}
             {showOptionsIndex === index && (
               <div className="space-y-2">
@@ -265,9 +318,16 @@ const QuestionsCard = () => {
           </div>
         ))}
       </div>
+
+      {/* Detail Modal */}
+      {showDetailModal && selectedQuestion && (
+        <QuestionDetailModal
+          question={selectedQuestion}
+          onClose={() => setShowDetailModal(false)}
+        />
+      )}
     </div>
   );
-  
 };
 
 export default QuestionsCard;

@@ -1,96 +1,82 @@
-import React, { useState, useEffect } from 'react';
-import { View, Text, StyleSheet, TouchableOpacity, ActivityIndicator, Image, ScrollView, RefreshControl } from 'react-native';
+import React from 'react';
+import { View, Text, StyleSheet, Image, ScrollView, TouchableOpacity } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
+import { MaterialCommunityIcons } from '@expo/vector-icons';
+import { WebView } from 'react-native-webview'; // Import WebView
 
 const QuestionDetail = ({ route }) => {
-  const { question } = route.params;
+  const { question } = route.params; // Get the question object passed from QuestionsCard
   const navigation = useNavigation();
-  const [isLoading, setIsLoading] = useState(true);
-  const [error, setError] = useState(null);
-  const [isRefreshing, setIsRefreshing] = useState(false);  // Track refresh status
-  const [questionData, setQuestionData] = useState(question);  // Store question data
 
-  useEffect(() => {
-    if (!question) {
-      setError("No question data available.");
-      setIsLoading(false);
-    } else {
-      setIsLoading(false);
+  const getEmbeddableUrl = (url) => {
+    const shortsPattern = /https?:\/\/(www\.)?youtube\.com\/shorts\/([\w-]+)/;
+    const standardPattern = /https?:\/\/(www\.)?youtube\.com\/watch\?v=([\w-]+)/;
+    const youtuBePattern = /https?:\/\/(www\.)?youtu\.be\/([\w-]+)/;
+  
+    if (shortsPattern.test(url)) {
+      const videoId = url.match(shortsPattern)[2]; // Extract video ID from Shorts URL
+      return `https://www.youtube.com/embed/${videoId}?autoplay=0&controls=1&modestbranding=1&rel=0`;
+    } else if (standardPattern.test(url)) {
+      const videoId = url.match(standardPattern)[2]; // Extract video ID from standard URL
+      return `https://www.youtube.com/embed/${videoId}?autoplay=0&controls=1&modestbranding=1&rel=0`;
+    } else if (youtuBePattern.test(url)) {
+      const videoId = url.match(youtuBePattern)[2]; // Extract video ID from youtu.be URL
+      return `https://www.youtube.com/embed/${videoId}?autoplay=0&controls=1&modestbranding=1&rel=0`;
     }
-  }, [question]);
-
-  const onRefresh = async () => {
-    setIsRefreshing(true);
-    // Simulate fetching fresh data
-    try {
-      // You can refresh your data here, for example, re-fetching from an API or database
-      setQuestionData(question);  // In a real scenario, replace with actual data refresh
-      setIsRefreshing(false);
-    } catch (error) {
-      setError("Failed to refresh");
-      setIsRefreshing(false);
-    }
+  
+    // Return original URL if no match is found (fallback)
+    return url;
   };
-
-  const handleBackPress = () => {
-    navigation.goBack();
-  };
-
-  if (isLoading) {
-    return (
-      <View style={styles.container}>
-        <ActivityIndicator size="large" color="#0000ff" />
-      </View>
-    );
-  }
-
-  if (error) {
-    return (
-      <View style={styles.container}>
-        <Text style={styles.errorText}>{error}</Text>
-        <TouchableOpacity onPress={handleBackPress} style={styles.backButton}>
-          <Text style={styles.backButtonText}>Go Back</Text>
-        </TouchableOpacity>
-      </View>
-    );
-  }
+  
+  
+  
 
   return (
-    <ScrollView
-      contentContainerStyle={styles.container}
-      refreshControl={<RefreshControl refreshing={isRefreshing} onRefresh={onRefresh} />}
-    >
-      <Text style={styles.title}>Details</Text>
-      <Text style={styles.questionText}>{questionData.question}</Text>
-      <View style={styles.detailsContainer}>
-        <Text style={styles.detailsText}>{questionData.details}</Text>
-      </View>
+    <ScrollView contentContainerStyle={styles.container}>
+      <View style={styles.questionContainer}>
+        {/* Display Question */}
+        <Text style={styles.questionText}>{question.question}</Text>
 
-      {/* Display images */}
-      <View style={styles.imagesContainer}>
-        {questionData.image1 && (
-          <Image
-            source={{ uri: questionData.image1 }}
-            style={styles.image}
-          />
-        )}
-        {questionData.image2 && (
-          <Image
-            source={{ uri: questionData.image2 }}
-            style={styles.image}
-          />
-        )}
-        {questionData.image3 && (
-          <Image
-            source={{ uri: questionData.image3 }}
-            style={styles.image}
-          />
-        )}
-      </View>
+        {/* Display Details */}
+        <Text style={styles.detailsText}>{question.details}</Text>
 
-      <TouchableOpacity onPress={handleBackPress} style={styles.backButton}>
-        <Text style={styles.backButtonText}>Back</Text>
-      </TouchableOpacity>
+        {/* Display Images */}
+        <View style={styles.imagesContainer}>
+          {question.images && question.images.length > 0 ? (
+            question.images.map((imageUrl, index) => (
+              <Image
+                key={index}
+                source={{ uri: imageUrl }}
+                style={styles.image}
+                resizeMode="cover"
+              />
+            ))
+          ) : (
+            <Text>No images available.</Text>
+          )}
+        </View>
+
+        {/* Display Videos (YouTube links) */}
+        <View style={styles.videosContainer}>
+          {question.videos && question.videos.length > 0 ? (
+            question.videos.map((videoUrl, index) => (
+              <WebView
+                key={index}
+                source={{ uri: getEmbeddableUrl(videoUrl) }}
+                style={styles.video}
+              />
+            ))
+          ) : (
+            <Text>No videos available.</Text>
+          )}
+        </View>
+
+        {/* Back Button */}
+        <TouchableOpacity onPress={() => navigation.goBack()} style={styles.backButton}>
+          <MaterialCommunityIcons name="arrow-left" size={24} color="#fff" />
+          <Text style={styles.backButtonText}>Back</Text>
+        </TouchableOpacity>
+      </View>
     </ScrollView>
   );
 };
@@ -98,58 +84,67 @@ const QuestionDetail = ({ route }) => {
 const styles = StyleSheet.create({
   container: {
     padding: 16,
-    backgroundColor: '#f9f9f9',
+    backgroundColor: '#f4f4f4',
   },
-  title: {
+  questionContainer: {
+    backgroundColor: '#ffffff',
+    borderRadius: 12,
+    padding: 20,
+    marginBottom: 16,
+    shadowColor: '#000',
+    shadowOpacity: 0.1,
+    shadowRadius: 4,
+    shadowOffset: { width: 0, height: 4 },
+    elevation: 3,
+  },
+  questionText: {
     fontSize: 20,
-    fontWeight: '600',
+    fontWeight: '700',
     marginBottom: 12,
     color: '#333',
   },
-  questionText: {
+  detailsText: {
     fontSize: 16,
-    marginBottom: 8,
+    marginBottom: 12,
     color: '#555',
   },
-  detailsContainer: {
-    backgroundColor: '#eef1f5',
-    padding: 16,
-    borderRadius: 8,
-    borderWidth: 1,
-    borderColor: '#d1d5db',
-    marginBottom: 16,
-  },
-  detailsText: {
-    fontSize: 14,
-    color: '#4a5568',
-  },
   imagesContainer: {
-    marginTop: 16,
+    marginTop: 12,
+    marginBottom: 16,
   },
   image: {
     width: '100%',
-    height: 600, // Adjust height as per your design needs
-    marginBottom: 16,
+    height: 450, // Adjust height as needed
     borderRadius: 8,
+    marginBottom: 10,
     borderWidth: 1,
     borderColor: '#ddd',
     backgroundColor: '#fff',
   },
-  errorText: {
-    fontSize: 16,
-    color: 'red',
-    textAlign: 'center',
+  videosContainer: {
+    marginTop: 12,
+    marginBottom: 16,
+  },
+  video: {
+    height: 200, // Adjust video height as needed
+    borderRadius: 8,
+    marginBottom: 10,
+    borderWidth: 1,
+    borderColor: '#ddd',
   },
   backButton: {
-    marginTop: 20,
-    padding: 12,
-    backgroundColor: '#007BFF',
-    borderRadius: 5,
+    flexDirection: 'row',
     alignItems: 'center',
+    marginTop: 20,
+    backgroundColor: '#007BFF',
+    borderRadius: 8,
+    paddingVertical: 10,
+    justifyContent: 'center',
   },
   backButtonText: {
     color: '#fff',
     fontSize: 16,
+    marginLeft: 8,
   },
 });
 

@@ -10,7 +10,7 @@ const QuizScreen = () => {
   const [quizFinished, setQuizFinished] = useState(false);
   const [loading, setLoading] = useState(true);
 
-  const dataUrl = 'https://raw.githubusercontent.com/Imran751/daoAll/7a8049fe1b5676559279dca62ed5164ccab29c70/backend/data.json';
+  const dataUrl = 'https://raw.githubusercontent.com/Imran751/daoAll/d92d1aeb4136e9a802ef91205b4a7e9d4e8b3ea8/backend/data.json';
 
   useEffect(() => {
     fetchCategories();
@@ -101,8 +101,8 @@ const QuizScreen = () => {
   if (loading) {
     return (
       <View style={styles.loadingContainer}>
-        <ActivityIndicator size="large" color="#4CAF50" />
-        <Text>Loading...</Text>
+        <ActivityIndicator size="large" color="#4C89FF" />
+        <Text style={styles.loadingText}>Loading...</Text>
       </View>
     );
   }
@@ -111,9 +111,8 @@ const QuizScreen = () => {
     <View style={styles.container}>
       <ScrollView contentContainerStyle={styles.scrollContainer}>
         {selectedCategory === null ? (
-          // Display category selection and motivational message
           <View style={styles.categoryContainer}>
-            <Text style={styles.motivationalText}>Test Yourself and See How Much You Know!</Text>
+            <Text style={styles.motivationalText}>Test Your Knowledge and Challenge Yourself!</Text>
             {categories.map((category, index) => (
               <TouchableOpacity
                 key={index}
@@ -125,7 +124,6 @@ const QuizScreen = () => {
             ))}
           </View>
         ) : quizFinished ? (
-          // Show quiz result screen
           <View style={styles.centered}>
             <Text style={styles.title}>Quiz Finished!</Text>
             <Text style={styles.scoreText}>Your Score: {score} / {questions.length}</Text>
@@ -135,14 +133,12 @@ const QuizScreen = () => {
           </View>
         ) : (
           <>
-            {/* Header with date, time, and instructions */}
             <View style={styles.header}>
               <Text style={styles.headerText}>Date: {formatDateTime().date}</Text>
               <Text style={styles.headerText}>Time: {formatDateTime().time}</Text>
-              <Text style={styles.instructionsText}>Each question is worth 1 mark. Attempt all questions!</Text>
+              <Text style={styles.instructionsText}>Answer each question to the best of your ability!</Text>
             </View>
 
-            {/* Quiz Questions */}
             <View key={questions[currentQuestion]?.id}>
               <Text style={styles.questionText}>
                 {currentQuestion + 1}. {questions[currentQuestion]?.question}
@@ -164,7 +160,6 @@ const QuizScreen = () => {
         )}
       </ScrollView>
 
-      {/* Show "Back to Category Selection" button only after selecting a category */}
       {selectedCategory !== null && (
         <TouchableOpacity style={styles.backButton} onPress={goBackToCategorySelection}>
           <Text style={styles.backButtonText}>Back to Category</Text>
@@ -174,32 +169,36 @@ const QuizScreen = () => {
   );
 };
 
-
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#F3F4F6',
+    backgroundColor: '#F7F7F7',
   },
   scrollContainer: {
     padding: 20,
     marginTop: 20,
-    paddingBottom: 60,  // Add padding at bottom to make space for the button
+    paddingBottom: 60,
   },
   loadingContainer: {
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
   },
+  loadingText: {
+    marginTop: 10,
+    color: '#4C89FF',
+    fontSize: 16,
+  },
   categoryContainer: {
     alignItems: 'center',
     marginTop: 50,
   },
   categoryButton: {
-    backgroundColor: '#4CAF50',
+    backgroundColor: '#5C6BC0',
     paddingVertical: 15,
     paddingHorizontal: 20,
     marginVertical: 10,
-    borderRadius: 8,
+    borderRadius: 10,
     width: '80%',
     alignItems: 'center',
   },
@@ -212,23 +211,23 @@ const styles = StyleSheet.create({
     fontSize: 22,
     fontWeight: 'bold',
     marginBottom: 20,
-    color: '#4CAF50',
+    color: '#333',
     textAlign: 'center',
     marginTop: 30,
   },
   header: {
-    backgroundColor: '#4CAF50',
+    backgroundColor: '#4C89FF',
     padding: 15,
     marginBottom: 20,
     borderRadius: 8,
     alignItems: 'center',
   },
   headerText: {
-    fontSize: 18,
+    fontSize: 16,
     color: '#FFF',
   },
   instructionsText: {
-    fontSize: 16,
+    fontSize: 14,
     color: '#FFF',
     marginTop: 10,
     fontStyle: 'italic',
@@ -246,21 +245,24 @@ const styles = StyleSheet.create({
     fontSize: 18,
     marginTop: 50,
     marginVertical: 15,
+    color: '#333',
   },
   optionButton: {
-    backgroundColor: '#E5E7EB',
+    backgroundColor: '#E3F2FD',
     padding: 15,
     borderRadius: 8,
     marginVertical: 8,
   },
   optionText: {
     fontSize: 16,
+    color: '#333',
   },
   scoreText: {
     fontSize: 18,
     fontWeight: 'bold',
     marginTop: 20,
     textAlign: 'center',
+    color: '#333',
   },
   restartButton: {
     backgroundColor: '#4CAF50',
@@ -275,7 +277,7 @@ const styles = StyleSheet.create({
     textAlign: 'center',
   },
   backButton: {
-    backgroundColor: '#FF5722',
+    backgroundColor: '#FF7043',
     padding: 15,
     borderRadius: 8,
     position: 'absolute',

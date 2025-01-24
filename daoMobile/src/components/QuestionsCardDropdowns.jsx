@@ -162,70 +162,61 @@ const QuestionsCard = () => {
         selectedCategory={selectedCategory}
         setSelectedCategory={handleCategoryChange}
       />
-<View style={styles.subCategoryContainer}>
-  <Text style={styles.subCategoryTitle}>Choose Subcategory</Text> 
-  <TouchableOpacity onPress={toggleSubCategory} style={styles.subCategoryButton}>
-    <Text style={styles.subCategoryButtonText}>
-      {selectedSubCategory === 'All' ? 'All' : selectedSubCategory} 
-    </Text>
-    <MaterialCommunityIcons
-      name={isSubCategoryOpen ? 'chevron-up' : 'chevron-down'}
-      size={20}
-      color="#333"
-      style={{ marginRight: 10 }}
-    />
-  </TouchableOpacity>
-
-  {isSubCategoryOpen && (
-    <View style={styles.subCategoryList}>
-      {subCategories.map((subCategory, index) => (
-        <TouchableOpacity
-          key={index}
-          style={[
-            styles.subCategoryButton,
-            selectedSubCategory === subCategory && styles.selectedButton,
-          ]}
-          onPress={() => handleSubCategoryChange(subCategory)}
-        >
-          <Text style={styles.subCategoryButtonText}>{subCategory}</Text>
+      <View style={styles.subCategoryContainer}>
+        <TouchableOpacity onPress={toggleSubCategory} style={styles.subCategoryButton}>
+          <Text style={styles.subCategoryTitle}>Subcategory</Text>
+          <MaterialCommunityIcons
+            name={isSubCategoryOpen ? 'chevron-up' : 'chevron-down'}
+            size={20}
+            color="#333"
+          />
         </TouchableOpacity>
-      ))}
-    </View>
-  )}
-</View>
 
-<View style={styles.topicContainer}>
-  <Text style={styles.subCategoryTitle}>Choose Topic</Text> 
-  <TouchableOpacity onPress={toggleTopic} style={styles.subCategoryButton}>
-    <Text style={styles.subCategoryButtonText}>
-      {selectedTopic === 'All' ? 'All' : selectedTopic} 
-    </Text>
-    <MaterialCommunityIcons
-      name={isTopicOpen ? 'chevron-up' : 'chevron-down'}
-      size={20}
-      color="#333"
-      style={{ marginRight: 10 }}
-    />
-  </TouchableOpacity>
+        {isSubCategoryOpen && (
+          <View style={styles.subCategoryList}>
+            {subCategories.map((subCategory, index) => (
+              <TouchableOpacity
+                key={index}
+                style={[ 
+                  styles.subCategoryButton, 
+                  selectedSubCategory === subCategory && styles.selectedButton
+                ]}
+                onPress={() => handleSubCategoryChange(subCategory)}
+              >
+                <Text style={styles.subCategoryButtonText}>{subCategory}</Text>
+              </TouchableOpacity>
+            ))}
+          </View>
+        )}
+      </View>
 
-  {isTopicOpen && (
-    <View style={styles.subCategoryList}>
-      {topics.map((topic, index) => (
-        <TouchableOpacity
-          key={index}
-          style={[
-            styles.subCategoryButton,
-            selectedTopic === topic && styles.selectedButton,
-          ]}
-          onPress={() => handleTopicChange(topic)}
-        >
-          <Text style={styles.subCategoryButtonText}>{topic}</Text>
+      <View style={styles.topicContainer}>
+        <TouchableOpacity onPress={toggleTopic} style={styles.subCategoryButton}>
+          <Text style={styles.subCategoryTitle}>Topic</Text>
+          <MaterialCommunityIcons
+            name={isTopicOpen ? 'chevron-up' : 'chevron-down'}
+            size={20}
+            color="#333"
+          />
         </TouchableOpacity>
-      ))}
-    </View>
-  )}
-</View>
 
+        {isTopicOpen && (
+          <View style={styles.subCategoryList}>
+            {topics.map((topic, index) => (
+              <TouchableOpacity
+                key={index}
+                style={[ 
+                  styles.subCategoryButton, 
+                  selectedTopic === topic && styles.selectedButton
+                ]}
+                onPress={() => handleTopicChange(topic)}
+              >
+                <Text style={styles.subCategoryButtonText}>{topic}</Text>
+              </TouchableOpacity>
+            ))}
+          </View>
+        )}
+      </View>
 
       <SearchBar searchTerm={searchTerm} setSearchTerm={setSearchTerm} />
 
@@ -329,9 +320,8 @@ const styles = StyleSheet.create({
   },
   subCategoryTitle: {
     fontSize: 16,
-    fontWeight: '200',
+    fontWeight: '600',
     marginBottom: 8,
-    textAlign: 'center',
   },
   subCategoryButton: {
     padding: 10,
@@ -351,7 +341,6 @@ const styles = StyleSheet.create({
   subCategoryButtonText: {
     color: '#333',
     fontWeight: '500',
-    marginLeft: 10,
   },
   topicContainer: {
     marginBottom: 5,

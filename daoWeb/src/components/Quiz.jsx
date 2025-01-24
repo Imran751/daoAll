@@ -148,7 +148,7 @@ const Quiz = () => {
           )
         ) : (
           <div>
-            <h2 className="text-2xl font-bold mb-4">Select a Category</h2>
+            <h2 className="text-2xl font-bold mb-4">Ready to Test Your Knowledge? Pick a Quiz and Show Your Skills! 🎯</h2>
             <div className="flex flex-col space-y-4">
               {categories.map((category) => (
                 <button

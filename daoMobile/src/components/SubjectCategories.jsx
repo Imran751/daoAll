@@ -32,11 +32,12 @@ const styles = StyleSheet.create({
     marginBottom: 16,
     marginTop: 8,
     marginHorizontal:4,
+    backgroundColor: '#F0F0F0',
   },
   categoryButton: {
     paddingVertical: 8,
     paddingHorizontal: 12,
-    backgroundColor: '#F0F0F0', // Lighter grey for inactive button
+    backgroundColor: '#DCDCDC', // Lighter grey for inactive button
     borderRadius: 20,
     marginRight: 8,
   },

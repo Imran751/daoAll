@@ -89,19 +89,19 @@ const Test = () => {
 
   return (
     <div className="test-container bg-gray-100 min-h-screen flex justify-center items-center py-8">
-      <div className="test-card bg-white p-6 rounded-md shadow-lg w-full max-w-3xl">
+      <div className="test-card bg-white p-8 rounded-md shadow-lg w-full max-w-4xl">
         {selectedCategory ? (
           <div>
-            <div className="header mb-6 p-4 bg-blue-100 rounded-md">
+            <div className="header mb-8 p-6 bg-blue-100 rounded-md shadow-sm">
               <div className="flex justify-between items-center">
-                <h3 className="text-xl font-semibold">Test - {selectedCategory}</h3>
+                <h3 className="text-2xl font-bold">Test - {selectedCategory}</h3>
                 <p className="text-lg">{currentDate}</p>
               </div>
-              <div className="mt-4 text-lg">
-                <p>Total Marks: 100</p>
-                <p className="mt-2">
+              <div className="mt-6 text-lg">
+                <p className="mb-4">Total Marks: 100</p>
+                <p className="mb-4">
                   <strong>Instructions:</strong>
-                  <ul className="list-disc pl-5">
+                  <ul className="list-disc pl-6">
                     <li>Attempt any 5 questions from the test.</li>
                     <li>The first question is mandatory and must be answered.</li>
                     <li>Choose 4 more questions from the remaining 6 questions.</li>
@@ -111,21 +111,23 @@ const Test = () => {
               </div>
             </div>
             {questions.length > 0 ? (
-              <div>
+              <div className="questions">
                 {questions.map((question, index) => (
-                  <div key={index} className="mb-4">
-                    <h3 className="text-xl font-medium mb-2">
-                      Q {index + 1}: {question.question}
+                  <div key={index} className="question mb-8">
+                    <h3 className="text-xl font-semibold mb-4">
+                      Q{index + 1}: {question.question}
                     </h3>
-                    <p className="text-lg mb-4 text-right">Marks: {question.marks}</p>
+                    <p className="text-lg text-right">(Marks: {question.marks})</p>
                     {question.mandatory && (
-                      <p className="text-sm text-red-500">This question is mandatory.</p>
+                      <p className="text-sm text-red-500 mt-2">
+                        This question is mandatory.
+                      </p>
                     )}
                   </div>
                 ))}
                 <button
                   onClick={resetTest}
-                  className="bg-blue-500 text-white px-4 py-2 rounded mt-4 hover:bg-blue-600"
+                  className="bg-blue-500 text-white px-6 py-3 rounded mt-6 hover:bg-blue-600"
                 >
                   Back to Categories
                 </button>
@@ -136,13 +138,16 @@ const Test = () => {
           </div>
         ) : (
           <div>
-            <h2 className="text-2xl font-bold mb-4">Select a Category</h2>
+            <h2 className="text-2xl font-bold mb-8">
+  Choose Your subject to Test: Are You Ready to Test Your Knowledge?
+</h2>
+
             <div className="flex flex-col space-y-4">
               {categories.map((category) => (
                 <button
                   key={category}
                   onClick={() => startTest(category)}
-                  className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600"
+                  className="bg-blue-500 text-white px-6 py-3 rounded-md hover:bg-blue-600"
                 >
                   {category} Test
                 </button>

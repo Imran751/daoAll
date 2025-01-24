@@ -13,17 +13,11 @@ import data from '../data/data.json';
 const QuestionsCard = () => {
   const [questions, setQuestions] = useState([]);
   const [categories, setCategories] = useState(['All']);
-  const [subCategories, setSubCategories] = useState(['All']);
-  const [topics, setTopics] = useState(['All']);
   const [searchTerm, setSearchTerm] = useState('');
   const [showAnswerIndex, setShowAnswerIndex] = useState(null);
   const [showOptionsIndex, setShowOptionsIndex] = useState(null);
   const [doneStatus, setDoneStatus] = useState({});
   const [selectedCategory, setSelectedCategory] = useState('All');
-  const [selectedSubCategory, setSelectedSubCategory] = useState('All');
-  const [selectedTopic, setSelectedTopic] = useState('All');
-  const [isSubCategoryOpen, setIsSubCategoryOpen] = useState(false);
-  const [isTopicOpen, setIsTopicOpen] = useState(false); // State for Topic dropdown
   const navigation = useNavigation();
 
   const CACHE_DURATION = 24 * 60 * 60 * 1000; // 24 hours in milliseconds
@@ -33,13 +27,9 @@ const QuestionsCard = () => {
       try {
         const savedDoneStatus = await AsyncStorage.getItem('doneStatus');
         const savedCategory = await AsyncStorage.getItem('selectedCategory');
-        const savedSubCategory = await AsyncStorage.getItem('selectedSubCategory');
-        const savedTopic = await AsyncStorage.getItem('selectedTopic');
 
         if (savedDoneStatus) setDoneStatus(JSON.parse(savedDoneStatus));
         if (savedCategory) setSelectedCategory(savedCategory);
-        if (savedSubCategory) setSelectedSubCategory(savedSubCategory);
-        if (savedTopic) setSelectedTopic(savedTopic);
 
         const cachedData = await AsyncStorage.getItem('cachedQuestions');
         if (cachedData) {
@@ -51,17 +41,7 @@ const QuestionsCard = () => {
               'All',
               ...new Set(data.map((item) => item.category)),
             ];
-            const uniqueSubCategories = [
-              'All',
-              ...new Set(data.filter((item) => item.category === selectedCategory).map((item) => item.subCategory)),
-            ];
-            const uniqueTopics = [
-              'All',
-              ...new Set(data.filter((item) => item.subCategory === selectedSubCategory).map((item) => item.topic)),
-            ];
             setCategories(uniqueCategories);
-            setSubCategories(uniqueSubCategories);
-            setTopics(uniqueTopics);
             setQuestions(
               selectedCategory === 'All'
                 ? data
@@ -76,17 +56,7 @@ const QuestionsCard = () => {
           'All',
           ...new Set(data.map((item) => item.category)),
         ];
-        const uniqueSubCategories = [
-          'All',
-          ...new Set(data.filter((item) => item.category === selectedCategory).map((item) => item.subCategory)),
-        ];
-        const uniqueTopics = [
-          'All',
-          ...new Set(data.filter((item) => item.subCategory === selectedSubCategory).map((item) => item.topic)),
-        ];
         setCategories(uniqueCategories);
-        setSubCategories(uniqueSubCategories);
-        setTopics(uniqueTopics);
 
         setQuestions(
           selectedCategory === 'All'
@@ -105,38 +75,15 @@ const QuestionsCard = () => {
     };
 
     fetchQuestionsAndCategories();
-  }, [selectedCategory, selectedSubCategory, selectedTopic]);
+  }, [selectedCategory]);
 
   const handleCategoryChange = async (category) => {
     setSelectedCategory(category);
-    setSelectedSubCategory('All'); // Reset subcategory when category changes
-    setSelectedTopic('All'); // Reset topic when category changes
     await AsyncStorage.setItem('selectedCategory', category);
   };
 
-  const handleSubCategoryChange = async (subCategory) => {
-    setSelectedSubCategory(subCategory);
-    setSelectedTopic('All'); // Reset topic when subcategory changes
-    await AsyncStorage.setItem('selectedSubCategory', subCategory);
-  };
-
-  const handleTopicChange = async (topic) => {
-    setSelectedTopic(topic);
-    await AsyncStorage.setItem('selectedTopic', topic);
-  };
-
-  const toggleSubCategory = () => {
-    setIsSubCategoryOpen((prevState) => !prevState); // Toggle visibility
-  };
-
-  const toggleTopic = () => {
-    setIsTopicOpen((prevState) => !prevState); // Toggle visibility
-  };
-
   const filteredQuestions = questions.filter((question) =>
-    question.question.toLowerCase().includes(searchTerm.toLowerCase()) &&
-    (selectedSubCategory === 'All' || question.subCategory === selectedSubCategory) &&
-    (selectedTopic === 'All' || question.topic === selectedTopic)
+    question.question.toLowerCase().includes(searchTerm.toLowerCase())
   );
 
   const handleOptionClick = (option, answer) => {
@@ -154,6 +101,16 @@ const QuestionsCard = () => {
     await AsyncStorage.setItem('doneStatus', JSON.stringify(updatedStatus));
   };
 
+  // This will clear all stored data
+  // useEffect(() => {
+  //   const clearCache = async () => {
+  //     await AsyncStorage.clear(); 
+  //   };
+  //   clearCache();
+  // }, []);
+  // This will clear all stored data
+  
+
   return (
     <ScrollView contentContainerStyle={styles.container}>
       <TopBar />
@@ -162,82 +119,11 @@ const QuestionsCard = () => {
         selectedCategory={selectedCategory}
         setSelectedCategory={handleCategoryChange}
       />
-<View style={styles.subCategoryContainer}>
-  <Text style={styles.subCategoryTitle}>Choose Subcategory</Text> 
-  <TouchableOpacity onPress={toggleSubCategory} style={styles.subCategoryButton}>
-    <Text style={styles.subCategoryButtonText}>
-      {selectedSubCategory === 'All' ? 'All' : selectedSubCategory} 
-    </Text>
-    <MaterialCommunityIcons
-      name={isSubCategoryOpen ? 'chevron-up' : 'chevron-down'}
-      size={20}
-      color="#333"
-      style={{ marginRight: 10 }}
-    />
-  </TouchableOpacity>
-
-  {isSubCategoryOpen && (
-    <View style={styles.subCategoryList}>
-      {subCategories.map((subCategory, index) => (
-        <TouchableOpacity
-          key={index}
-          style={[
-            styles.subCategoryButton,
-            selectedSubCategory === subCategory && styles.selectedButton,
-          ]}
-          onPress={() => handleSubCategoryChange(subCategory)}
-        >
-          <Text style={styles.subCategoryButtonText}>{subCategory}</Text>
-        </TouchableOpacity>
-      ))}
-    </View>
-  )}
-</View>
-
-<View style={styles.topicContainer}>
-  <Text style={styles.subCategoryTitle}>Choose Topic</Text> 
-  <TouchableOpacity onPress={toggleTopic} style={styles.subCategoryButton}>
-    <Text style={styles.subCategoryButtonText}>
-      {selectedTopic === 'All' ? 'All' : selectedTopic} 
-    </Text>
-    <MaterialCommunityIcons
-      name={isTopicOpen ? 'chevron-up' : 'chevron-down'}
-      size={20}
-      color="#333"
-      style={{ marginRight: 10 }}
-    />
-  </TouchableOpacity>
-
-  {isTopicOpen && (
-    <View style={styles.subCategoryList}>
-      {topics.map((topic, index) => (
-        <TouchableOpacity
-          key={index}
-          style={[
-            styles.subCategoryButton,
-            selectedTopic === topic && styles.selectedButton,
-          ]}
-          onPress={() => handleTopicChange(topic)}
-        >
-          <Text style={styles.subCategoryButtonText}>{topic}</Text>
-        </TouchableOpacity>
-      ))}
-    </View>
-  )}
-</View>
-
-
       <SearchBar searchTerm={searchTerm} setSearchTerm={setSearchTerm} />
 
       <View style={styles.questionsContainer}>
         {filteredQuestions.map((question, index) => (
-          <View 
-          key={question.id} 
-          style={[
-            styles.questionCard, // Base style
-            doneStatus[question.id] && styles.questionCardDone // Conditional style
-          ]}
-        >
+          <View key={question.id} style={styles.questionCard}>
             <TouchableOpacity
               onPress={() => toggleDoneStatus(question.id)}
               style={[ 
@@ -324,43 +210,11 @@ const styles = StyleSheet.create({
   container: {
     backgroundColor: '#f4f4f4',
   },
-  subCategoryContainer: {
-    marginBottom: 0,
-  },
-  subCategoryTitle: {
-    fontSize: 16,
-    fontWeight: '200',
-    marginBottom: 8,
-    textAlign: 'center',
-  },
-  subCategoryButton: {
-    padding: 10,
-    backgroundColor: '#F0F0F0',
-    borderRadius: 8,
-    marginBottom: 0,
-    flexDirection: 'row',
-    justifyContent: 'space-between',
-    alignItems: 'center',
-  },
-  subCategoryList: {
-    marginTop: 0,
-  },
-  selectedButton: {
-    backgroundColor: '#A7C6FF',
-  },
-  subCategoryButtonText: {
-    color: '#333',
-    fontWeight: '500',
-    marginLeft: 10,
-  },
-  topicContainer: {
-    marginBottom: 5,
-  },
   questionsContainer: {
     marginBottom: 16,
   },
   questionCard: {
-    backgroundColor: '#ffffff', // Default background
+    backgroundColor: '#ffffff',
     borderRadius: 12,
     padding: 20,
     paddingTop: 30,
@@ -372,12 +226,9 @@ const styles = StyleSheet.create({
     elevation: 3,
     marginHorizontal: 8,
   },
-  questionCardDone: {
-    backgroundColor: '#DFF0D8', // Lighter green color for "done" state
-  },
   doneButton: {
     position: 'absolute',
-    top: 2,
+    top: -2,
     right: 10,
     flexDirection: 'row',
     alignItems: 'center',
@@ -404,10 +255,10 @@ const styles = StyleSheet.create({
     fontSize: 12,
   },
   questionText: {
-    fontSize: 18,
-    fontWeight: '600',
-    color: '#333',
+    fontSize: 20,
+    fontWeight: '700',
     marginBottom: 12,
+    color: '#333',
   },
   buttonContainer: {
     flexDirection: 'row',

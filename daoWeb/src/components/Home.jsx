@@ -6,6 +6,10 @@ import QuestionsCard from './QuestionsCard'; // Import QuestionsCard
 import Quiz from './Quiz'; // Import Quiz
 import Footer from './Footer'; // Import Footer
 import Test from './Test';
+import QuestionDetail from './QuestionDetail';
+import Settings from './Settings';
+import Profile from './Profile';
+import Help from './Help';
 
 const Home = () => {
   return (
@@ -29,6 +33,18 @@ const Home = () => {
 
           {/* Test Page */}
           <Route path="/test" element={<Test />} />
+
+          {/* Question Detail Page */}
+          <Route path="/question-detail/:id" element={<QuestionDetail />} />
+
+          {/* Settings Page */}
+          <Route path="/settings" element={<Settings />} />
+
+          {/* Profile Page */}
+          <Route path="/profile" element={<Profile />} />
+
+          {/* Help Page */}
+          <Route path="/help" element={<Help />} />
 
           {/* Redirect unknown paths */}
           <Route path="*" element={<Navigate to="/" replace />} />

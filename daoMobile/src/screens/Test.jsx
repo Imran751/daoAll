@@ -7,7 +7,7 @@ const TestScreen = () => {
   const [questions, setQuestions] = useState([]);
   const [loading, setLoading] = useState(true);
 
-  const dataUrl = 'https://raw.githubusercontent.com/Imran751/daoAll/7a8049fe1b5676559279dca62ed5164ccab29c70/backend/data.json';
+  const dataUrl = 'https://raw.githubusercontent.com/Imran751/daoAll/d92d1aeb4136e9a802ef91205b4a7e9d4e8b3ea8/backend/data.json';
 
   useEffect(() => {
     fetchCategories();
@@ -17,7 +17,6 @@ const TestScreen = () => {
     try {
       const response = await fetch(dataUrl);
       const jsonData = await response.json();
-      // Get unique categories
       const uniqueCategories = [...new Set(jsonData.map(item => item.category))];
       setCategories(uniqueCategories);
     } catch (error) {
@@ -32,8 +31,7 @@ const TestScreen = () => {
     try {
       const response = await fetch(dataUrl);
       const jsonData = await response.json();
-      // Filter questions by the selected category
-      const categoryQuestions = jsonData.filter(question => question.category === category).slice(0, 7); // Limit to 7 questions
+      const categoryQuestions = jsonData.filter(question => question.category === category).slice(0, 7);
       setQuestions(categoryQuestions);
     } catch (error) {
       console.error("Error fetching questions:", error);
@@ -49,8 +47,8 @@ const TestScreen = () => {
   if (loading) {
     return (
       <View style={styles.loadingContainer}>
-        <ActivityIndicator size="large" color="#4CAF50" />
-        <Text>Loading...</Text>
+        <ActivityIndicator size="large" color="#007BFF" />
+        <Text style={styles.loadingText}>Loading...</Text>
       </View>
     );
   }
@@ -59,7 +57,6 @@ const TestScreen = () => {
     <View style={styles.container}>
       <ScrollView contentContainerStyle={styles.scrollContainer}>
         {selectedCategory === null ? (
-          // Display category selection
           <View style={styles.categoryContainer}>
             <Text style={styles.motivationalText}>Take a Mock Test.{'\n'}Select a Category</Text>
             {categories.map((category, index) => (
@@ -77,7 +74,6 @@ const TestScreen = () => {
           </View>
         ) : (
           <>
-            {/* Header Section */}
             <View style={styles.header}>
               <Text style={styles.headerText}>Question Paper</Text>
               <Text style={styles.dateText}>{getCurrentDateTime()}</Text>
@@ -85,7 +81,6 @@ const TestScreen = () => {
               <Text style={styles.totalMarksText}>Total Marks: 100</Text>
             </View>
 
-            {/* Questions Section */}
             {questions.length > 0 && questions.map((question, index) => (
               <View key={question.id} style={styles.questionContainer}>
                 <View style={styles.questionRow}>
@@ -96,12 +91,11 @@ const TestScreen = () => {
               </View>
             ))}
 
-            {/* Back Button */}
             <TouchableOpacity
               style={styles.backButton}
               onPress={() => {
-                setSelectedCategory(null); // Reset selected category
-                setQuestions([]); // Clear previous questions
+                setSelectedCategory(null);
+                setQuestions([]);
               }}
             >
               <Text style={styles.backButtonText}>Back to Categories</Text>
@@ -116,7 +110,7 @@ const TestScreen = () => {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#F3F4F6',
+    backgroundColor: '#F5F5F5', // Light gray background for a clean look
     padding: 20,
   },
   scrollContainer: {
@@ -127,12 +121,17 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
   },
+  loadingText: {
+    marginTop: 10,
+    color: '#007BFF',
+    fontSize: 18,
+  },
   categoryContainer: {
     alignItems: 'center',
     marginTop: 50,
   },
   categoryButton: {
-    backgroundColor: '#4CAF50',
+    backgroundColor: '#007BFF', // Soft blue color for professionalism
     paddingVertical: 15,
     paddingHorizontal: 20,
     marginVertical: 10,
@@ -149,82 +148,82 @@ const styles = StyleSheet.create({
     fontSize: 22,
     fontWeight: 'bold',
     marginBottom: 20,
-    color: '#4CAF50',
+    color: '#333', // Darker text for better readability
     textAlign: 'center',
-   marginTop :30,
-   },
-   header:{
-     backgroundColor:'#4CAF50',
-     padding :15,
-     marginBottom :20,
-     borderRadius :8,
-     alignItems:'center',
-     top: 20,
-   },
-   headerText:{
-     fontSize :24,
-     color:'#FFF'
-   },
-   dateText:{
-     fontSize :16,
-     color:'#FFF',
-     marginBottom :5
-   },
-   instructionsText:{
-     fontSize :16,
-     color:'#FFF',
-     marginTop :10,
-     fontStyle:'italic'
-   },
-   totalMarksText:{
-     fontSize :16,
-     color:'#FFF',
-     marginTop :10,
-     fontWeight:'bold'
-   },
-   questionContainer:{
-     marginVertical :10,
-     paddingVertical :10,
-     borderBottomWidth :StyleSheet.hairlineWidth,
-     borderBottomColor:'#CCC'
-   },
-   questionRow:{
-     flexDirection:'row',
-     alignItems:'flex-start', // Align items at the start
-   },
-   questionNumber:{
-     fontSize :18,
-     fontWeight:'bold',
-     marginRight :10
-   },
-   questionText:{
-     fontSize :16,
-     color:'#333',
-     textAlign:'left', // Ensure left alignment for question text
-     flexShrink :1
-   },
-   marksText:{
-     fontSize :16,
-     fontWeight:'bold',
-     color:'#4CAF50',
-     textAlign:'left', 
-     marginLeft :2
-   },
-   backButton:{
-     backgroundColor:'#FF5722',
-     padding :15,
-     borderRadius :8,
-     position:'absolute',
-     left :0,
-     right :0,
-     bottom :0
-   },
-   backButtonText:{
-     color:'#FFF',
-     fontSize :16,
-     fontWeight:'bold',
-     textAlign:'center'
-   }
+  },
+  header: {
+    backgroundColor: '#007BFF', // Matching header color with buttons
+    padding: 15,
+    marginBottom: 20,
+    borderRadius: 8,
+    alignItems: 'center',
+    top: 20,
+  },
+  headerText: {
+    fontSize: 24,
+    color: '#FFF',
+    fontWeight: 'bold',
+  },
+  dateText: {
+    fontSize: 16,
+    color: '#FFF',
+    marginBottom: 5,
+  },
+  instructionsText: {
+    fontSize: 16,
+    color: '#FFF',
+    marginTop: 10,
+    fontStyle: 'italic',
+  },
+  totalMarksText: {
+    fontSize: 16,
+    color: '#FFF',
+    marginTop: 10,
+    fontWeight: 'bold',
+  },
+  questionContainer: {
+    marginVertical: 10,
+    paddingVertical: 10,
+    borderBottomWidth: StyleSheet.hairlineWidth,
+    borderBottomColor: '#CCC',
+  },
+  questionRow: {
+    flexDirection: 'row',
+    alignItems: 'flex-start',
+  },
+  questionNumber: {
+    fontSize: 18,
+    fontWeight: 'bold',
+    marginRight: 10,
+  },
+  questionText: {
+    fontSize: 16,
+    color: '#333',
+    textAlign: 'left',
+    flexShrink: 1,
+  },
+  marksText: {
+    fontSize: 16,
+    fontWeight: 'bold',
+    color: '#007BFF', // Using the same blue for emphasis
+    textAlign: 'left',
+    marginLeft: 2,
+  },
+  backButton: {
+    backgroundColor: '#FF6F61', // A professional coral color
+    padding: 15,
+    borderRadius: 8,
+    position: 'absolute',
+    left: 0,
+    right: 0,
+    bottom: 0,
+  },
+  backButtonText: {
+    color: '#FFF',
+    fontSize: 16,
+    fontWeight: 'bold',
+    textAlign: 'center',
+  },
 });
 
 export default TestScreen;
