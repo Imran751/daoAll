@@ -27,7 +27,8 @@ const QuestionsCard = () => {
     const fetchQuestions = async () => {
       setLoading(true);
       try {
-        const url = "https://raw.githubusercontent.com/Imran751/daoAll/d92d1aeb4136e9a802ef91205b4a7e9d4e8b3ea8/backend/data.json";
+        const url = "https://raw.githubusercontent.com/Imran751/daoAll/main/backend/data.json?timestamp=" + new Date().getTime();
+
         const response = await fetch(url);
         const data = await response.json();
 

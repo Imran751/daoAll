@@ -10,7 +10,7 @@ const Test = () => {
     const fetchCategories = async () => {
       setLoading(true);
       try {
-        const response = await fetch("https://raw.githubusercontent.com/Imran751/daoAll/7a8049fe1b5676559279dca62ed5164ccab29c70/backend/data.json");
+        const response = await fetch("https://raw.githubusercontent.com/Imran751/daoAll/main/backend/data.json?timestamp=");
         const data = await response.json();
 
         // Extract unique categories from the questions
@@ -31,13 +31,11 @@ const Test = () => {
   const fetchQuestions = async (category) => {
     setLoading(true);
     try {
-      const response = await fetch("./src/data/data.json");
+      const response = await fetch("https://raw.githubusercontent.com/Imran751/daoAll/main/backend/data.json?timestamp=");
       const data = await response.json();
 
       // Filter questions by category
-      const filteredQuestions = data.filter(
-        (q) => q.category === category
-      );
+      const filteredQuestions = data.filter((q) => q.category === category);
 
       // Select 7 questions (the first 1 mandatory, 6 remaining)
       const selectedQuestions = shuffleArray(filteredQuestions).slice(0, 7);
@@ -139,8 +137,8 @@ const Test = () => {
         ) : (
           <div>
             <h2 className="text-2xl font-bold mb-8">
-  Choose Your subject to Test: Are You Ready to Test Your Knowledge?
-</h2>
+              Choose Your subject to Test: Are You Ready to Test Your Knowledge?
+            </h2>
 
             <div className="flex flex-col space-y-4">
               {categories.map((category) => (

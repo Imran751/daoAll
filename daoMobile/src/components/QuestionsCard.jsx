@@ -35,16 +35,16 @@ const QuestionsCard = () => {
         const savedCategory = await AsyncStorage.getItem('selectedCategory');
         const savedSubCategory = await AsyncStorage.getItem('selectedSubCategory');
         const savedTopic = await AsyncStorage.getItem('selectedTopic');
-
+  
         if (savedDoneStatus) setDoneStatus(JSON.parse(savedDoneStatus));
         if (savedCategory) setSelectedCategory(savedCategory);
         if (savedSubCategory) setSelectedSubCategory(savedSubCategory);
         if (savedTopic) setSelectedTopic(savedTopic);
-
+  
         const cachedData = await AsyncStorage.getItem('cachedQuestions');
         if (cachedData) {
           const { data, timestamp } = JSON.parse(cachedData);
-
+  
           const now = new Date().getTime();
           if (now - timestamp < CACHE_DURATION) {
             const uniqueCategories = [
@@ -70,8 +70,11 @@ const QuestionsCard = () => {
             return;
           }
         }
-
-        // Use the locally imported data instead of fetching remotely
+  
+        // Fetch data from the provided URL instead of using the local data
+        const response = await fetch('https://raw.githubusercontent.com/Imran751/daoAll/main/backend/data.json?timestamp=' + new Date().getTime());
+        const data = await response.json();
+  
         const uniqueCategories = [
           'All',
           ...new Set(data.map((item) => item.category)),
@@ -87,13 +90,13 @@ const QuestionsCard = () => {
         setCategories(uniqueCategories);
         setSubCategories(uniqueSubCategories);
         setTopics(uniqueTopics);
-
+  
         setQuestions(
           selectedCategory === 'All'
             ? data
             : data.filter((item) => item.category === selectedCategory)
         );
-
+  
         const cachedObject = {
           data,
           timestamp: new Date().getTime(),
@@ -103,9 +106,10 @@ const QuestionsCard = () => {
         console.error('Error fetching data:', error);
       }
     };
-
+  
     fetchQuestionsAndCategories();
   }, [selectedCategory, selectedSubCategory, selectedTopic]);
+  
 
   const handleCategoryChange = async (category) => {
     setSelectedCategory(category);
@@ -153,6 +157,15 @@ const QuestionsCard = () => {
     setDoneStatus(updatedStatus);
     await AsyncStorage.setItem('doneStatus', JSON.stringify(updatedStatus));
   };
+
+   // This will clear all stored data
+  // useEffect(() => {
+  //   const clearCache = async () => {
+  //     await AsyncStorage.clear(); 
+  //   };
+  //   clearCache();
+  // }, []);
+  // This will clear all stored data
 
   return (
     <ScrollView contentContainerStyle={styles.container}>
