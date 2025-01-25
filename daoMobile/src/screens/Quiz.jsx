@@ -20,7 +20,7 @@ const QuizScreen = () => {
     try {
       const response = await fetch(dataUrl);
       const jsonData = await response.json();
-      
+
       // Get unique categories
       const uniqueCategories = [...new Set(jsonData.map(item => item.category))];
       setCategories(uniqueCategories);
@@ -36,10 +36,10 @@ const QuizScreen = () => {
     try {
       const response = await fetch(dataUrl);
       const jsonData = await response.json();
-      
+
       // Filter questions by the selected category
       const categoryQuestions = jsonData.filter(question => question.category === category);
-      
+
       // Shuffle and select the first 5 questions for the quiz
       const shuffledQuestions = shuffleArray(categoryQuestions).slice(0, 7);
       setQuestions(shuffledQuestions);
@@ -91,11 +91,18 @@ const QuizScreen = () => {
     setQuizFinished(false);     // Reset quiz finished state
   };
 
-  const formatDateTime = () => {
+  const getCurrentDateTime = () => {
     const now = new Date();
-    const date = now.toLocaleDateString();
-    const time = now.toLocaleTimeString();
-    return { date, time };
+    return now.toLocaleString('en-US', {
+      weekday: 'long',
+      year: 'numeric',
+      month: 'long',
+      day: 'numeric',
+      hour: 'numeric',
+      minute: 'numeric',
+      hour12: true,
+      timeZone: 'Asia/Karachi',
+    });
   };
 
   if (loading) {
@@ -134,8 +141,10 @@ const QuizScreen = () => {
         ) : (
           <>
             <View style={styles.header}>
-              <Text style={styles.headerText}>Date: {formatDateTime().date}</Text>
-              <Text style={styles.headerText}>Time: {formatDateTime().time}</Text>
+              <Text style={styles.headerText}>
+                {selectedCategory ? `${selectedCategory}: Quiz` : ': Quiz'}
+              </Text>
+              <Text style={styles.instructionsText}>{getCurrentDateTime()}</Text>
               <Text style={styles.instructionsText}>Answer each question to the best of your ability!</Text>
             </View>
 
@@ -223,11 +232,12 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   headerText: {
-    fontSize: 16,
+    fontSize: 24,
     color: '#FFF',
+    fontWeight: 'bold',
   },
   instructionsText: {
-    fontSize: 14,
+    fontSize: 16,
     color: '#FFF',
     marginTop: 10,
     fontStyle: 'italic',

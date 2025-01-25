@@ -31,7 +31,11 @@ const TestScreen = () => {
     try {
       const response = await fetch(dataUrl);
       const jsonData = await response.json();
-      const categoryQuestions = jsonData.filter(question => question.category === category).slice(0, 7);
+      let categoryQuestions = jsonData.filter(question => question.category === category);
+
+      // Shuffle questions
+      categoryQuestions = categoryQuestions.sort(() => Math.random() - 0.5).slice(0, 7);
+
       setQuestions(categoryQuestions);
     } catch (error) {
       console.error("Error fetching questions:", error);
@@ -41,7 +45,17 @@ const TestScreen = () => {
   };
 
   const getCurrentDateTime = () => {
-    return 'Thursday, January 23, 2025, 5 PM PKT'; // Static date and time
+    const now = new Date();
+    return now.toLocaleString('en-US', {
+      weekday: 'long',
+      year: 'numeric',
+      month: 'long',
+      day: 'numeric',
+      hour: 'numeric',
+      minute: 'numeric',
+      hour12: true,
+      timeZone: 'Asia/Karachi',
+    });
   };
 
   if (loading) {
@@ -55,7 +69,7 @@ const TestScreen = () => {
 
   return (
     <View style={styles.container}>
-      <ScrollView contentContainerStyle={styles.scrollContainer}>
+      <ScrollView showsVerticalScrollIndicator={false} contentContainerStyle={styles.scrollContainer}>
         {selectedCategory === null ? (
           <View style={styles.categoryContainer}>
             <Text style={styles.motivationalText}>Take a Mock Test.{'\n'}Select a Category</Text>
@@ -75,11 +89,14 @@ const TestScreen = () => {
         ) : (
           <>
             <View style={styles.header}>
-              <Text style={styles.headerText}>Question Paper</Text>
+              <Text style={styles.headerText}>
+                {selectedCategory ? `${selectedCategory}: Paper` : ': Paper'}
+              </Text>
               <Text style={styles.dateText}>{getCurrentDateTime()}</Text>
               <Text style={styles.instructionsText}>Instructions: First question is mandatory. Attempt a total of 5 questions.</Text>
               <Text style={styles.totalMarksText}>Total Marks: 100</Text>
             </View>
+
 
             {questions.length > 0 && questions.map((question, index) => (
               <View key={question.id} style={styles.questionContainer}>
@@ -106,6 +123,8 @@ const TestScreen = () => {
     </View>
   );
 };
+
+
 
 const styles = StyleSheet.create({
   container: {
