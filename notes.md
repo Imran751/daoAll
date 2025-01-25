@@ -69,3 +69,12 @@ You should temporarily disable VPNs or firewalls **on both Windows (your compute
 Expo Go relies on a direct connection between your computer and phone. If either device has a VPN or firewall blocking the connection, the Expo Go app may fail to load your project.
 
 After disabling these, restart your Expo development server and try again. Let me know if the issue persists!
+
+### aiCommand
+I need you to be a teacher and make me understand concept from 
+Mathematics 
+and 
+Topic would be 
+“Numbers”
+Give me examples from the real word especially business use and govt. uses specially in Pakistan govt. to teach. After teaching make a quiz table of fields (I will put it in excel sheet)
+Question, Options-A, Options-B, Options-C, Options-D Answer, Details
