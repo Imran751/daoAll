@@ -1,27 +1,32 @@
 [
-    {
-      "id": "1",
-      "title": "New Features Released!",
-      "date": "2025-01-25",
-      "content": "We've just released some exciting new features for the app! Now you can access new test categories and share your progress with friends. Make sure to check it out and let us know what you think!"
-    },
-    {
-      "id": "2",
-      "title": "Maintenance Update",
-      "date": "2025-01-20",
-      "content": "We will be performing scheduled maintenance on the app servers from 2 AM to 4 AM on January 30th. During this time, the app may experience intermittent downtime. We apologize for the inconvenience and thank you for your understanding."
-    },
-    {
-      "id": "3",
-      "title": "Community Support Announcement",
-      "date": "2025-01-15",
-      "content": "Your support means a lot to us! If you’re enjoying the app and want to contribute, consider supporting the development through JazzCash donations. Check out the details below. Thank you for being a part of our journey!"
-    },
-    {
-      "id": "4",
-      "title": "Coming Soon: Leaderboards",
-      "date": "2025-01-10",
-      "content": "We’re excited to announce that leaderboards will be available soon! Compete with others in your category and track your progress. Stay tuned for the official release date!"
-    }
-  ]
-  
+  {
+    "id": "1",
+    "title": "Show Some Love: Support Your Developer!",
+    "date": "2025-01-25",
+    "content": "Developing this app takes countless hours of hard work, late nights, and a whole lot of coffee ☕. If you appreciate the effort and want to fuel more updates, consider sending a small contribution via JazzCash! Every donation, no matter how small, keeps the development engine running. Your support means the world to me! 💙"
+  },
+  {
+    "id": "2",
+    "title": "Every Contribution Counts!",
+    "date": "2025-01-22",
+    "content": "Building amazing features and perfecting every detail is my passion, and it’s thanks to your support that I keep pushing forward! 🙌 If you’ve been enjoying the app and want to see even more cool features, consider sending me a JazzCash boost! Your generosity helps keep the magic alive. ✨"
+  },
+  {
+    "id": "3",
+    "title": "Developing with Love and Hard Work 💪",
+    "date": "2025-01-18",
+    "content": "Creating this app requires not just skill but dedication and a lot of heart ❤️. I pour my energy into making it better every day, but your support makes it all worth it! Help me continue building and improving by sending a JazzCash donation. Every little bit helps me deliver more features and improvements for you. 🙏"
+  },
+  {
+    "id": "4",
+    "title": "Support the Developer, Fuel the Growth 🌱",
+    "date": "2025-01-15",
+    "content": "I’ve been working tirelessly to bring you the best experience possible. But to keep growing and developing new features, I need your help! If you love the app, please consider contributing via JazzCash. Your support powers future updates and improvements. Thank you for being a part of this amazing journey! 🙌"
+  },
+  {
+    "id": "5",
+    "title": "Your Support Keeps the App Alive 🌟",
+    "date": "2025-01-10",
+    "content": "Every update, every bug fix, and every new feature is made possible because of your love and support. I’ve been working long hours to make this app the best it can be, and a small JazzCash contribution from you would go a long way in helping me keep improving it! Your support is what drives me to make this app even better! 💪"
+  }
+]

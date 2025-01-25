@@ -9,7 +9,7 @@ const DeveloperAndAnnouncementsScreen = () => {
   useEffect(() => {
     const fetchAnnouncements = async () => {
       try {
-        const response = await fetch('https://raw.githubusercontent.com/Imran751/courseWebsite/624d49c77a2c529915fc25f080b017b1de62cc00/announcements.json');
+        const response = await fetch('https://raw.githubusercontent.com/Imran751/daoAll/main/backend/announcements.json?timestamp=');
         if (!response.ok) {
           throw new Error(`HTTP error! status: ${response.status}`);
         }
