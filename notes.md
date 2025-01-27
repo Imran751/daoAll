@@ -77,4 +77,4 @@ and
 Topic would be 
 “Numbers”
 Give me examples from the real word especially business use and govt. uses specially in Pakistan govt. to teach. After teaching make a quiz table of fields (I will put it in excel sheet)
-Question, Options-A, Options-B, Options-C, Options-D Answer, Details (don't mention A,B,C,D with any just need value)
+Question, Options-A, Options-B, Options-C, Options-D Answer, Details (don't mention A,B,C,D with any just need simple values in cells)
