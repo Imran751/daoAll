@@ -72,9 +72,9 @@ After disabling these, restart your Expo development server and try again. Let m
 
 ### aiCommand
 I need you to be a teacher and make me understand concept from 
-Mathematics 
+Statistics
 and 
 Topic would be 
-“Numbers”
-Give me examples from the real word especially business use and govt. uses specially in Pakistan govt. to teach. After teaching make a quiz table of fields (I will put it in excel sheet)
+“classification” 
+Give me examples (if needed graphs) from the real word especially business use and govt. uses specially in Pakistan govt. to teach. After teaching make a quiz table of fields (I will put it in excel sheet)
 Question, Options-A, Options-B, Options-C, Options-D Answer, Details (don't mention A,B,C,D with any just need simple values in cells)
