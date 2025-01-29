@@ -72,9 +72,9 @@ After disabling these, restart your Expo development server and try again. Let m
 
 ### aiCommand
 I need you to be a teacher and make me understand concept from 
-Statistics
+Accountancy - Accounting Cycle
 and 
 Topic would be 
 “classification” 
-Give me examples (if needed graphs) from the real word especially business use and govt. uses specially in Pakistan govt. to teach. After teaching make a quiz table of fields (I will put it in excel sheet)
+Give me examples and samples (graph table if needed) from the real word especially business use and govt. uses specially in Pakistan govt. After teaching make a quiz table of fields (I will put it in excel sheet)
 Question, Options-A, Options-B, Options-C, Options-D Answer, Details (don't mention A,B,C,D with any just need simple values in cells)
